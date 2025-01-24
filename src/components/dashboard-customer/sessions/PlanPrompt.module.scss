@@ -1,0 +1,36 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+    position: relative;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 600px;
+
+    .title {
+        margin-bottom: 30px;
+        color: $themePurple;
+        font-weight: 500;
+    }
+
+    .image {
+        width: 400px;
+        height: 200px;
+        background-color: #ededed;
+        margin: 20px auto;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        button:first-child {
+            margin-right: 15px;
+        }
+
+        button {
+            height: 38px !important;
+            width: 100px !important;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+
+    > div:first-child {
+        width: 50px;
+    }
+
+    .text {
+        color: #8a8a8a;
+        font-size: 13px;
+    }
+}

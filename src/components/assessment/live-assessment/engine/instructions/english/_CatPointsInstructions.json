@@ -1,0 +1,9 @@
+{
+    "subtext": "Aptitude Test is time bound and contains :: sections",
+    "points": [
+        "Each subsection in::is alloted a limited time as indicated in the table.",
+        "You won't be able to go back to the previous sub-section once the time alloted is over.",
+        "Once you start a question, you will have access to the immediate previous question only.",
+        "So choose the options (responses) carefully."
+    ]
+}

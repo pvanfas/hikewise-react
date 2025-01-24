@@ -1,0 +1,63 @@
+@import "../../../../utils/variables.scss";
+
+.wrapper {
+    background-color: white;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0 1.5px 12.5px 0 rgba(0, 0, 0, 0.11);
+
+    padding: 20px;
+    box-shadow: 0 1.5px 12.5px 0 rgba(0, 0, 0, 0.11);
+    position: relative;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 50px;
+
+    .title {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: $themePurple;
+        text-align: center;
+    }
+
+    .points {
+        margin-top: 20px;
+
+        .italic {
+            font-style: italic;
+        }
+
+        ul {
+            padding-left: 18px;
+
+            li {
+                padding: 5px 0;
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 50px;
+        button {
+            width: 150px;
+            height: 40px;
+            background-color: $themePurple;
+            color: white;
+            border-radius: 5px;
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .wrapper {
+        width: 94%;
+    }
+}

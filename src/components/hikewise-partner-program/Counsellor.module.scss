@@ -1,0 +1,745 @@
+@import "~utils/variables";
+
+.wrapper {
+    background-color: #fcfcfc;
+
+    .hero {
+        display: flex;
+        padding-top: 10em;
+
+        $textWidth: 56%;
+
+        position: relative;
+        .absoluteGraphic {
+            position: absolute;
+            left: -8em;
+            top: 20em;
+
+            z-index: 1;
+            img {
+                width: 350px;
+            }
+        }
+
+        .text {
+            width: $textWidth;
+            padding-top: 2em;
+
+            .button {
+                position: relative;
+                z-index: 10;
+
+                button {
+                    z-index: 1;
+                }
+            }
+
+            .header {
+                font-weight: 500;
+                font-size: 2.8rem;
+                margin-bottom: 0.5em;
+                line-height: 1.2em;
+            }
+
+            .subheader {
+                margin-bottom: 1em;
+                font-size: 1.2rem;
+                color: $themePurple;
+                font-weight: 500;
+            }
+
+            .paras {
+                p {
+                    color: #646464;
+                    max-width: 55ch;
+                    margin-bottom: 2em;
+                }
+            }
+        }
+
+        .image {
+            width: calc(100% - #{$textWidth});
+            padding-top: 4em;
+            img {
+                width: 40em;
+            }
+        }
+    }
+
+    .whySection {
+        padding-top: 10em;
+        padding-bottom: 3em;
+
+        header {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            margin-bottom: 10em;
+
+            p {
+                font-size: 2rem;
+                text-align: center;
+                max-width: 25ch;
+            }
+
+            span {
+                color: $themePurple;
+            }
+        }
+
+        section {
+            .row {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 1em;
+
+                article {
+                    width: 48%;
+                    height: fit-content;
+                    min-height: 8em;
+                    max-height: 10em;
+                    box-shadow: 0 4.5px 8px 0 rgba(148, 86, 200, 0.3);
+                    padding: 1em;
+                    padding-top: 3em;
+                    padding-bottom: 2em;
+                    border-radius: 10px;
+
+                    position: relative;
+                    span {
+                        position: absolute;
+                        top: -1em;
+                        left: 1em;
+
+                        img {
+                            width: 50px;
+                        }
+                    }
+
+                    &:last-child {
+                        margin-top: 4em;
+                        span {
+                            left: unset;
+                            right: 1em;
+                        }
+
+                        div {
+                            text-align: right;
+                        }
+                    }
+
+                    div {
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+    //   .whySection {
+    //     padding-top: 10em;
+    //     padding-bottom: 5em;
+
+    //     header {
+    //       display: flex;
+    //       justify-content: center;
+    //       font-weight: 500;
+    //       margin-bottom: 10em;
+
+    //       p {
+    //         font-size: 2rem;
+    //         text-align: center;
+    //         max-width: 20ch;
+    //       }
+
+    //       span {
+    //         color: $themePurple;
+    //       }
+    //     }
+
+    //     .cards {
+    //       position: relative;
+    //       .path {
+    //         position: absolute;
+    //         left: 5em;
+    //         top: 15em;
+    //         img {
+    //           width: 800px;
+    //         }
+    //       }
+    //       section {
+    //         display: flex;
+    //         justify-content: space-between;
+    //         padding-inline: 3em;
+    //         margin-bottom: 6em;
+
+    //         article {
+    //           width: 30em;
+    //           height: 39em;
+    //           padding: 2em;
+    //           background-color: white;
+    //           box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    //           border-radius: 10px;
+    //           padding-right: 7em;
+
+    //           position: relative;
+    //           span.index {
+    //             position: absolute;
+    //             font-size: 3.8rem;
+    //             font-weight: 700;
+    //             color: $themePurple;
+    //             opacity: 0.1;
+    //             top: -0.7em;
+    //             left: 0em;
+    //           }
+
+    //           span.image {
+    //             position: absolute;
+    //             right: 0em;
+    //             top: -5em;
+    //             img {
+    //               width: 250px;
+    //             }
+    //             z-index: 1;
+    //           }
+
+    //           .caption {
+    //             max-width: 16ch;
+    //             font-weight: 500;
+    //             font-size: 1.4rem;
+    //             line-height: 1.2em;
+    //             margin-bottom: 2.5em;
+    //             z-index: 2;
+    //           }
+
+    //           .title {
+    //             font-size: 1.3rem;
+    //             position: relative;
+    //             margin-bottom: 2em;
+    //             z-index: 2;
+
+    //             &::after {
+    //               position: absolute;
+    //               content: "";
+    //               left: 0;
+    //               bottom: -0.3em;
+    //               height: 2px;
+    //               width: 4em;
+    //               background-color: $themePurple;
+    //               box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.2);
+    //             }
+    //           }
+
+    //           .body {
+    //             .bodyItem {
+    //               margin-bottom: 1em;
+    //               .point {
+    //                 margin-bottom: 0.2em;
+    //                 font-size: 1.1rem;
+    //               }
+    //               .desc {
+    //                 color: #646464;
+    //                 font-size: 0.9rem;
+    //               }
+    //             }
+    //           }
+
+    //           position: relative;
+    //           .button {
+    //             position: absolute;
+    //             bottom: -17px;
+    //             left: 50%;
+    //             transform: translateX(-50%);
+    //           }
+    //         }
+
+    //         article#why_card_2 {
+    //           margin-top: 8em;
+
+    //           span.image {
+    //             right: -1em;
+    //           }
+    //         }
+
+    //         article#why_card_3 {
+    //           margin-left: 5em;
+
+    //           span.image {
+    //             right: -2em;
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+
+    .features {
+        padding-bottom: 10em;
+
+        header {
+            font-size: 2rem;
+            max-width: 25ch;
+            font-weight: 500;
+            margin-bottom: 2em;
+        }
+
+        @keyframes imageAppear {
+            from {
+                opacity: 0;
+                transform: scale(0);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        section {
+            display: flex;
+
+            .imageAnimation {
+                animation: imageAppear 0.2s ease-in;
+            }
+
+            .image {
+                height: 400px;
+
+                img {
+                    margin-bottom: 3em;
+                    width: 600px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+            }
+
+            .cards {
+                padding-left: 8em;
+                article {
+                    background-color: white;
+                    padding: 1em;
+                    width: 20em;
+                    height: 5em;
+                    border-radius: 10px;
+                    margin-bottom: 1em;
+                    box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.2);
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                }
+
+                article.active {
+                    box-shadow: 0 4.5px 8px 0 rgba(148, 86, 200, 0.42);
+                    color: $themePurple;
+                }
+            }
+        }
+    }
+
+    .paymentPlans {
+        margin-bottom: 4em;
+
+        header {
+            margin-bottom: 0.5em;
+            font-size: 2.2rem;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .headerButton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            div {
+                color: $themePurple;
+                margin-bottom: 0.5em;
+            }
+
+            margin-bottom: 3em;
+        }
+
+        .plansMobile {
+            display: none;
+
+            .card {
+                background-color: white;
+                border: 1px solid #ededed;
+                padding: 1.5em !important;
+                margin-bottom: 2em;
+                border-radius: 10px;
+                height: auto;
+
+                .header {
+                    border-radius: 10px;
+                    margin-bottom: 2em;
+
+                    .name {
+                        margin-bottom: 0.5em;
+                    }
+
+                    .price {
+                        font-size: 1.4rem;
+                        margin-bottom: 1em;
+                    }
+
+                    button {
+                        background-color: $themePurple;
+                        color: white;
+                        height: 35px;
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+                }
+
+                .features {
+                    padding-bottom: 0 !important;
+                    .title {
+                        width: 100%;
+                        background-color: #f7f7f7;
+                        padding: 0.5em;
+                        color: #4a4a4a;
+                        margin-bottom: 1em;
+                    }
+
+                    .row {
+                        margin-bottom: 1em;
+                        font-size: 0.9rem;
+
+                        .headerName {
+                            margin-bottom: 0.5em;
+                            font-weight: 500;
+                        }
+
+                        .field {
+                            color: rgba(1, 1, 1, 0.6);
+                            padding-block: 0.1em;
+                        }
+                    }
+                }
+            }
+        }
+
+        .plans {
+            background-color: white;
+            width: 100%;
+            display: flex;
+            box-shadow: 0 4.5px 8px 0 rgba(0, 0, 0, 0.12);
+            margin-bottom: 5em;
+            border-radius: 10px;
+
+            article {
+                display: flex;
+                flex-direction: column;
+                width: 20em;
+
+                .header {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 15em;
+                    background-color: white;
+                    padding-top: 3em;
+                    position: sticky;
+                    position: -webkit-sticky;
+                    top: 3em;
+                    border-bottom: 1px solid #f7f7f7;
+
+                    .name {
+                        font-size: 1.4rem;
+                        margin-bottom: 0.5em;
+                    }
+
+                    .price {
+                        color: $themePurple;
+                        font-size: 2.5rem;
+                        font-weight: 500;
+                    }
+
+                    .planType {
+                        color: #646464;
+                        font-size: 0.9rem;
+                        margin-bottom: 1em;
+                    }
+
+                    button {
+                        border: 1px solid $themePurple;
+                        background-color: white;
+                        border: 2px solid $themePurple;
+                        color: $themePurple;
+                        width: 100px;
+                        height: 35px;
+                        border-radius: 5px;
+                    }
+                }
+
+                $cellPaddingInline: 2em;
+                .rowHeader {
+                    height: 3.5em;
+                    display: flex;
+                    align-items: center;
+                    padding-inline: $cellPaddingInline;
+                    color: #707070;
+                }
+
+                .cell {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-inline: $cellPaddingInline;
+                    height: 100px;
+
+                    svg {
+                        fill: $themePurple;
+                    }
+                }
+
+                .cell.assessmentCount {
+                    font-size: 1.2rem;
+                }
+
+                .cell.additionalAssessment {
+                }
+            }
+        }
+
+        article:nth-child(3) {
+            box-shadow: 0 4.5px 8px 0 rgba(148, 86, 200, 0.42);
+        }
+
+        article#captions {
+            width: 25em;
+            border-right: 1px solid rgba(1, 1, 1, 0.1);
+
+            .rowHeader {
+                background-color: rgba(0, 0, 0, 0.05);
+            }
+
+            .cell {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    .getInTouch {
+        margin-top: 3em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .wrapper {
+        .hero {
+            .image {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .whySection {
+            .path {
+                display: none;
+            }
+
+            .cards {
+                section {
+                    padding-inline: 0em;
+                    margin-bottom: 0 !important;
+
+                    flex-direction: column;
+                    align-items: center;
+
+                    article {
+                        margin: 0 !important;
+                        margin-bottom: 12em !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        .features {
+            header {
+                margin-inline: auto;
+                text-align: center;
+            }
+
+            section {
+                flex-direction: column;
+
+                .image {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+
+                    img {
+                        width: calc(min(100%, 450px));
+                    }
+                }
+
+                .cards {
+                    padding-left: 0;
+                    padding-top: 3em;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    article {
+                        width: calc(min(100%, 30em));
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media screen and (max-width: 1100px) {
+//   .wrapper {
+//     .paymentPlans {
+//       .plans {
+//         display: none;
+//       }
+//       .plansMobile {
+//         display: block;
+//       }
+//     }
+//   }
+// }
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        .hero {
+            flex-direction: column;
+
+            .absoluteGraphic {
+                display: none;
+                left: -6em;
+                top: 0;
+                img {
+                    width: 200px;
+                }
+            }
+
+            .text {
+                order: 2;
+                width: 100%;
+
+                .header {
+                    margin: 0 auto;
+                    text-align: center;
+                    font-size: 2rem;
+                    margin-bottom: 0.8em;
+                }
+
+                .subheader {
+                    margin-bottom: 1.5em;
+                    font-size: 1.3rem;
+                    text-align: center;
+                }
+
+                p {
+                    margin: 0 auto;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .button {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .image {
+                order: 1;
+                padding-top: 1em;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin-bottom: 2em;
+
+                img {
+                    width: calc(min(100%, 450px));
+                }
+            }
+        }
+
+        .whySection {
+            section {
+                .row {
+                    flex-direction: column;
+                    margin-bottom: 0;
+
+                    article {
+                        width: 100%;
+                        margin-bottom: 4em;
+
+                        &:last-child {
+                            margin-top: 0;
+                            span {
+                                right: unset;
+                                left: 1em;
+                            }
+                            div {
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        .whySection {
+            padding-top: 6em;
+
+            header {
+                margin-bottom: 4em;
+            }
+
+            .cards {
+                section {
+                    article {
+                        width: 100%;
+                        height: auto;
+
+                        span.image {
+                            img {
+                                width: 200px;
+                            }
+                        }
+                    }
+
+                    article#why_card_3 {
+                        span.image {
+                            right: 0em;
+                            img {
+                                width: 180px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        .whySection {
+            article {
+                padding-top: 3em !important;
+
+                span.image {
+                    margin-top: -2em;
+                }
+            }
+        }
+    }
+}

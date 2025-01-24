@@ -1,0 +1,78 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+  position: relative;
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+  max-width: 600px;
+
+  .title {
+    margin-bottom: 30px;
+    color: $themePurple;
+    font-weight: 500;
+  }
+
+  .image {
+    width: 400px;
+    height: 200px;
+    background-color: #ededed;
+    margin: 20px auto;
+  }
+
+  .surveys {
+    margin-top: 20px;
+    .survey {
+      padding: 10px;
+
+      display: flex;
+      align-items: center;
+
+      svg {
+        color: $themePurple;
+        margin-left: 15px;
+        width: 18px;
+        position: relative;
+        top: 3px;
+      }
+
+      .name {
+        width: 10em;
+      }
+
+      .button {
+        .skippedText {
+          margin-left: 1em;
+          display: inline-block;
+          font-size: 0.9rem;
+          color: $themePurple;
+          font-weight: 400;
+          position: relative;
+          top: -4px;
+        }
+      }
+
+      button {
+        margin-left: 20px;
+        background-color: transparent;
+        color: $themePurple;
+        border-bottom: 1px solid $themePurple;
+        padding: 2px;
+      }
+    }
+  }
+
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    button:first-child {
+      margin-right: 15px;
+    }
+
+    button {
+      height: 38px !important;
+      width: 100px !important;
+    }
+  }
+}

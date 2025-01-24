@@ -1,0 +1,30 @@
+@import "../../../../../utils/variables.scss";
+
+.wrapper {
+    .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        img {
+            width: 350px;
+        }
+    }
+
+    .title {
+        text-align: center;
+        font-size: 20px;
+        color: $themePurple;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .para {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+}

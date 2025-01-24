@@ -1,0 +1,146 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+    border-radius: 20px;
+    padding: 30px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.2);
+    width: calc(min(100%, 700px));
+    position: relative;
+
+    // border: 1px solid red;
+    //   max-height: 700px;
+
+    .successWrapper {
+        display: flex;
+        font-size: 1.2rem;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div:first-child {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            svg {
+                margin-right: 0.5em;
+                color: $themePurple;
+            }
+        }
+
+        button {
+            background-color: $themePurple;
+            color: white;
+            width: 100px;
+            height: 35px;
+            border-radius: 5px;
+            margin-top: 0px;
+        }
+    }
+
+    .tags {
+        width: 100%;
+        overflow-x: auto;
+        padding-block: 10px;
+        padding-bottom: 15px;
+
+        span {
+            border: 1px solid rgba(1, 1, 1, 0.2);
+            border-radius: 10px;
+            padding: 2px 8px;
+            margin-right: 5px;
+            font-size: 0.8rem;
+
+            background-color: rgba($themePurple, 0.1);
+            border: 1px solid rgba(1, 1, 1, 0.1);
+        }
+    }
+
+    .counsellingWrapper {
+        width: 100%;
+        max-width: 900px;
+
+        .skipBtn {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            background-color: white;
+            color: rgba(1, 1, 1, 0.5);
+        }
+
+        .modalTitle {
+            color: $themePurple;
+            font-weight: 500;
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+
+        .subtitle {
+            margin-bottom: 20px;
+        }
+
+        .cards {
+            .swiperContainer {
+                padding-bottom: 5em !important;
+            }
+
+            .card:last-child {
+                margin-right: 0px;
+            }
+
+            .card {
+                width: 290px !important; // min-width: 290px !important;
+                box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.1);
+                padding: 15px;
+                border-radius: 15px;
+                position: relative;
+                padding-bottom: 40px;
+
+                .image {
+                    height: 100px;
+                    width: 100px;
+                    margin: 0 auto;
+                    border-radius: 50%;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+
+                .name {
+                    margin-bottom: 10px;
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+
+                .body {
+                    color: rgba(1, 1, 1, 0.5);
+                }
+
+                button {
+                    position: absolute;
+                    width: 100px;
+                    height: 34px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    bottom: -17px;
+                    background: $themePurple;
+                    color: white;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .wrapper {
+        width: 95%;
+    }
+}

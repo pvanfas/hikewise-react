@@ -1,0 +1,92 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    padding: 20px;
+    height: 310px;
+    width: 400px;
+
+    .loaderWrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apiResp {
+        margin-top: 0.8em;
+        font-size: 0.8rem;
+    }
+
+    .apiResp.apiError {
+        color: red;
+    }
+
+    position: relative;
+    .close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 25px;
+        color: $themePurple;
+        cursor: pointer;
+    }
+
+    .completeWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+
+        .text {
+            margin-bottom: 20px;
+            color: black;
+            font-size: 18px;
+        }
+
+        button {
+            background-color: $themePurple;
+            color: white;
+            height: 35px;
+            border-radius: 5px;
+            width: 100px;
+        }
+    }
+
+    input {
+        border: 1px solid #eeeeee;
+        height: 40px;
+        padding-left: 10px;
+        margin-left: auto;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .title {
+        color: $themePurple;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        margin-bottom: 20px;
+
+        label {
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+    }
+
+    .buttons {
+        button {
+            height: 40px;
+            width: 150px;
+            background-color: $themePurple;
+            color: white;
+            border-radius: 5px;
+        }
+    }
+}

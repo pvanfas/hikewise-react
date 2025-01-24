@@ -1,0 +1,93 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .legends {
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+
+        .legendWrapper {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 150px;
+            margin-bottom: 20px;
+
+            .text {
+                text-align: left;
+                width: 100px;
+            }
+
+            .legend {
+                width: 20px;
+                height: 20px;
+                min-height: 20px;
+                min-width: 20px;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+            }
+
+            .legend.booked {
+                background-color: #9456c8;
+            }
+            .legend.notBooked {
+                background-color: #ff9f00;
+            }
+            .legend.settled {
+                background-color: #00a86b;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .wrapper {
+        flex-direction: column;
+        .legends {
+            padding: 0;
+            .inner {
+                display: flex;
+                width: 100%;
+                height: unset;
+                padding: 0;
+                margin-top: 40px;
+
+                .legendWrapper {
+                    margin-bottom: 0;
+                    margin-right: 20px;
+                    width: unset;
+                    height: unset;
+
+                    .text {
+                        width: fit-content;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .wrapper {
+        .legends {
+            padding: 0;
+            .inner {
+                flex-direction: column;
+                .legendWrapper {
+                    justify-content: flex-start;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

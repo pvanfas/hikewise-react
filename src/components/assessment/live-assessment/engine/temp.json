@@ -1,0 +1,26 @@
+{
+    "aptitude_question_count": 3,
+    "aptitude_question_attempted_count": 0,
+    "interest_question_count": 3,
+    "interest_question_attempted_count": 0,
+    "personality_question_count": 3,
+    "personality_question_attempted_count": 0,
+    "wvp_question_count": 20,
+    "wvp_question_attempted_count": 0,
+    "eq_question_count": 1,
+    "eq_question_attempted_count": 0,
+    "personality_entries": [],
+    "interest_entries": [],
+    "wvp_entries": [],
+    "eq_entries": [],
+    "aptitude_status": [
+        {
+            "subcategory": "Computation",
+            "label": "COMPUTATION",
+            "time": 10,
+            "questions": 3,
+            "answered": 0,
+            "responses": []
+        }
+    ]
+}

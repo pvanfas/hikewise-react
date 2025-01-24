@@ -1,0 +1,118 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+  background-color: white;
+  width: fit-content;
+  border-radius: 5px;
+  width: calc(min(800px, 100%));
+  box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.1);
+  margin-top: 3em;
+  position: relative;
+
+  .loaderWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+
+  .title {
+    font-weight: 600;
+    margin-bottom: 30px;
+
+    position: absolute;
+    top: -4em;
+  }
+
+  .tableWrapper {
+    height: 500px;
+    max-height: 700px;
+
+    overflow-y: auto;
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border-radius: 5px;
+
+      thead {
+        background-color: $themePurple;
+        color: white;
+        border-radius: 5px;
+
+        tr {
+          border-radius: 5px;
+          th {
+            font-weight: 400;
+            height: 20px;
+            vertical-align: top;
+            color: white;
+            text-align: left;
+            padding-left: 1em;
+            height: 3em;
+            line-height: 3em;
+
+            &:first-child {
+              width: 220px;
+              border-top-left-radius: 5px;
+            }
+            &:nth-child(2) {
+              width: 150px;
+            }
+            &:nth-child(3) {
+              width: 120px;
+              border-top-right-radius: 5px;
+            }
+          }
+        }
+      }
+      tbody {
+        position: relative;
+        .loaderWrapper {
+          position: abs($number: 0);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+        }
+
+        tr {
+          cursor: pointer;
+          border: none;
+          border-bottom: 1px solid rgba(183, 183, 183, 0.1);
+
+          &:hover {
+            background-color: rgba(1, 1, 1, 0.1) !important;
+          }
+
+          td {
+            border: none;
+            height: 50px;
+            vertical-align: middle;
+            padding-left: 1em;
+            font-size: 0.9rem;
+
+            button {
+              height: 30px;
+              width: 130px;
+              background-color: $themePurple;
+              color: white;
+              border-radius: 5px;
+
+              &:hover {
+                background-color: white;
+                border: 1px solid $themePurple;
+                color: $themePurple;
+              }
+            }
+          }
+        }
+        tr:nth-child(even) {
+          background-color: #f5f6fa;
+          color: $themePurple;
+        }
+      }
+    }
+  }
+}

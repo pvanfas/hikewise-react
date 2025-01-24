@@ -1,0 +1,57 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+
+    .main {
+        margin-top: $navbarHeight;
+        background-color: #f7f7f7;
+        padding: 50px;
+        min-height: calc(100vh - #{$navbarHeight});
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .main.sidebarOpen {
+        margin-left: $sidebarWidth;
+        width: calc(100% - #{$sidebarWidth});
+    }
+
+    .main.sidebarClosed {
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        .main.sidebarOpen {
+            margin-left: 0;
+            width: calc(100%);
+        }
+
+        .main.sidebarClosed {
+            left: 0;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        .main {
+            padding: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .wrapper {
+        .main {
+            padding: 10px;
+        }
+    }
+}

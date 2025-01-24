@@ -1,0 +1,82 @@
+.wrapper {
+    padding: 25px;
+    width: 700px;
+
+    .loaderWrapper {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+        margin-bottom: 0px;
+
+        .header {
+            margin-bottom: 20px;
+            div:first-child {
+                margin-bottom: 7px;
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            div:nth-child(2) {
+                margin-bottom: 10px;
+                color: #474747;
+            }
+        }
+
+        .row {
+            display: flex;
+
+            > div {
+                width: 48%;
+            }
+
+            div:first-child {
+                margin-right: 20px;
+            }
+        }
+
+        div.textField,
+        div.selectField {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: inline-block;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        div.textField {
+            input {
+                width: 100%;
+                border-radius: 10px;
+                height: 35px;
+                border-radius: 10px;
+                box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2) !important;
+                border: none;
+                padding-left: 15px;
+            }
+        }
+
+        button {
+            margin-top: 15px;
+            width: 140px !important;
+        }
+
+        .error {
+            color: red;
+            font-size: 13px;
+            margin-top: 5px;
+            padding-left: 2px;
+        }
+    }
+
+    .oldPassError {
+        color: red;
+    }
+}

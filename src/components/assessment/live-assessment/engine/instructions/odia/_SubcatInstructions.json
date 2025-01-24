@@ -1,0 +1,1038 @@
+{
+  "REDESIGN": {
+    "aptitude": {
+      "Abstract Reasoning": {
+        "Abstract Series Completion": {
+          "title": "Abstract Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣ ଆକୃତିର ଏକ କ୍ରମ ଦେଖିବେ ଏବଂ ଆପଣଙ୍କୁ ଖୋଜିବାକୁ ପଡିବ ଯେ ପାଞ୍ଚଟି ଦିଆଯାଇଥିବା ବିକଳ୍ପ ମଧ୍ୟରେ କେଉଁ ଆକୃତି ପରବର୍ତ୍ତୀ କ୍ରମରେ ଆସେ |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Symbol Analogies": {
+          "title": "Symbol Analogies",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦୁଇଟି ଗୋଷ୍ଠୀ ସଙ୍କେତ ଦିଆଯିବ (ଗ୍ରୁପ୍ ୧ ରେ ତିନୋଟି ଚିହ୍ନ ଏବଂ ଗ୍ରୁପ୍ ୨ରେ ଦୁଇଟି) | ଆପଣଙ୍କୁ ଖୋଜିବାକୁ ପଡିବ ଯେ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରେ କେଉଁ ପ୍ରତୀକ ଗ୍ରୁପ୍ ୨ ରେ ତୃତୀୟ ପ୍ରତୀକ ହେବା ଉଚିତ ଯାହା ଦ୍ୱାରା ଗ୍ରୁପ୍ ୨ ମଧ୍ୟ ସେହି ଗୁଣ ବାଣ୍ଟିଥାଏ ଯାହା ଗ୍ରୁପ୍ 1 ର ଚରିତ୍ର ଅଟେ |</p>"
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Pattern Comparison": {
+          "title": "Pattern Comparsion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଏକ ସଂପୃକ୍ତ ଯୋଡି ତୁମକୁ ଦିଆଯାଏ ଏବଂ ତା’ପରେ ଅନ୍ୟ ପାଞ୍ଚ ସଂଖ୍ୟା ବିଶିଷ୍ଟ ଯୋଡି ସଂଖ୍ୟା | ଆପଣଙ୍କୁ ଏହି ଯୋଡି ଚୟନ କରିବାକୁ ପଡିବ ଯାହାର ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ମୂଳ ଯୋଡିରେ ସମାନ ସମ୍ପର୍କ ଅଛି</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        }
+      },
+      "Mechanical Reasoning": {
+        "Tools Analogy": {
+          "title": "Tools Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ଉପକରଣକୁ ଚିହ୍ନିବାକୁ ହେବ ଏବଂ ପ୍ରଦତ୍ତ ପସନ୍ଦଗୁଡ଼ିକରୁ ଅତି ଘନିଷ୍ଠ ସମ୍ବନ୍ଧୀୟ ଉପକରଣ କିମ୍ବା ବସ୍ତୁ ବାଛିବାକୁ ପଡିବ |</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mechanical Aptitude": {
+          "title": "Mechanical Aptitude",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କର ଯାନ୍ତ୍ରିକ ଦକ୍ଷତା ପରୀକ୍ଷା କରାଯିବ | ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନ ପାଇଁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକରୁ ଆପଣଙ୍କୁ ସଠିକ୍ ଉତ୍ତର ବାଛିବାକୁ ପଡିବ |</p>"
+            }
+          ],
+          "quesCount": 12,
+          "time": "12 minutes"
+        }
+      },
+      "Numerical Aptitude": {
+        "Computation": {
+          "title": "Computation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ କିଛି ମୌଳିକ ଗାଣିତିକ କାର୍ଯ୍ୟ କରିବାକୁ ପଡିବ ଯେପରିକି ଯୋଗ, ବିତରଣ, ଗୁଣନ ଏବଂ ବିଭାଜନ |</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "2 minutes"
+        },
+        "Arithmetic Reasoning": {
+          "title": "Arithmetic Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ କିଛି ଗାଣିତିକ ସମସ୍ୟା ଦିଆଯିବ | ଦିଆଯାଇଥିବା ଚାରୋଟି ବିକଳ୍ପ ମଧ୍ୟରେ ସଠିକ୍ ଉତ୍ତର ଖୋଜିବା ପାଇଁ ଆପଣଙ୍କୁ ଏହି ସମସ୍ୟାର ସମାଧାନ କରିବାକୁ ପଡିବ |</p>"
+            }
+          ],
+          "quesCount": 20,
+          "time": "8 minutes"
+        },
+        "Number Series": {
+          "title": "Number Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଏକ କ୍ରମର ସଂଖ୍ୟା ଦିଆଯିବ ଯେଉଁଥିରେ ଗୋଟିଏ ସଂଖ୍ୟା ନିଖୋଜ ହେବ | ଆପଣଙ୍କୁ କ୍ରମରେ ନିଖୋଜ ନମ୍ବର ଖୋଜିବାକୁ ପଡିବ |</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Number Puzzles": {
+          "title": "Number Puzzles",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ କିଛି ସଂଖ୍ୟା ପଜଲ୍ ସମାଧାନ କରିବାକୁ ପଡିବ | ଚିତ୍ର ସହିତ ବିଭିନ୍ନ ସ୍ଥାନରେ ସେମାନଙ୍କ ସ୍ଥାନିତ ପାଇଁ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ନିୟମ ଅନୁସରଣ କରି ଏକ ସଂଖ୍ୟାରେ ଅଳ୍ପ ସଂଖ୍ୟା ଭର୍ତ୍ତି କରାଯାଇଥାଏ | ପ୍ରଦତ୍ତ ଚିତ୍ରରେ ଆପଣଙ୍କୁ ନିଖୋଜ ସଂଖ୍ୟା ଖୋଜିବାକୁ ପଡିବ |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/number_puzzles.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Solution.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>5 x 2 + 2 = 12;</span> &nbsp;&nbsp; <span>12 x 2 + 2 = 26;</span></p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>26 x 2 +2 = 54;</span></p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      },
+      "Perceptual Aptitude": {
+        "Perceptual Series Completion": {
+          "title": "Perceptual Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ପ୍ରତୀକଗୁଡ଼ିକ ମଧ୍ୟରେ ସମ୍ପର୍କ ଚିହ୍ନଟ କରିବାକୁ ପଡିବ ଏବଂ ଦିଆଯାଇଥିବା ଚାରୋଟି ବିକଳ୍ପରୁ ସଠିକ୍ ସଙ୍କେତ ବାଛିବାକୁ ପଡିବ, ଯାହାକୁ ଆପଣ ଅନୁଭବ କରୁଛନ୍ତି ଯେ ସିରିଜ୍ ଜାରି ରହିଛି |</p>"
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Perceptual Speed": {
+          "title": "Perceptual Speed",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣ ଚାରି ଯୁଗଳ ଇଂରାଜୀ ଅକ୍ଷର ଦେଖିବେ | ପ୍ରତ୍ୟେକ ଯୋଡିକୁ ନିଜ ନିଜ ବାକ୍ସରେ ରଖାଯାଇଛି | କେତେ ଯୁଗଳ ଅକ୍ଷର ଧାରଣ କରନ୍ତି ତାହା ତୁମେ ନିଶ୍ଚୟ ସ୍ଥିର କରିବ | ଏହି ପରୀକ୍ଷଣରେ କ୍ୟାପିଟାଲ୍ ଅକ୍ଷରଗୁଡିକ [ଯେପରି ‘F’] ଛୋଟ ଅକ୍ଷରଗୁଡ଼ିକ ସହିତ ସମାନ |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/perceptual_speed.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "2 minutes"
+        },
+        "Checking Information": {
+          "title": "Checking Information",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଶୀଘ୍ର ସୂଚନା ଯାଞ୍ଚ କରିବାର କ୍ଷମତା ପରୀକ୍ଷା କରାଯିବ | ଆପଣଙ୍କୁ ରେଫରେନ୍ସ ନମ୍ବରର ଦୁଇଟି ତାଲିକା ଦିଆଯିବ | ପ୍ରତ୍ୟେକ ଧାଡିରେ, ଆପଣଙ୍କୁ ସେହି ସ୍ତମ୍ଭ ଖୋଜିବାକୁ ପଡିବ ଯେଉଁଥିରେ ଦୁଇଟି ତାଲିକା ମଧ୍ୟରେ ମେଳ ଖାଉ ନାହିଁ | ଯଦି ଏକ ଧାଡିରେ କୌଣସି ପାର୍ଥକ୍ୟ ନାହିଁ, ତେବେ ‘ଇ’ ବିକଳ୍ପ ବାଛନ୍ତୁ |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/checking_information.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "1 minutes"
+        },
+        "Working with Diagrams": {
+          "title": "Working with Diagrams",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ପ୍ରତୀକ ଭାବରେ କୋଡ୍ ହୋଇଥିବା ନିର୍ଦ୍ଦେଶାବଳୀ ଅନୁସରଣ କରିବାର ଆପଣଙ୍କର କ୍ଷମତା ପରୀକ୍ଷା କରାଯିବ | ଏହି ପରୀକ୍ଷଣ ସ୍ତମ୍ଭଗୁଡ଼ିକରେ BOXES ରେ ଉପସ୍ଥାପିତ ହୋଇଛି | ଆପଣଙ୍କୁ ଏହି ଆକୃତିଗୁଡ଼ିକୁ କମାଣ୍ଡ ବ୍ୟବହାର କରି ପରିବର୍ତ୍ତନ କରିବାକୁ ପଡିବ ଯାହାକି  ସର୍କଲ୍ ରେ ଥିବା ପ୍ରତୀକ ଭାବରେ ପ୍ରଦର୍ଶିତ ହେବ ଏବଂ ପ୍ରଦତ୍ତ ବିକଳ୍ପଗୁଡ଼ିକରୁ ଆକୃତିର ଅନ୍ତିମ ସ୍ଥିତିକୁ ବାଛନ୍ତୁ |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/working_with_diagrams.png"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Analogical Reasoning": {
+          "title": "Analogical Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ତୁମର ଅନୁରୂପ ଯୁକ୍ତିଯୁକ୍ତ କୌଶଳ ପରୀକ୍ଷା କରାଯିବ | ଚିହ୍ନର ବାମ ପାର୍ଶ୍ୱରେ ଆପଣଙ୍କୁ ଦୁଇଟି ଅଙ୍କ ଦିଆଯିବ (: :) ଯାହାକି କିଛି ଉପାୟରେ ସଂଯୁକ୍ତ | ତୃତୀୟ ଚିତ୍ର ଏବଂ ଚାରୋଟି ବିକଳ୍ପ ମଧ୍ୟରୁ ଗୋଟିଏ ମଧ୍ୟରେ ସମାନ ସମ୍ପର୍କ ବିଦ୍ୟମାନ | ଆପଣଙ୍କୁ ପ୍ରତ୍ୟେକ କ୍ଷେତ୍ରରେ ସଠିକ୍ ବିକଳ୍ପ ଖୋଜିବାକୁ ପଡିବ |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/analogical_reasoning.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Spatial Aptitude": {
+        "Rotated Blocks": {
+          "title": "Rotated Blocks",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ତୁମେ ତିନି-ଆକାରରେ ଚିନ୍ତା କରିବାର କ୍ଷମତା ପରୀକ୍ଷା କରିବା ପାଇଁ ବିଭିନ୍ନ ଆକୃତିର କଠିନ ତିନି-ଡାଇମେନ୍ସନାଲ୍ ବ୍ଲକ୍ ଘୂର୍ଣ୍ଣନ କରିବ | ପ୍ରତ୍ୟେକ ଆକୃତି ପାଇଁ ତୁମେ ଚାରୋଟି ସମ୍ଭାବ୍ୟ ଉତ୍ତର ପାଇବ ଯାହା ସେହି ଆକୃତିକୁ ଯେ କୌଣସି ଦିଗରେ  ୩୬୦ଡିଗ୍ରୀ ଘୂର୍ଣ୍ଣନ କରିପାରେ | ତୁମର କାର୍ଯ୍ୟ ହେଉଛି ଚାରୋଟି ପସନ୍ଦ ମଧ୍ୟରୁ କେଉଁଟି କେବଳ ମୂଳ ଆକୃତି, ଘୂର୍ଣ୍ଣନ ହୋଇପାରେ ତାହା ନିର୍ଣ୍ଣୟ କରିବା |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>କିଛି ଛୋଟ ପାର୍ଥକ୍ୟ ଧରିବା ପାଇଁ ଆପଣ ଏଠାରେ ସବିଶେଷ ଧ୍ୟାନ ଦେବାକୁ ଚାହାଁନ୍ତି ଯାହା ଆପଣଙ୍କୁ ଏକ ଭୁଲ ଉତ୍ତରକୁ ନେଇପାରେ | କେତେକ ସାଧାରଣ ତ୍ରୁଟି ହୁଏ ଯେତେବେଳେ ଆପଣ ସୂକ୍ଷ୍ମ ଭାବରେ ଅତିରିକ୍ତ ରେଖା କିମ୍ବା ଦର୍ପଣ ପ୍ରତିଛବିଗୁଡ଼ିକୁ ଅଣଦେଖା କରନ୍ତି | ସେମାନେ ଏକ ନଜରରେ ସଠିକ୍ ଦେଖାଯିବେ କିନ୍ତୁ ନିକଟତର ପରୀକ୍ଷଣରେ ଭୁଲ୍ | ପ୍ରତିଛବିଗୁଡ଼ିକୁ ଭଲଭାବେ ଅଧ୍ୟୟନ କରନ୍ତୁ ଏବଂ ଉତ୍ତରଗୁଡ଼ିକ ସ୍ପଷ୍ଟ ହୋଇଯିବ |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/rotated_blocks.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Matching Pieces and Parts": {
+          "title": "Matching Pieces and Parts",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ 4 - 5 ଖଣ୍ଡର ଏକ ସେଟ୍ ଦିଆଯିବ ଏବଂ ଆପଣଙ୍କୁ ଉତ୍ତର ପସନ୍ଦ ଚୟନ କରିବାକୁ ପଡିବ ଯାହାକି ସମସ୍ତ ଦିଆଯାଇଥିବା ଖଣ୍ଡଗୁଡ଼ିକୁ ନେଇ ଗଠିତ ଏକ ଚିତ୍ରକୁ ପ୍ରତିନିଧିତ୍ୱ କରେ | ଖଣ୍ଡଗୁଡ଼ିକ ଘୂର୍ଣ୍ଣନ ଏବଂ / କିମ୍ବା ପ୍ରତିଫଳିତ ହୋଇପାରେ |</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Understanding Patterns": {
+          "title": "Understanding Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, 2-D କୁ 3-D ରେ ରୂପାନ୍ତର କରିବାର କ୍ଷମତା ପରୀକ୍ଷା କରାଯିବ | ତୁମେ ମାନସିକ ସ୍ତରରେ 2-ଡାଇମେନ୍ସନାଲ ପ୍ୟାଟର୍ କୁ 3-ଡାଇମେନ୍ସନାଲ କଠିନରେ ଫୋଲ୍ଡ କରିବାକୁ ସମର୍ଥ ହେବା ଉଚିତ୍ | ଆପଣଙ୍କୁ 2-D ଆକୃତି ଦିଆଯିବ ଏବଂ ଆପଣଙ୍କୁ ଜାଣିବାକୁ ପଡିବ ଯେ ଦିଆଯାଇଥିବା ଚାରି-ଡି ଆକୃତି ମଧ୍ୟରୁ କେଉଁଟି ଦିଆଯାଇଥିବା 2-D ଆକୃତିକୁ ଫୋଲ୍ଡିଂ ଏବଂ / କିମ୍ବା ଗଡ଼ାଇ ତିଆରି କରାଯାଇପାରିବ |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/understanding_patterns.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Mirror Image": {
+          "title": "Mirror Image",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ଚାରୋଟି ବିକଳ୍ପରୁ ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ଚିତ୍ରର ସଠିକ ଦର୍ପଣ ପ୍ରତିଛବି ବାଛିବାକୁ ପଡିବ | ପ୍ରଶ୍ନର ବିନ୍ଦୁ ରେଖା ଦର୍ପଣକୁ ପ୍ରତିପାଦିତ କରେ |</p>"
+            }
+          ],
+          "quesCount": 5,
+          "time": "2 minutes"
+        }
+      },
+      "Verbal Aptitude": {
+        "Selecting Words": {
+          "title": "Selecting Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକରୁ ସବୁଠାରୁ ଉପଯୁକ୍ତ ଶବ୍ଦ (ଗୁଡିକ) ସହିତ ଖାଲି ସ୍ଥାନଗୁଡିକ ପୂରଣ କରିବାକୁ ପଡିବ</p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Sentence Correction": {
+          "title": "Sentence Correction",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରେ ବାକ୍ୟାଂଶ ଚୟନ କରିବାକୁ ପଡିବ ଯାହାକି କଳା ବଡ଼ ଅକ୍ଷରରେ ମୁଦ୍ରିତ ବାକ୍ୟାଂଶକୁ ବଦଳାଇବା ଉଚିତ ଯାହା ଦ୍ୱାରା ବାକ୍ୟ ବ୍ୟାକରଣଗତ ଭାବରେ ସଠିକ୍ ହେବ | ଯଦି ଆପଣ ଭାବୁଛନ୍ତି ଯେ ଦିଆଯାଇଥିବା ବାକ୍ୟଟି ଠିକ୍ ଅଛି, ତେବେ ଦୟାକରି ବିକଳ୍ପ ‘ଇ’ ବାଛନ୍ତୁ |</p>"
+            }
+          ],
+          "quesCount": 4,
+          "time": "3 minutes"
+        },
+        "Spellings": {
+          "title": "Spellings",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଚାରୋଟି ଶବ୍ଦର ଏକ ସେଟ୍ ଦିଆଯିବ ଯେଉଁଥିରେ ଗୋଟିଏ ସଠିକ୍ ବନାନ ହୋଇନାହିଁ | ଭୁଲ ବନାନ ଶବ୍ଦ ଖୋଜିବାକୁ ପଡିବ | ଯଦି ଆପଣ ଭାବୁଛନ୍ତି ଯେ ଚାରୋଟି ଶବ୍ଦ ସଠିକ୍ ଭାବରେ ବନାନ ହୋଇଛି, ତେବେ ଦୟାକରି ବିକଳ୍ପ ‘ଇ’ ବାଛନ୍ତୁ |</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Completing Statements": {
+          "title": "Completing Statements",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଫିଲର୍ ଦ୍ୱାରା ଏକ ଅସମ୍ପୂର୍ଣ୍ଣ ଷ୍ଟେଟମେଣ୍ଟ (ଷ୍ଟେମ୍) ଦିଆଯିବ | ତୁମକୁ ସର୍ବୋତ୍ତମ ବାଛିବାକୁ ପଡିବ ଯାହା ଅସମ୍ପୂର୍ଣ୍ଣ ଷ୍ଟେମକୁ ସଠିକ୍ ଏବଂ ଅର୍ଥପୂର୍ଣ୍ଣ ଭାବରେ ସଂପୂର୍ଣ୍ଣ କରିପାରିବ |</p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        },
+        "Sentence Formation": {
+          "title": "Sentence Formation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପାଞ୍ଚ କିମ୍ବା ଅଧିକ ଭାଗରେ ବିଭକ୍ତ ଏକ ବାକ୍ୟ ଦିଆଯିବ | ଏକ ଅର୍ଥପୂର୍ଣ୍ଣ ବାକ୍ୟ ପ୍ରସ୍ତୁତ କରିବାକୁ ଆପଣଙ୍କୁ ଏହି ଅଂଶଗୁଡିକରେ ଯୋଗ ଦେବାକୁ ପଡିବ | ଅଂଶଗୁଡ଼ିକର ସଠିକ କ୍ରମ ହେଉଛି ସଠିକ୍ ଉତ୍ତର |</p>"
+            }
+          ],
+          "quesCount": 5,
+          "time": "4 minutes"
+        }
+      }
+    }
+  },
+  "SAIL": {
+    "aptitude": {
+      "Abstract Reasoning": {
+        "Abstract Series Completion": {
+          "title": "Abstract Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ୫ ଚିତ୍ର ଗୁଡ଼ିକର ଏକ ସେଟ୍ ଦିଆଯାଇଛି ଯାହାର ଏହାର ରୀପିଟିଂ/ପୁନରାବୃତ୍ତି  ପ୍ୟାଟର୍ନ /ନମୁନା ଥାଏ | ତୁମକୁ ଚିତ୍ର ବାଛିବାକୁ ପଡିବ ଯାହା କ୍ରମରେ ପରବର୍ତ୍ତୀ ଆସିବ |"
+            },
+            {
+              "type": "TEXT",
+              "content": "ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/instructions/series_completion.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<strong>ସମାଧାନ</strong>ତୀର 90° ଏବଂ 45° ଆଣ୍ଟିକଲକ୍ୱାଇଜ୍ କୋଣରେ ଘୂର୍ଣ୍ଣନ କରେ ଏବଂ ଭିତର ଚିତ୍ର ବିକଳ୍ପ ବ୍ଲକରେ 90° ଏବଂ 45° ବୁଲାଇ ଘୂର୍ଣ୍ଣନ କରେ | ତେଣୁ, ସଠିକ୍ ଉତ୍ତର ଚିତ୍ର ହେଉଛି (d) |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Symbol Analogies": {
+          "title": "Symbol Analogies",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦୁଇଟି ଗୋଷ୍ଠୀ ସଙ୍କେତ ଦିଆଯିବ (ଗ୍ରୁପ୍ ୧ ରେ ତିନୋଟି ଚିହ୍ନ ଏବଂ ଗ୍ରୁପ୍ ୨ରେ ଦୁଇଟି) | ଆପଣଙ୍କୁ ଖୋଜିବାକୁ ପଡିବ ଯେ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରେ କେଉଁ ପ୍ରତୀକ ଗ୍ରୁପ୍ ୨ ରେ ତୃତୀୟ ପ୍ରତୀକ ହେବା ଉଚିତ ଯାହା ଦ୍ୱାରା ଗ୍ରୁପ୍ ୨ ମଧ୍ୟ ସେହି ଗୁଣ ବାଣ୍ଟିଥାଏ ଯାହା ଗ୍ରୁପ୍ 1 ର ଚରିତ୍ର ଅଟେ |"
+            },
+            {
+              "type": "TEXT",
+              "content": "ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/instructions/symbol_analogies.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Pattern Comparison": {
+          "title": "Pattern Comparison",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପାଞ୍ଚଟି ଚିତ୍ରର ଏକ ସେଟ୍ ଦିଆଯାଇଛି ଏବଂ ୫ଟି ଆକଳନ ମଧ୍ୟରୁ ୪ ଟିରେ, ୧ ଏବଂ ୨ଏଲିମେଣ୍ଟ୍/ ଉପାଦାନଗୁଡିକ କୌଣସି ପ୍ରକାରେ ଜଡିତ | ତୁମେ ସେହି ଚିତ୍ର ଖୋଜିବାକୁ ପଡିବ ଯେଉଁଥିରେ ଏଲିମେଣ୍ଟ ୧, ଏଲିମେଣ୍ଟ ୨ସହିତ ଏତେ ଜଡିତ ନୁହେଁ |"
+            },
+            {
+              "type": "TEXT",
+              "content": "ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା |"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/instructions/pattern_comparison.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        }
+      },
+      "Mechanical Reasoning": {
+        "Tools Analogy": {
+          "title": "Tools Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ଉପକରଣକୁ ଚିହ୍ନିବାକୁ ହେବ ଏବଂ ପ୍ରଦତ୍ତ ପସନ୍ଦଗୁଡ଼ିକରୁ ଅତି ଘନିଷ୍ଠ ସମ୍ବନ୍ଧୀୟ ଉପକରଣ କିମ୍ବା ବସ୍ତୁ ବାଛିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mechanical Aptitude": {
+          "title": "Mechanical Aptitude",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କର ଯାନ୍ତ୍ରିକ ଦକ୍ଷତା ପରୀକ୍ଷା କରାଯିବ | ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନ ପାଇଁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକରୁ ଆପଣଙ୍କୁ ସଠିକ୍ ଉତ୍ତର ବାଛିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 12,
+          "time": "12 minutes"
+        }
+      },
+      "Numerical Aptitude": {
+        "Computation": {
+          "title": "Computation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ କିଛି ମୌଳିକ ଗାଣିତିକ କାର୍ଯ୍ୟ କରିବାକୁ ପଡିବ ଯେପରିକି ଯୋଗ, ବିତରଣ, ଗୁଣନ ଏବଂ ବିଭାଜନ |"
+            }
+          ],
+          "quesCount": 10,
+          "time": "2 minutes"
+        },
+        "Arithmetic Reasoning": {
+          "title": "Arithmetic Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ କିଛି ଗାଣିତିକ ସମସ୍ୟା ଦିଆଯିବ | ଦିଆଯାଇଥିବା ଚାରୋଟି ବିକଳ୍ପ ମଧ୍ୟରେ ସଠିକ୍ ଉତ୍ତର ଖୋଜିବା ପାଇଁ ଆପଣଙ୍କୁ ଏହି ସମସ୍ୟାର ସମାଧାନ କରିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 20,
+          "time": "8 minutes"
+        },
+        "Number Series": {
+          "title": "Number Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଏକ କ୍ରମର ସଂଖ୍ୟା ଦିଆଯିବ ଯେଉଁଥିରେ ଗୋଟିଏ ସଂଖ୍ୟା ନିଖୋଜ ହେବ | ଆପଣଙ୍କୁ କ୍ରମରେ ନିଖୋଜ ନମ୍ବର ଖୋଜିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Number Puzzles": {
+          "title": "Number Puzzles",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ କିଛି ସଂଖ୍ୟା ପଜଲ୍ ସମାଧାନ କରିବାକୁ ପଡିବ | ଚିତ୍ର ସହିତ ବିଭିନ୍ନ ସ୍ଥାନରେ ସେମାନଙ୍କ ସ୍ଥାନିତ ପାଇଁ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ନିୟମ ଅନୁସରଣ କରି ଏକ ସଂଖ୍ୟାରେ ଅଳ୍ପ ସଂଖ୍ୟା ଭର୍ତ୍ତି କରାଯାଇଥାଏ | ପ୍ରଦତ୍ତ ଚିତ୍ରରେ ଆପଣଙ୍କୁ ନିଖୋଜ ସଂଖ୍ୟା ଖୋଜିବାକୁ ପଡିବ |.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/number_puzzles.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Solution.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>5 x 2 + 2 = 12;</span> &nbsp;&nbsp; <span>12 x 2 + 2 = 26;</span></p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>26 x 2 +2 = 54;</span></p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      },
+      "Perceptual Aptitude": {
+        "Perceptual Series Completion": {
+          "title": "Perceptual Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ପ୍ରତୀକଗୁଡ଼ିକ ମଧ୍ୟରେ ସମ୍ପର୍କ ଚିହ୍ନଟ କରିବାକୁ ପଡିବ ଏବଂ ଦିଆଯାଇଥିବା ଚାରୋଟି ବିକଳ୍ପରୁ ସଠିକ୍ ସଙ୍କେତ ବାଛିବାକୁ ପଡିବ, ଯାହାକୁ ଆପଣ ଅନୁଭବ କରୁଛନ୍ତି ଯେ ସିରିଜ୍ ଜାରି ରହିଛି |"
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Perceptual Speed": {
+          "title": "Perceptual Speed",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣ ଚାରି ଯୁଗଳ ଇଂରାଜୀ ଅକ୍ଷର ଦେଖିବେ | ପ୍ରତ୍ୟେକ ଯୋଡିକୁ ନିଜ ନିଜ ବାକ୍ସରେ ରଖାଯାଇଛି | କେତେ ଯୁଗଳ ଅକ୍ଷର ଧାରଣ କରନ୍ତି ତାହା ତୁମେ ନିଶ୍ଚୟ ସ୍ଥିର କରିବ | ଏହି ପରୀକ୍ଷଣରେ କ୍ୟାପିଟାଲ୍ ଅକ୍ଷରଗୁଡିକ [ଯେପରି ‘F’] ଛୋଟ ଅକ୍ଷରଗୁଡ଼ିକ ସହିତ ସମାନ |"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/perceptual_speed.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "2 minutes"
+        },
+        "Checking Information": {
+          "title": "Checking Information",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଶୀଘ୍ର ସୂଚନା ଯାଞ୍ଚ କରିବାର କ୍ଷମତା ପରୀକ୍ଷା କରାଯିବ | ଆପଣଙ୍କୁ ରେଫରେନ୍ସ ନମ୍ବରର ଦୁଇଟି ତାଲିକା ଦିଆଯିବ | ପ୍ରତ୍ୟେକ ଧାଡିରେ, ଆପଣଙ୍କୁ ସେହି ସ୍ତମ୍ଭ ଖୋଜିବାକୁ ପଡିବ ଯେଉଁଥିରେ ଦୁଇଟି ତାଲିକା ମଧ୍ୟରେ ମେଳ ଖାଉ ନାହିଁ | ଯଦି ଏକ ଧାଡିରେ କୌଣସି ପାର୍ଥକ୍ୟ ନାହିଁ, ତେବେ ‘ଇ’ ବିକଳ୍ପ ବାଛନ୍ତୁ |"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/checking_information.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "1 minutes"
+        },
+        "Working with Diagrams": {
+          "title": "Working with Diagrams",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ପ୍ରତୀକ ଭାବରେ କୋଡ୍ ହୋଇଥିବା ନିର୍ଦ୍ଦେଶାବଳୀ ଅନୁସରଣ କରିବାର ଆପଣଙ୍କର କ୍ଷମତା ପରୀକ୍ଷା କରାଯିବ | ଏହି ପରୀକ୍ଷଣ ସ୍ତମ୍ଭଗୁଡ଼ିକରେ BOXES ରେ ଉପସ୍ଥାପିତ ହୋଇଛି | ଆପଣଙ୍କୁ ଏହି ଆକୃତିଗୁଡ଼ିକୁ କମାଣ୍ଡ ବ୍ୟବହାର କରି ପରିବର୍ତ୍ତନ କରିବାକୁ ପଡିବ ଯାହାକି  ସର୍କଲ୍ ରେ ଥିବା ପ୍ରତୀକ ଭାବରେ ପ୍ରଦର୍ଶିତ ହେବ ଏବଂ ପ୍ରଦତ୍ତ ବିକଳ୍ପଗୁଡ଼ିକରୁ ଆକୃତିର ଅନ୍ତିମ ସ୍ଥିତିକୁ ବାଛନ୍ତୁ |"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/working_with_diagrams.png"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Analogical Reasoning": {
+          "title": "Analogical Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ତୁମର ଅନୁରୂପ ଯୁକ୍ତିଯୁକ୍ତ କୌଶଳ ପରୀକ୍ଷା କରାଯିବ | ଚିହ୍ନର ବାମ ପାର୍ଶ୍ୱରେ ଆପଣଙ୍କୁ ଦୁଇଟି ଅଙ୍କ ଦିଆଯିବ (: :) ଯାହାକି କିଛି ଉପାୟରେ ସଂଯୁକ୍ତ | ତୃତୀୟ ଚିତ୍ର ଏବଂ ଚାରୋଟି ବିକଳ୍ପ ମଧ୍ୟରୁ ଗୋଟିଏ ମଧ୍ୟରେ ସମାନ ସମ୍ପର୍କ ବିଦ୍ୟମାନ | ଆପଣଙ୍କୁ ପ୍ରତ୍ୟେକ କ୍ଷେତ୍ରରେ ସଠିକ୍ ବିକଳ୍ପ ଖୋଜିବାକୁ ପଡିବ |"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/analogical_reasoning.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Spatial Aptitude": {
+        "Matching Pieces and Parts": {
+          "title": "Matching Pieces and Parts",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଉତ୍ତର ପସନ୍ଦ ବାଛିବାକୁ ପଡିବ ଯେଉଁଥିରେ ଦୁଇଟି ଅଂଶ ଅଛି ଯାହା ପ୍ରଶ୍ନରେ ଦେଖାଯାଇଥିବା ଚିତ୍ରକୁ ଏକତ୍ର କରିବାକୁ ଆସିପାରେ | ଖଣ୍ଡଗୁଡ଼ିକ ପ୍ରତିଫଳିତ ଏବଂ / କିମ୍ବା ଘୂର୍ଣ୍ଣିତ ହୋଇପାରେ | "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Understanding Patterns": {
+          "title": "Understanding Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ୨-ଡି କୁ ୩-ଡି ରେ ରୂପାନ୍ତର କରିବାର କ୍ଷମତା ପରୀକ୍ଷା କରାଯିବ | ତୁମେ ମାନସିକ ସ୍ତରରେ ୨-ଡାଇମେନ୍ସନାଲ ପ୍ୟାଟର୍ କୁ ୩-ଡାଇମେନ୍ସନାଲ କଠିନରେ ଫୋଲ୍ଡ କରିବାକୁ ସମର୍ଥ ହେବା ଉଚିତ୍ | ଆପଣଙ୍କୁ ୨-ଡି ଆକୃତି ଦିଆଯିବ ଏବଂ ଆପଣଙ୍କୁ ଜାଣିବାକୁ ପଡିବ ଯେ ଦିଆଯାଇଥିବା ଚାରି-ଡି ଆକୃତି ମଧ୍ୟରୁ କେଉଁଟି ଦିଆଯାଇଥିବା ୨-ଡି ଆକୃତିକୁ ଫୋଲ୍ଡିଂ ଏବଂ / କିମ୍ବା     ରୋଲିଙ୍ଗ/ ଗଡ଼ାଇ ତିଆରି କରାଯାଇପାରିବ |"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/understanding_patterns.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "4 minutes"
+        },
+        "Construction of Squares": {
+          "title": "Construction of Squares",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଏକ ମୁଖ୍ୟ ଚିତ୍ର ଦିଆଯାଏ, ତା’ପରେ ଅନ୍ୟ ଚାରିଟି ବିକଳ୍ପ (a), (b), (c), (d) ଚିହ୍ନିତ | ବିକଳ୍ପରୁ ଗୋଟିଏ ଚିତ୍ର ବାଛନ୍ତୁ, ଯାହା ଏକ ସମ୍ପୂର୍ଣ୍ଣ ବର୍ଗ ଗଠନ ପାଇଁ ମୁଖ୍ୟ ଚିତ୍ରରେ ଠିକ୍ ଫିଟ୍ ହୁଏ |"
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mirror Image": {
+          "title": "Mirror Image",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ଚାରୋଟି ବିକଳ୍ପରୁ ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ଚିତ୍ରର ସଠିକ ଦର୍ପଣ ପ୍ରତିଛବି ବାଛିବାକୁ ପଡିବ | "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Verbal Aptitude": {
+        "Selecting Words": {
+          "title": "Selecting Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକରୁ ସବୁଠାରୁ ଉପଯୁକ୍ତ ଶବ୍ଦ (ଗୁଡିକ) ସହିତ ଖାଲି ସ୍ଥାନଗୁଡିକ ପୂରଣ କରିବାକୁ ପଡିବ "
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Sentence Correction": {
+          "title": "Sentence Correction",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରେ ବାକ୍ୟାଂଶ ଚୟନ କରିବାକୁ ପଡିବ ଯାହାକି କଳା ବଡ଼ ଅକ୍ଷରରେ ମୁଦ୍ରିତ ବାକ୍ୟାଂଶକୁ ବଦଳାଇବା ଉଚିତ ଯାହା ଦ୍ୱାରା ବାକ୍ୟ ବ୍ୟାକରଣଗତ ଭାବରେ ସଠିକ୍ ହେବ | ଯଦି ଆପଣ ଭାବୁଛନ୍ତି ଯେ ଦିଆଯାଇଥିବା ବାକ୍ୟଟି ଠିକ୍ ଅଛି, ତେବେ ଦୟାକରି ବିକଳ୍ପ ‘ଇ’ ବାଛନ୍ତୁ |</p>"
+            }
+          ],
+          "quesCount": 5,
+          "time": "4 minutes"
+        },
+        "Spellings": {
+          "title": "Spellings",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଚାରୋଟି ଶବ୍ଦର ଏକ ସେଟ୍ ଦିଆଯିବ ଯେଉଁଥିରେ ଗୋଟିଏ ସଠିକ୍ ବନାନ ହୋଇନାହିଁ | ଭୁଲ ବନାନ ଶବ୍ଦ ଖୋଜିବାକୁ ପଡିବ | ଯଦି ଆପଣ ଭାବୁଛନ୍ତି ଯେ ଚାରୋଟି ଶବ୍ଦ ସଠିକ୍ ଭାବରେ ବନାନ ହୋଇଛି, ତେବେ ଦୟାକରି ବିକଳ୍ପ ‘ଇ’ ବାଛନ୍ତୁ |"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "One Word Substitutes": {
+          "title": "One Word Substitutes",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରେ ସବୁଠାରୁ ଉପଯୁକ୍ତ ଶବ୍ଦ ବାଛିବାକୁ ପଡିବ ଯାହା ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ବାକ୍ୟାଂଶ ସହିତ ସମାନ ଅର୍ଥକୁ ସୂଚିତ କରିପାରିବ |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "4 minutes"
+        },
+        "Ordering of Words": {
+          "title": "Ordering of Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରେ ସବୁଠାରୁ ଉପଯୁକ୍ତ ଶବ୍ଦ ବାଛିବାକୁ ପଡିବ ଯାହା ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ବାକ୍ୟାଂଶ ସହିତ ସମାନ ଅର୍ଥକୁ ସୂଚିତ କରିପାରିବ |"
+            }
+          ],
+          "quesCount": 4,
+          "time": "4 minutes"
+        }
+      }
+    }
+  },
+  "RISE": {
+    "aptitude": {
+      "Abstract Reasoning": {
+        "Analogy": {
+          "title": "Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଏକ ସଂପୃକ୍ତ ଯୁଗଳ ଅବକ୍ଷୟ ଚିତ୍ର ଆପଣଙ୍କୁ ଦିଆଯାଏ ଏବଂ ପରେ ଅନ୍ୟ ଏକ ଚିତ୍ର ଯାହାକି ଅନ୍ୟ ଚିତ୍ର ସହିତ ଯୋଡି ହେଇ ପାରିବ| ପ୍ରଦତ୍ତ ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରେ ତୁମକୁ ଚିତ୍ର ବାଛିବାକୁ ପଡିବ ଯେଉଁଥିରେ ଦ୍ଵିତୀୟ ଯୋଡିର ମଧ୍ୟ ମୂଳ ଯୋଡି ପରି ସମ୍ପର୍କ ରହିଛି |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Repeating Patterns": {
+          "title": "Repeating Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଚାରୋଟି ଅଙ୍କଗୁଡ଼ିକର ଏକ ସେଟ୍ ଦିଆଯାଇଛି ଯାହାର ଏହାର ରିପିଟିଙ୍ଗ୍  ପ୍ୟାଟର୍ଣ୍ଣ ଅଛି | ତୁମକୁ ଚିତ୍ର ବାଛିବାକୁ ପଡିବ ଯାହା କ୍ରମରେ ପରବର୍ତ୍ତୀ ଆସିବ |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "4 minutes"
+        },
+        "Growing Patterns": {
+          "title": "Growing Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଚାରୋଟି ଅଙ୍କଗୁଡ଼ିକର ଏକ ସେଟ୍ ଦିଆଯାଇଛି ଯାହାର ଏହାର ରିପିଟିଙ୍ଗ୍  ପ୍ୟାଟର୍ଣ୍ଣ ଅଛି | ତୁମକୁ ଚିତ୍ର ବାଛିବାକୁ ପଡିବ ଯାହା କ୍ରମରେ ପରବର୍ତ୍ତୀ ଆସିବ |."
+            }
+          ],
+          "quesCount": 8,
+          "time": "2 minutes"
+        },
+        "Reducing Patterns": {
+          "title": "Reducing Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଚାରୋଟି ଅଙ୍କଗୁଡ଼ିକର ଏକ ସେଟ୍ ଦିଆଯାଇଛି ଯାହର ରିଡ୍ୟୁସିଙ୍ଗ୍ / ହ୍ରାସ ପଦ୍ଧତି ଅଛି | ତୁମକୁ ଚିତ୍ର ବାଛିବାକୁ ପଡିବ ଯାହା କ୍ରମରେ ପରବର୍ତ୍ତୀ ଆସିବ |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Abstract Classification": {
+          "title": "Abstract Classification",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପାଞ୍ଚଟି ଅଙ୍କର ଏକ ସେଟ୍ ଦିଆଯାଇଛି ଯାହା ମଧ୍ୟରେ ଆପଣଙ୍କୁ ଏକ ଅଡୁଆ ବାଛିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        }
+      },
+      "Mechanical Reasoning": {
+        "Tools Analogy": {
+          "title": "Tools Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ଉପକରଣକୁ ଚିହ୍ନିବାକୁ ହେବ ଏବଂ ପ୍ରଦତ୍ତ ପସନ୍ଦଗୁଡ଼ିକରୁ ଅତି ଘନିଷ୍ଠ ସମ୍ବନ୍ଧୀୟ ଉପକରଣ କିମ୍ବା ବସ୍ତୁ ବାଛିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mechanical Aptitude": {
+          "title": "Mechanical Aptitude",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କର ଯାନ୍ତ୍ରିକ ଦକ୍ଷତା ପରୀକ୍ଷା କରାଯିବ | ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନ ପାଇଁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକରୁ ଆପଣଙ୍କୁ ସଠିକ୍ ଉତ୍ତର ବାଛିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 12,
+          "time": "12 minutes"
+        }
+      },
+      "Numerical Aptitude": {
+        "Computation": {
+          "title": "Computation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ କିଛି ମୌଳିକ ଗାଣିତିକ କାର୍ଯ୍ୟ କରିବାକୁ ପଡିବ ଯେପରିକି ଯୋଗ, ବିତରଣ, ଗୁଣନ ଏବଂ ବିଭାଜନ |"
+            }
+          ],
+          "quesCount": 10,
+          "time": "2 minutes"
+        },
+        "Arithmetic Reasoning": {
+          "title": "Arithmetic Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ କିଛି ଗାଣିତିକ ସମସ୍ୟା ଦିଆଯିବ | ଦିଆଯାଇଥିବା ଚାରୋଟି ବିକଳ୍ପ ମଧ୍ୟରେ ସଠିକ୍ ଉତ୍ତର ଖୋଜିବା ପାଇଁ ଆପଣଙ୍କୁ ଏହି ସମସ୍ୟାର ସମାଧାନ କରିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 20,
+          "time": "8 minutes"
+        },
+        "Number Series": {
+          "title": "Number Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଏକ କ୍ରମର ସଂଖ୍ୟା ଦିଆଯିବ ଯେଉଁଥିରେ ଗୋଟିଏ ସଂଖ୍ୟା ନିଖୋଜ ହେବ | ଆପଣଙ୍କୁ କ୍ରମରେ ନିଖୋଜ ନମ୍ବର ଖୋଜିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Number Puzzles": {
+          "title": "Number Puzzles",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ କିଛି ସଂଖ୍ୟା ପଜଲ୍ ସମାଧାନ କରିବାକୁ ପଡିବ | ଚିତ୍ର ସହିତ ବିଭିନ୍ନ ସ୍ଥାନରେ ସେମାନଙ୍କ ସ୍ଥାନିତ ପାଇଁ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ନିୟମ ଅନୁସରଣ କରି ଏକ ସଂଖ୍ୟାରେ ଅଳ୍ପ ସଂଖ୍ୟା ଭର୍ତ୍ତି କରାଯାଇଥାଏ | ପ୍ରଦତ୍ତ ଚିତ୍ରରେ ଆପଣଙ୍କୁ ନିଖୋଜ ସଂଖ୍ୟା ଖୋଜିବାକୁ ପଡିବ |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/number_puzzles.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Solution.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>5 x 2 + 2 = 12;</span> &nbsp;&nbsp; <span>12 x 2 + 2 = 26;</span></p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>26 x 2 +2 = 54;</span></p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      },
+      "Perceptual Aptitude": {
+        "Analogy Figures": {
+          "title": "Analogy Figures",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପାଞ୍ଚଟି ବସ୍ତୁର ଏକ ସେଟ୍ ଦିଆଯିବ ଯାହା ମଧ୍ୟରେ ଦୁଇଟି ସମାନ | ଆପଣଙ୍କୁ ମେଳ ଖାଉଥିବା ଯୋଡି ଖୋଜିବାକୁ ପଡିବ ଏବଂ ସେହି ଅନୁଯାୟୀ ଉତ୍ତର ବିକଳ୍ପ ବାଛିବାକୁ ପଡ଼ିବ ।"
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Perceptual Speed": {
+          "title": "Perceptual Speed",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣ ଚାରି ଯୁଗଳ ଇଂରାଜୀ ଅକ୍ଷର ଦେଖିବେ | ପ୍ରତ୍ୟେକ ଯୋଡିକୁ ନିଜ ନିଜ ବାକ୍ସରେ ରଖାଯାଇଛି | କେତେ ଯୁଗଳ ଅକ୍ଷର ଧାରଣ କରନ୍ତି ତାହା ତୁମେ ନିଶ୍ଚୟ ସ୍ଥିର କରିବ | ଏହି ପରୀକ୍ଷଣରେ କ୍ୟାପିଟାଲ୍ ଅକ୍ଷରଗୁଡିକ [ଯେପରି ‘F’] ଛୋଟ ଅକ୍ଷରଗୁଡ଼ିକ ସହିତ ସମାନ |</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/perceptual_speed.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "2 minutes"
+        },
+        "Analogy Codes": {
+          "title": "Analogy Codes",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆନାଲୋଜି କୋଡ୍ସ୍ ସହିତ କାର୍ଯ୍ୟ କରିବାବେଳେ ତୁମର ଅନୁରୂପ ଯୁକ୍ତିଯୁକ୍ତ ଦକ୍ଷତା ପରୀକ୍ଷା କରାଯିବ | ଆପଣଙ୍କୁ ଦୁଇଟି ଆଲ୍ଫାନ୍ୟୁମେରିକ କୋଡ୍/ ଯୁଗଳ ବର୍ଣ୍ଣମାଳା ସଂକେତ ଦିଆଯିବ ଯାହା ସମାନ ସମ୍ପର୍କ ବାଣ୍ଟିଥାଏ | ଏକ ତୃତୀୟ ଅସମ୍ପୂର୍ଣ୍ଣ ଯୋଡି ମଧ୍ୟ ଦିଆଯିବ | ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ଚାରୋଟି ବିକଳ୍ପ ମଧ୍ୟରେ କୋଡ୍ ବାଛିବାକୁ ପଡିବ ଯେଉଁଥିରେ ତୃତୀୟ ଯୋଡିର ମଧ୍ୟ ପ୍ରଥମ ଦୁଇଟି ପରି ସମାନ ସମ୍ପର୍କ ଥିବ |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "2 minutes"
+        },
+        "Perceptual Classification": {
+          "title": "Perceptual Classification",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପାଞ୍ଚଟି ଆଲ୍ଫାନ୍ୟୁମେରିକ କୋଡ୍/   ବର୍ଣ୍ଣମାଳା ସଂକେତର ଏକ ସେଟ୍ ଦିଆଯିବ ଯାହା ମଧ୍ୟରେ ଯେଉଁଟି ଅଲଗା ଆପଣଙ୍କୁ ବାଛିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Alpha Numeric Series": {
+          "title": "Alpha Numeric Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଚାରୋଟି ଆଲ୍ଫାନ୍ୟୁମେରିକ କୋଡ୍ / ବର୍ଣ୍ଣମାଳା ସଂକେତର ଏକ ସେଟ୍ ଦିଆଯିବ ଯେଉଁଥିରେ ଏହାର ଏକ ପ୍ୟାଟର୍ଣ୍ଣ ଅଛି | ଚାରୋଟି ଦିଆଯାଇଥିବା ବିକଳ୍ପ ମଧ୍ୟରୁ ଆପଣଙ୍କୁ ଖୋଜିବାକୁ ପଡିବ  କେଉଁଟି କ୍ରମରେ ପରବର୍ତ୍ତୀ ସମୟରେ ଆସିବ | "
+            }
+          ],
+          "quesCount": 8,
+          "time": "2 minutes"
+        },
+        "Perceptual Series Completion": {
+          "title": "Perceptual Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଚାରୋଟି ଆକୃତିର ଏକ ସେଟ୍ ଦିଆଯିବ ଯାହାର ଏକ ପ୍ୟାଟର୍ଣ  ଅଛି | ଆପଣଙ୍କୁ ଖୋଜିବାକୁ ପଡିବ ଚାରୋଟି ଦିଆଯାଇଥିବା ବିକଳ୍ପ ମଧ୍ୟରୁ କେଉଁଟି କ୍ରମରେ ପରବର୍ତ୍ତୀ ସମୟରେ ଆସିବ | "
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        }
+      },
+      "Spatial Aptitude": {
+        "Matching Pieces and Parts": {
+          "title": "Matching Pieces and Parts",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ 4 - 5 ଖଣ୍ଡର ଏକ ସେଟ୍ ଦିଆଯିବ ଏବଂ ଆପଣଙ୍କୁ ଉତ୍ତର ପସନ୍ଦ ଚୟନ କରିବାକୁ ପଡିବ ଯାହାକି ସମସ୍ତ ଦିଆଯାଇଥିବା ଖଣ୍ଡଗୁଡ଼ିକୁ ନେଇ ଗଠିତ ଏକ ଚିତ୍ରକୁ ପ୍ରତିନିଧିତ୍ୱ କରେ | ଖଣ୍ଡଗୁଡ଼ିକ ଘୂର୍ଣ୍ଣନ ଏବଂ / କିମ୍ବା ପ୍ରତିଫଳିତ ହୋଇପାରେ |"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Understanding Patterns": {
+          "title": "Understanding Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ 4 - 5 ଖଣ୍ଡର ଏକ ସେଟ୍ ଦିଆଯିବ ଏବଂ ଆପଣଙ୍କୁ ଉତ୍ତର ପସନ୍ଦ ଚୟନ କରିବାକୁ ପଡିବ ଯାହାକି ସମସ୍ତ ଦିଆଯାଇଥିବା ଖଣ୍ଡଗୁଡ଼ିକୁ ନେଇ ଗଠିତ ଏକ ଚିତ୍ରକୁ ପ୍ରତିନିଧିତ୍ୱ କରେ | ଖଣ୍ଡଗୁଡ଼ିକ ଘୂର୍ଣ୍ଣନ ଏବଂ / କିମ୍ବା ପ୍ରତିଫଳିତ ହୋଇପାରେ |e"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>ପରୀକ୍ଷା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ, ଏକ ନମୁନା ସମସ୍ୟା ଏବଂ ଏହାର ସମାଧାନ ଦେଖିବା</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/understanding_patterns.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Visual Estimation": {
+          "title": "Visual Estimation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପାଞ୍ଚଟି ବସ୍ତୁର ଏକ ସେଟ୍ ଦିଆଯିବ ଯାହା ମଧ୍ୟରେ ଦୁଇଟି ସମାନ | ଆପଣଙ୍କୁ ମେଳ ଖାଉଥିବା ଯୋଡି ଖୋଜିବାକୁ ପଡିବ ଏବଂ ସେହି ଅନୁଯାୟୀ ଉତ୍ତର ବିକଳ୍ପ ବାଛିବାକୁ ପଡ଼ିବ ।"
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mirror Image": {
+          "title": "Mirror Image",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ଚାରୋଟି ବିକଳ୍ପରୁ ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ଚିତ୍ରର ସଠିକ ଦର୍ପଣ ପ୍ରତିଛବି ବାଛିବାକୁ ପଡିବ | ପ୍ରଶ୍ନର ବିନ୍ଦୁ ରେଖା ଦର୍ପଣକୁ ପ୍ରତିପାଦିତ କରେ | "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Verbal Aptitude": {
+        "Selecting Words": {
+          "title": "Selecting Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକରୁ ସବୁଠାରୁ ଉପଯୁକ୍ତ ଶବ୍ଦ (ଗୁଡିକ) ସହିତ ଖାଲି ସ୍ଥାନଗୁଡିକ ପୂରଣ କରିବାକୁ ପଡିବ "
+            }
+          ],
+          "quesCount": 6,
+          "time": "4 minutes"
+        },
+        "Antonyms": {
+          "title": "Antonyms",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପାଞ୍ଚଟି ଅଙ୍କର ଏକ ସେଟ୍ ଦିଆଯାଇଛି ଯାହା ମଧ୍ୟରେ ଆପଣଙ୍କୁ ଏକ ଅଡୁଆ ବାଛିବାକୁ ପଡିବ | "
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Spellings": {
+          "title": "Spellings",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଚାରୋଟି ଶବ୍ଦର ଏକ ସେଟ୍ ଦିଆଯିବ ଯେଉଁଥିରେ କେବଳ ଗୋଟିଏ ସଠିକ୍ ବନାନ କରାଯାଇଛି | ତୁମକୁ ସଠିକ୍ ବନାନ ଶବ୍ଦ ଖୋଜିବାକୁ ପଡିବ |"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Synonyms": {
+          "title": "Synonyms",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ଦିଆଯାଇଥିବା ବିକଳ୍ପଗୁଡ଼ିକ ମଧ୍ୟରେ ସବୁଠାରୁ ଉପଯୁକ୍ତ ଶବ୍ଦ ବାଛିବାକୁ ପଡିବ ଯାହା ପ୍ରଶ୍ନରେ ଦିଆଯାଇଥିବା ଶବ୍ଦ ସହିତ ସମାନ ଅର୍ଥ ପ୍ରଦାନ କରିଥାଏ (ଯଥା ସମକକ୍ଷ) |"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Sentence Formation": {
+          "title": "Sentence Formation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନରେ, ଆପଣଙ୍କୁ ପାଞ୍ଚ କିମ୍ବା ଅଧିକ ଭାଗରେ ବିଭକ୍ତ ଏକ ବାକ୍ୟ ଦିଆଯିବ | ଏକ ଅର୍ଥପୂର୍ଣ୍ଣ ବାକ୍ୟ ପ୍ରସ୍ତୁତ କରିବାକୁ ଆପଣଙ୍କୁ ଏହି ଅଂଶଗୁଡିକରେ ଯୋଗ ଦେବାକୁ ପଡିବ | ଅଂଶଗୁଡ଼ିକର ସଠିକ କ୍ରମ ହେଉଛି ସଠିକ୍ ଉତ୍ତର | "
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      }
+    }
+  }
+}

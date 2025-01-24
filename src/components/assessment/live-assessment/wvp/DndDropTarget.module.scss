@@ -1,0 +1,45 @@
+@import "../../../../utils/variables.scss";
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: $wvpDropMargin;
+    margin-bottom: $wvpDropMargin;
+    background-color: white;
+
+    .targetWrapper,
+    .textWrapper {
+        width: $wvpDropWidth;
+        height: $wvpDropHeight;
+        border: 1px solid #f0f0f0;
+        border-radius: 2px;
+        padding: 5px;
+        border-radius: 2px !important;
+    }
+
+    // .textWrapper {
+    //     background-color: $themePurple;
+    //     color: white;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     text-align: center;
+    //     font-weight: 500;
+    // }
+}
+
+.wrapper.overActive {
+    background-color: #ead1ff;
+}
+
+@media screen and (max-width: 1450px) {
+    .wrapper {
+        margin-right: 5px !important;
+        .targetWrapper {
+            max-width: 190px !important;
+            min-width: 190px !important;
+        }
+    }
+}

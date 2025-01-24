@@ -1,0 +1,93 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+    .loaderWrapper {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+
+        .field {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+
+            label {
+                display: block !important;
+                color: rgba(1, 1, 1, 0.5);
+                font-size: 14px;
+                width: 150px;
+            }
+
+            .textField {
+                width: 70%;
+
+                input {
+                    width: 100%;
+                    border-radius: 2px !important;
+                    height: 50px;
+                    border-radius: 8px;
+                    background-color: #fcf7ff;
+                    border: none;
+                    padding-left: 15px;
+                }
+            }
+        }
+
+        .success {
+            margin-top: 20px;
+            color: #45cc7b;
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+        .incorrectCreds {
+            color: red;
+            margin-bottom: 15px;
+        }
+        .btnContainer {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+        }
+        .editBtn {
+            border: 1px solid $themePurple;
+            box-shadow: 0px 3px 6px #9456c866;
+            width: 90px;
+            background-color: white;
+            height: 32px;
+            border-radius: 5px;
+            color: $themePurple;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        form {
+            .field {
+                flex-direction: column;
+
+                label,
+                .textField {
+                    width: 100% !important;
+                }
+
+                label {
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}

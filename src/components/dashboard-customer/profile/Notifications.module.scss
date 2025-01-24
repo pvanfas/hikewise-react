@@ -1,0 +1,46 @@
+.wrapper {
+    padding-top: 10px;
+
+    .loaderWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+    }
+
+    .notifItem {
+        &:first-child {
+            margin-top: 0;
+        }
+
+        border-bottom: 1px solid #eeeeee;
+        margin: 20px 0;
+        display: flex;
+        padding-bottom: 10px;
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+
+            .image {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: #eeeeee;
+            }
+        }
+
+        .title {
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+
+        .body {
+            font-size: 14px;
+            color: #4f4f4f;
+        }
+    }
+}

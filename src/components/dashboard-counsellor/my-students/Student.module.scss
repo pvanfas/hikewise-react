@@ -1,0 +1,210 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+  .title {
+    font-size: 18px;
+  }
+
+  .header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .buttons {
+      display: flex;
+
+      button:first-child {
+        width: 16em;
+        margin-right: 1em;
+      }
+    }
+
+    button {
+      background-color: $themePurple;
+      color: white;
+      width: 120px;
+      border-radius: 5px;
+      height: 35px;
+      font-weight: 600;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-left: auto;
+
+      svg {
+        width: 18px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .surveyColumns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .loaderWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+  }
+
+  .secTitle {
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+    font-size: 1.2rem;
+    width: 100%;
+    color: $themePurple;
+    font-weight: 600;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+
+    > div {
+      margin-right: 1.5em;
+    }
+  }
+
+  .surveyRow {
+    display: flex;
+
+    > div {
+      width: calc(50% - 1.5em);
+      margin-right: 1.5em;
+    }
+
+    .surveyColumn {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .areaContainer {
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .checkBoxes {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-bottom: 1em;
+
+    .check {
+      width: fit-content;
+    }
+
+    article {
+      margin-right: 15px;
+    }
+  }
+
+  .survey {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    h3 {
+      margin-bottom: 2em;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .tabs {
+      display: flex;
+
+      article {
+        width: 170px;
+        height: 33px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(1, 1, 1, 0.1);
+        padding-inline: 10px;
+        margin-right: 2em;
+        cursor: pointer;
+        font-size: 0.9rem;
+      }
+
+      article.active {
+        background-color: $themePurple;
+        color: white;
+      }
+    }
+
+    .responses {
+      margin-top: 2em;
+
+      article {
+        margin-bottom: 1em;
+
+        span {
+          display: inline-block;
+        }
+
+        span.ques {
+          font-size: 0.9rem;
+          width: 350px;
+          margin-right: 4em;
+          color: rgba(1, 1, 1, 0.7);
+        }
+
+        span.ans {
+          span {
+            margin-right: 0.5em;
+          }
+        }
+      }
+    }
+
+    .noResp {
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    .surveyColumns {
+      flex-direction: column;
+      width: 100%;
+
+      // .surveyRow {
+      //   flex-direction: column;
+
+      //   > div {
+      //     width: 100%;
+      //     margin-bottom: 50px;
+      //   }
+      // }
+    }
+
+    .row {
+      flex-direction: column;
+
+      .areaContainer {
+        margin-bottom: 50px;
+        width: 100%;
+      }
+
+      > div {
+        width: 100%;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

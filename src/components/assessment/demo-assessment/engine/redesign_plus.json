@@ -1,0 +1,458 @@
+{
+  "tabs": [
+    {
+      "name": "Personality",
+      "key": "personality",
+      "isDone": false
+    },
+    {
+      "name": "Aptitude",
+      "key": "aptitude",
+      "isDone": false
+    },
+    {
+      "name": "Interest",
+      "key": "interest"
+    },
+    {
+      "name": "WVP",
+      "key": "wvp"
+    },
+    {
+      "name": "EQ",
+      "key": "eq"
+    }
+  ],
+  "content": [
+    {
+      "type": "TEST_INTRO"
+    },
+    {
+      "type": "QUESTION",
+      "quesType": "TEXT",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I am not interested in other people’s problems",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I see beauty in things that others might not notice",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I see myself as a good leader",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I can handle a lot of information",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I formulate ideas clearly",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I am out for my own personal gain",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I rarely get caught up in the excitement",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I keep my emotions under control",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "Pick out the most effective word(s) from the given words to fill in the blank to make the sentence meaningfully complete.",
+        "title": "In a little-publicised deal, Pepsi, Cola has ...... the entire soft drink market in Afghanistan.",
+        "options": ["occupied", "conquered", "swallowed", "captured"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In the following question, select the missing number from the given alternatives.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Picture1.png",
+        "options": ["49", "50", "48", "55"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "In each question, an incomplete statement (Stem) followed by fillers is given. Pick out the best one which can complete incomplete stem correctly and meaningfully.",
+        "title": "Although, he is reputed for making very candid statements......",
+        "options": [
+          "his today speech was not fairly audible",
+          "his promises had always been realistic",
+          "his speech was very interesting",
+          "people follow whatever he instructs to them",
+          "his today's statements were very ambiguous"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In this section, you will see four pairs of English letters. Each pair has been put into its own box. You must decide how many pairs contain letters that are the same. In this test capital letters [like ‘F’] are the same as small letters [like ‘f’]",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Picture2.png",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "In the following figure, there are two figures in the left of sign (::) which are connected in some way. The same relationship exists between thethird figure and one of the four alternatives. Find the correct alternative.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_PA_T5_Q6.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_PA_T5_A6a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_PA_T5_A6b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_PA_T5_A6c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_PA_T5_A6d.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "",
+        "title": "A group of 14 friends bought a boat costing Rs 14700. Each of the friends paid an equal share of the cost. How much did each person pay?",
+        "options": ["Rs 1020", "Rs 1050", "Rs 1150", "Rs 1245"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "From the information provided to you in symbol form in the two groups, choose an answer from the below options that shares the trait which is characteristic of Group 1.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Picture4.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_AR_T-II----A2a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_AR_T-II----A2b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_AR_T-II----A2d.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/AP_AR_T-II----A2e.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "Identify the relationship between given symbols, and pick the correct symbol from the below four options that you feel best continues the series. ",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Picture5.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_PA_T1_A3a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_PA_T1_A3b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_PA_T1_A3c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_PA_T1_A3d.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "What is the next shape in this series? ",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Picture6.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/AP_AR_T-I----A3e.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_AR_T-I----A3a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_AR_T-I----A3b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_AR_T-I----A3c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/redesign_plus/Redesign_AP_AR_T-I----A3d.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "Which of phrases given below each sentence should replace the phrase printed in bold type to make the grammatically correct? If the sentence is correct as it is, mark 'E' as the answer.",
+        "title": "The population of Tokyo is <strong>greater than that of any other</strong> town in the world.",
+        "options": [
+          "greatest among any other",
+          "greater than all other",
+          "greater than those of any other",
+          "greater than any other",
+          "No correction required"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Manage a department within a large company",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Help people with family-related problems",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Be responsible for the operation of a company",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Edit videos",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Help people with personal or emotional problems",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Negotiate business contracts",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Schedule conferences for an organization",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Start your own business",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Study the personalities of world leaders",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Buy and sell stocks and bonds",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Plan a research study",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Do volunteer work at a non-profit organization",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 110,
+      "type": "GIF",
+      "tabKey": "wvp"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "When someone directly criticizes your behaviour, how will you behave?",
+        "options": [
+          "Tend to close up and stop listening.",
+          "Carefully listen to their opinion.",
+          "Tend to get upset about it.",
+          "Think of ways to change your behaviour."
+        ]
+      },
+      "tabKey": "eq"
+    },
+    {
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "As CEO of a company, during a meeting with the union, one of the union leaders levels serious allegations of corruption and favouritism against you. How will you react?",
+        "options": [
+          "Continue with the discussion and listen to their demands with a cool head.",
+          "Ask the union leader to make allegations in writing and offer an impartial enquiry.",
+          "Cancel further negotiation and ask the union leader to apologise first.",
+          "Leave the room after assigning the responsibility to your subordinate to continue with the meeting."
+        ]
+      },
+      "tabKey": "eq"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+    padding: 20px;
+    background-color: white;
+    width: fit-content;
+
+    .title {
+        margin-bottom: 40px;
+    }
+
+    .tableWrapper {
+        max-width: 600px;
+        height: 400px;
+        table {
+            border-collapse: collapse;
+            thead {
+                tr {
+                    th {
+                        font-weight: 400;
+                        height: 50px;
+                        vertical-align: top;
+                        color: #9b9eac;
+                        text-align: left;
+                        &:first-child {
+                            width: 220px;
+                        }
+                        &:nth-child(2) {
+                            width: 150px;
+                        }
+                        &:nth-child(3) {
+                            width: 120px;
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    cursor: pointer;
+                    border: none;
+
+                    td {
+                        border: none;
+                        height: 50px;
+                        vertical-align: middle;
+                    }
+                    td:first-child {
+                        padding-left: 10px;
+                    }
+                }
+                tr:nth-child(even) {
+                    background-color: #f5f6fa;
+                    color: $themePurple;
+                }
+            }
+        }
+    }
+}

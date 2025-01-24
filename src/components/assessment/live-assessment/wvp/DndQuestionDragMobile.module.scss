@@ -1,0 +1,28 @@
+@import "../../../../utils/variables.scss";
+
+.wrapper {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid $themePurple;
+    color: $themePurple;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.wrapper.dragActive {
+    opacity: 0;
+}
+
+.wrapper.dropped {
+    width: 100% !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: $themePurple;
+    color: white;
+}

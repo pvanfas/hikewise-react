@@ -1,0 +1,98 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    box-shadow: 0px 2px 4px #00000005;
+    border-radius: 5px;
+
+    .header {
+        margin-bottom: 30px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .tableWrapper {
+        max-height: 500px;
+        overflow-y: auto;
+        width: 100%;
+        background-color: white;
+        padding: 20px;
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow-x: auto;
+
+            min-width: 800px;
+            overflow-x: auto;
+
+            thead {
+                position: -webkit-sticky;
+                position: sticky;
+                top: -1px;
+                z-index: 5;
+                background: #fff;
+
+                tr {
+                    th {
+                        font-weight: 400;
+                        height: 40px;
+                        vertical-align: top;
+                        color: #9b9eac;
+                        text-align: left;
+                        border: none;
+
+                        &:first-child {
+                            width: 400px;
+                            padding-left: 10px;
+                        }
+                        &:nth-child(2) {
+                            width: 180px;
+                        }
+                        &:nth-child(3) {
+                            width: 120px;
+                        }
+                        &:nth-child(4) {
+                            text-align: left;
+                            margin-left: auto;
+                            padding-right: 40px;
+                            padding-left: 50px;
+                        }
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    cursor: pointer;
+                    border: none;
+
+                    td {
+                        border: none;
+                        height: 60px;
+                        vertical-align: middle;
+                    }
+                    td:first-child {
+                        padding-left: 10px;
+                    }
+                    td:nth-child(4) {
+                        text-align: left;
+                        width: 200px;
+                        margin-left: auto;
+                        padding-left: 50px;
+
+                        button {
+                            width: 80px;
+                            height: 32px;
+                            background-color: $themePurple;
+                            color: white;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+                tr:nth-child(odd) {
+                    background-color: #f5f6fa;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,141 @@
+@import ".../../../../utils/variables.scss";
+
+.wrapper {
+  min-width: 380px;
+  max-width: 380px;
+  margin-bottom: 30px;
+  padding-inline: 1em;
+
+  box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 1em;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 35em;
+  padding-bottom: 80px;
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    margin-top: 2em;
+    padding-inline: 1.1em;
+
+    span {
+      color: #9456c8;
+      font-size: 0.85rem;
+      cursor: pointer;
+      margin-bottom: 0.4em;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .hotWord {
+    position: absolute;
+    top: 20px;
+    background-color: #3ccf8e;
+    padding: 0px 5px;
+    height: 25px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+  }
+
+  .title {
+    color: #242f40;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  .pricing {
+    height: 50px;
+    margin-bottom: 10px;
+
+    .currency {
+      display: inline-block;
+      margin-top: auto;
+      font-size: 20px;
+      margin-right: 2px;
+      color: #5b6b82;
+    }
+
+    .price {
+      font-size: 35px;
+      font-weight: 600;
+      color: $themePurple;
+    }
+
+    .interval {
+      color: #5b6b82;
+      font-size: 20px;
+    }
+  }
+
+  ul.features {
+    width: 100%;
+    padding: 0 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    li {
+      list-style-type: none;
+      margin: 10px 0;
+      color: #666666;
+      font-weight: 400;
+      font-size: 15px;
+      width: 95%;
+
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start !important;
+      text-align: left !important;
+      margin-bottom: 2px;
+
+      svg,
+      span {
+        width: 15px;
+        color: #03a1fc;
+        margin-right: 10px;
+        padding-bottom: 3px;
+      }
+
+      &.link {
+        font-size: 0.9rem;
+        color: $themePurple !important;
+        margin-bottom: -5px !important;
+
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    li.last {
+      margin-bottom: 1.5em;
+    }
+
+    .feature {
+      margin: 5px;
+    }
+  }
+
+  position: relative;
+  button {
+    position: absolute;
+    bottom: 1.5em;
+  }
+}

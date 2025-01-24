@@ -1,0 +1,18 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    background-color: $themePurple;
+    color: white;
+    box-shadow: 0px 2px 10px 0 rgba(198, 130, 255, 0.52);
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:disabled {
+        background-color: #e6e6e6;
+        color: #b5b5b5;
+        border: none;
+    }
+}

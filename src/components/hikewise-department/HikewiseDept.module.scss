@@ -1,0 +1,618 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+  padding-top: 8em;
+  background-color: #fcfcfc;
+
+  .loaderWrapper {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    color: #616161;
+  }
+
+  .hPadding {
+    padding-inline: 100px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+
+    h3 {
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 1.5em;
+      span {
+        color: $themePurple;
+      }
+    }
+
+    .introText {
+      text-align: center;
+      font-size: 1.5rem;
+      width: 100%;
+      max-width: 68ch;
+      line-height: 34px;
+    }
+  }
+
+  .columns {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: calc(min(100%, 20em)) !important;
+
+      .titleBox.active {
+        opacity: 1;
+        box-shadow: 2px 2px 15px rgba(1, 1, 1, 0.2);
+      }
+
+      .titleBox {
+        cursor: pointer;
+        width: 250px;
+        height: 60px;
+        border-radius: 10px;
+        background: transparent linear-gradient(90deg, #9456c8 0%, #c682ff 100%) 0% 0% no-repeat padding-box;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        opacity: 1;
+
+        span {
+          margin-left: 5px;
+          padding-top: 6px;
+        }
+      }
+
+      .dots {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        span {
+          background-color: $themePurple;
+          display: inline-block;
+          width: 2px;
+          height: 2px;
+          margin-bottom: 0.2em;
+        }
+      }
+
+      @keyframes appearBoxes {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes appearBox {
+        from {
+          height: 0em;
+        }
+        to {
+          height: 5.5em;
+        }
+      }
+
+      .boxes {
+        padding-bottom: 1em;
+        animation: appearBoxes 0.7s;
+
+        .box {
+          background-color: white;
+          box-shadow: -20.78px 12px 79px #1042611a;
+          padding-inline: 1.5em;
+          width: 550px;
+          border-radius: 15px;
+          color: #616161;
+
+          animation: appearBox 0.3s;
+
+          display: flex;
+          align-items: center;
+          height: 5.5em;
+        }
+      }
+    }
+
+    .column:nth-child(1) {
+      .boxes {
+        transform: translateX(20%);
+
+        .dots {
+          transform: translateX(-20%);
+        }
+      }
+    }
+    .column:nth-child(3) {
+      .boxes {
+        transform: translateX(-20%);
+
+        .dots {
+          transform: translateX(20%);
+        }
+      }
+    }
+  }
+
+  .features {
+    padding: 8em 0;
+
+    .feature {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10rem;
+
+      .desc {
+        width: 40%;
+        padding-right: 1.5em;
+
+        .title {
+          font-size: 1.4rem;
+        }
+
+        .descText {
+          padding: 2em 0;
+          color: #858585;
+          width: 100%;
+          max-width: 40ch;
+          line-height: 24px;
+        }
+
+        button {
+          font-size: 16px;
+          background-color: $themePurple;
+          color: white;
+          width: 120px;
+          height: 40px;
+          box-shadow: -1.1px 9px 21px #9456c83b;
+          border-radius: 5px;
+        }
+      }
+    }
+
+    .feature.alt {
+      display: flex;
+      justify-content: space-between;
+
+      .desc {
+        padding-left: 5em;
+        order: 2;
+      }
+      .featureCards {
+        order: 1;
+        padding-left: unset;
+      }
+    }
+  }
+
+  @keyframes appearImage {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.9;
+    }
+  }
+
+  .imageAppearAnim {
+    animation: appearImage 800ms ease-in;
+  }
+
+  /* Common feature cards for both feature sections */
+  .featureCards {
+    width: 55%;
+    padding-left: 1em;
+
+    .featureCard {
+      padding: 1.5em;
+      margin-bottom: 2em;
+      background-color: #ffffff;
+      box-shadow: 0px 1px 5px rgba(1, 1, 1, 0.1);
+      border-radius: 10px;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: 0px 3px 6px #00000029;
+      }
+
+      display: flex;
+      align-items: center;
+
+      .image {
+        img {
+          width: 60px;
+        }
+      }
+
+      .right {
+        padding-left: 2em;
+
+        .title {
+          margin-bottom: 0.5em;
+          font-weight: 500;
+        }
+
+        .feat {
+          width: 100%;
+          max-width: 55ch;
+        }
+      }
+    }
+  }
+
+  .features2 {
+    padding-bottom: 50px;
+
+    .tempImageCarousel {
+      display: none;
+      padding-bottom: 2em !important;
+      .slide {
+        width: 100% !important;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    h3 {
+      font-weight: 600;
+      margin-bottom: 3em;
+    }
+
+    .feature {
+      margin-bottom: 8em;
+      display: flex;
+      width: 100%;
+
+      .content {
+        width: 50%;
+        z-index: 2;
+      }
+
+      .templateImage {
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+        z-index: 1;
+        padding-left: 1em;
+
+        img {
+          width: 100%;
+          opacity: 0.9;
+          position: relative;
+        }
+      }
+    }
+    .feature.alt {
+      display: flex;
+      justify-content: space-between;
+
+      .content {
+        order: 2;
+      }
+
+      .templateImage {
+        padding-right: 1em;
+        padding-left: 0em;
+
+        img {
+          width: 90%;
+          opacity: 0.9;
+        }
+      }
+    }
+
+    /* Base style remains same as from previous features*/
+    .featureCards {
+      width: 100%;
+
+      .featureCard {
+        .right {
+          .title {
+            color: $themePurple;
+            font-size: 1.1rem;
+          }
+        }
+      }
+
+      /* For the special title */
+      .featureCard.active {
+        box-shadow: 0px 3px 6px #00000029;
+
+        .right {
+          position: relative;
+          padding-top: 15px;
+
+          .title {
+            position: absolute;
+            box-shadow: 0px 3px 6px #00000029;
+
+            top: -50px;
+            left: 30px;
+            background-color: #c682ff;
+            color: white;
+            padding: 1em 2em;
+            border-radius: 8px;
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+
+  .plans {
+    text-align: center;
+    background-color: #f5fafd;
+    padding-block: 2em;
+
+    header {
+      text-align: center;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2em;
+
+      p {
+        text-align: center;
+        max-width: 30ch;
+        color: black !important;
+        margin-bottom: 0.5em;
+        font-weight: 500;
+        font-size: 1.3rem;
+      }
+
+      div {
+        color: $themePurple;
+      }
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+
+      .card {
+        margin-right: 30px;
+      }
+      .card:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+
+  .whySection {
+    padding-bottom: 5rem;
+
+    h4,
+    h2,
+    p {
+      text-align: center;
+      font-weight: 500;
+    }
+
+    h4,
+    h2 {
+      margin-bottom: 0.8em;
+      span {
+        color: $themePurple;
+      }
+    }
+
+    p {
+      width: 90%;
+      max-width: 75ch;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .wrapper {
+    .templateImage {
+      display: none !important;
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .wrapper {
+    .featureCards {
+      width: 100%;
+      padding-left: 0;
+      padding-inline: 15px !important;
+
+      .featureCard {
+        padding: 1em;
+
+        .right {
+          .title {
+            text-align: center;
+          }
+
+          .feat {
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .features {
+      padding-top: 2em;
+      padding-bottom: 5em;
+
+      .feature {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5rem !important;
+        padding: 0 !important;
+
+        .desc {
+          width: 100% !important;
+          margin-bottom: 4em;
+          padding-right: 0 !important;
+          padding-left: 0 !important;
+
+          .title {
+            text-align: center;
+          }
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .descText {
+            text-align: center;
+            max-width: 60ch !important;
+          }
+        }
+      }
+
+      .feature.alt {
+        .featureCards {
+          order: 2 !important;
+        }
+      }
+    }
+
+    .features2 {
+      h3 {
+        text-align: center;
+      }
+      .feature {
+        flex-direction: column;
+
+        .content {
+          width: 100%;
+          order: 1 !important;
+        }
+
+        .tempImageCarousel {
+          order: 2 !important;
+          display: block;
+        }
+
+        .featureCards {
+          .featureCard.active {
+            .right {
+              .title {
+                left: 50%;
+                transform: translateX(-50%);
+                width: fit-content;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    .hPadding {
+      padding-inline: 20px;
+    }
+
+    .columns {
+      flex-direction: column;
+      align-items: center;
+
+      .column {
+        max-width: 95%;
+        margin-bottom: 4em;
+
+        .boxes {
+          transform: unset !important;
+
+          .dots {
+            transform: unset !important;
+          }
+        }
+
+        .boxes {
+          margin-top: 1em;
+          .box {
+            text-align: center;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .plans {
+      .cards {
+        flex-direction: column !important;
+        width: 100%;
+        align-items: center;
+
+        article {
+          margin-bottom: 3em !important;
+          position: static;
+          width: calc(min(100%, 25em));
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .wrapper {
+    .featureCards {
+      padding-inline: 5px !important;
+      .featureCard {
+        flex-direction: column;
+
+        .right {
+          padding-left: 0;
+        }
+      }
+    }
+
+    .features2 {
+      .featureCards {
+        .featureCard:first-child {
+          position: relative;
+
+          .image {
+            padding-top: 20px;
+          }
+          .right {
+            position: unset;
+
+            .title {
+              top: -25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    .hPadding {
+      padding-inline: 10px;
+    }
+  }
+}

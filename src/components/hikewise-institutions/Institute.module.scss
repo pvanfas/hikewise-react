@@ -1,0 +1,755 @@
+@import "~utils/variables";
+
+.wrapper {
+    padding-top: $navbarHeight;
+    background-color: #fcfcfc;
+
+    .hero {
+        display: flex;
+        padding-top: 5em;
+        padding-bottom: 5em;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        $textWidth: 55%;
+
+        position: relative;
+        .absoluteGraphic {
+            position: absolute;
+            left: -8em;
+            top: 9em;
+            z-index: 0;
+
+            img {
+                width: 380px;
+            }
+        }
+
+        .text {
+            width: $textWidth;
+            padding-top: 2em;
+
+            z-index: 1;
+
+            .header {
+                font-size: 2.6rem;
+                margin-bottom: 0.5em;
+                font-weight: 500;
+            }
+
+            .subheader {
+                margin-bottom: 1em;
+                font-size: 1.5rem;
+            }
+
+            .para {
+                color: #646464;
+                max-width: 50ch;
+                margin-bottom: 2em;
+                line-height: 23px;
+            }
+        }
+
+        .images {
+            width: calc(100% - #{$textWidth});
+            padding-top: 3em;
+            display: flex;
+            img {
+                width: 15em;
+            }
+
+            .col1,
+            .col2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .image {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 14em;
+                        margin-bottom: 1em;
+                    }
+
+                    div {
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .col1 {
+                margin-top: -2em;
+            }
+
+            .col2 {
+                width: 20em;
+
+                .image:last-child {
+                    padding-left: 7em;
+                    margin-top: 2em;
+                }
+            }
+        }
+    }
+
+    .infographic {
+        padding-top: 5em;
+
+        .title {
+            display: flex;
+            justify-content: center;
+            font-size: 2.2rem;
+            color: $themePurple;
+            font-weight: 600;
+            margin-bottom: 2.5em;
+            text-align: center;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: calc(min(90%, 100%));
+            }
+        }
+    }
+
+    .infographic.infographic2 {
+        margin-top: 4em;
+    }
+
+    .why {
+        display: flex;
+        padding-top: 10em;
+
+        .left {
+            width: 30%;
+
+            .title {
+                font-weight: 500;
+                font-size: 2.2rem;
+                display: flex;
+                justify-content: center;
+
+                span {
+                    color: $themePurple;
+                    margin-left: 5px;
+                }
+            }
+
+            .image {
+                margin-block: 2em;
+                img {
+                    width: 330px;
+                }
+            }
+
+            .button {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        .right {
+            padding-left: 3em;
+
+            .row {
+                display: flex;
+                margin-bottom: 2em;
+
+                article {
+                    border-radius: 5px;
+                    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+                    width: 400px;
+                    height: 320px;
+                    padding: 1em;
+                    border-radius: 10px;
+
+                    &:first-child {
+                        margin-right: 2em;
+                    }
+                    &:last-child {
+                        margin-top: 6em;
+                    }
+
+                    .title {
+                        font-weight: 500;
+                        margin-bottom: 2em;
+                    }
+
+                    .points {
+                        .point {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 0.5em;
+
+                            span:first-child {
+                                img {
+                                    width: 45px;
+                                }
+                            }
+
+                            span:last-child {
+                                color: $themePurple;
+                                padding-left: 1em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .clientelle {
+        padding-top: 10em;
+
+        .top {
+            position: relative;
+            height: 10em;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .absolute {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                font-size: 10rem;
+                font-weight: 500;
+                letter-spacing: 10px;
+                text-align: center;
+                color: $themePurple;
+                opacity: 0.1;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .title {
+                font-weight: 500;
+                font-size: 2.5rem;
+                text-align: center;
+            }
+
+            .numbers {
+                position: relative;
+                text-align: center;
+                font-size: 2rem;
+                padding-inline: 10px;
+
+                span {
+                    color: $themePurple;
+                    font-size: 2rem;
+                }
+
+                span.bold {
+                    font-weight: 600;
+                }
+
+                span.black {
+                    font-weight: 500;
+                    color: black;
+                    padding-left: 10px;
+                    word-break: break-all;
+                }
+            }
+        }
+    }
+
+    .forSchool {
+        padding-top: 2em;
+        padding-bottom: 3em;
+
+        header {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        background-color: #f5fafd;
+
+        .cards {
+            section {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 3em;
+
+                article {
+                    width: 30em;
+                    height: 15em;
+                    margin-right: 5em;
+
+                    span.index {
+                        font-size: 4rem;
+                        font-weight: 500;
+                        display: inline-block;
+                        color: $themePurple;
+                        opacity: 0.1;
+                        margin-left: -0.5em;
+                    }
+
+                    .title {
+                        margin-top: -2.3em;
+                        font-weight: 500;
+                        margin-bottom: 0.5em;
+                    }
+
+                    .body {
+                        color: #646464;
+                        line-height: 23px;
+                    }
+                }
+
+                article:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .button {
+            text-align: center;
+        }
+    }
+
+    .studentPlatform {
+        padding-top: 15em;
+        padding-bottom: 5em;
+
+        $infoWidth: 26%;
+
+        display: flex;
+
+        .info {
+            width: $infoWidth;
+            padding-top: 7em;
+
+            header {
+                font-size: 2.2rem;
+                margin-bottom: 0.5em;
+                font-weight: 500;
+            }
+
+            .button {
+                margin-bottom: 4em;
+            }
+
+            img {
+                width: 300px;
+            }
+        }
+
+        .cards {
+            width: calc(100% - #{$infoWidth});
+            padding-left: 5em;
+            display: flex;
+            justify-content: center;
+            padding-right: -2em;
+            flex-wrap: wrap;
+
+            article {
+                width: 14.5em;
+                height: 21em;
+                padding: 1em;
+                padding-right: 2em;
+                border-radius: 10px;
+                box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+                margin-right: 2.5em;
+                margin-bottom: 2.5em;
+                background-color: white;
+
+                .image {
+                    width: 30%;
+                    margin-bottom: 1em;
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .title {
+                    font-weight: 500;
+                    margin-bottom: 1em;
+                }
+
+                .body {
+                    color: rgba(0, 0, 0, 0.67);
+                    line-height: 22px;
+                }
+            }
+
+            $displacementMargin: 5.5em;
+
+            article#card_5,
+            article#card_2 {
+                position: relative;
+                top: $displacementMargin;
+            }
+
+            article#card_3,
+            article#card_6 {
+                position: relative;
+                top: calc(#{$displacementMargin - 4em});
+            }
+        }
+    }
+
+    .getInTouch {
+        margin-top: 5em;
+    }
+
+    .schoolBenefits {
+        padding-top: 3em;
+
+        header {
+            font-size: 2.2em;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            article {
+                width: 23em;
+                margin-right: 0em;
+                margin-bottom: 4em;
+                padding-right: 3em;
+
+                .title {
+                    font-weight: 500;
+                    margin-bottom: 0.5em;
+                }
+
+                .image {
+                    img {
+                        width: 50px;
+                    }
+                    margin-bottom: 0.5em;
+                }
+
+                .body {
+                    color: rgba(0, 0, 0, 0.67);
+                }
+            }
+        }
+
+        .button {
+            margin-block: 2em;
+            text-align: center;
+        }
+    }
+
+    .testimonials {
+        padding-top: 5em;
+        padding-bottom: 10em;
+        background-color: #fcfcfc;
+
+        header {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+    }
+
+    .howSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .secTitle {
+            font-size: 2rem;
+            margin-block-start: 2em;
+            margin-block-end: 2em;
+        }
+
+        img {
+            width: 80%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .wrapper {
+        .why {
+            .right {
+                .row {
+                    article {
+                        width: fit-content;
+                        height: auto;
+                        min-height: 300px;
+                        max-height: 350px;
+
+                        min-width: 350px;
+                        max-width: 400px;
+                    }
+                }
+            }
+        }
+
+        .studentPlatform {
+            flex-direction: column;
+            padding-top: 5em;
+            padding-bottom: 0em;
+
+            .info {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                header {
+                    text-align: center;
+                }
+
+                p {
+                    max-width: 60ch;
+                    text-align: center;
+                }
+
+                margin-bottom: 4em;
+            }
+
+            .cards {
+                width: 100%;
+                padding-left: 0;
+                justify-content: space-around;
+
+                article {
+                    top: 0 !important;
+                    margin-right: 0.4em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        .why {
+            flex-direction: column;
+
+            .left {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 3em;
+            }
+
+            .right {
+                width: 100%;
+
+                padding-left: 0;
+
+                .row {
+                    width: 100%;
+                    justify-content: center;
+
+                    article {
+                        &:last-child {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .hero {
+            .images {
+                .col1,
+                .col2 {
+                    .image {
+                        img {
+                            width: 12em;
+                        }
+                    }
+                }
+
+                .col2 {
+                    .image:last-child {
+                        padding-left: 0;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper {
+        .schoolBenefits {
+            .cards {
+                article {
+                    margin-right: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .wrapper {
+        .hero {
+            flex-direction: column;
+            padding-top: 2em;
+
+            .absoluteGraphic {
+                display: none;
+                left: -6em;
+                top: 0;
+
+                img {
+                    width: 200px;
+                }
+            }
+
+            .text {
+                width: 100%;
+                padding-left: 0em !important;
+                order: 0;
+
+                .header {
+                    font-size: 2rem;
+                    margin-bottom: 0.4em;
+                }
+
+                .subheader {
+                    margin-bottom: 1em;
+                    font-size: 1.3rem;
+                }
+
+                .para {
+                    width: 100%;
+                }
+            }
+
+            .images {
+                width: 100%;
+
+                .col1,
+                .col2 {
+                    .image {
+                        order: 0;
+                        padding-top: 1em;
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        margin-bottom: 2em;
+                    }
+                }
+            }
+        }
+
+        .why {
+            padding-top: 5em;
+            .right {
+                .row {
+                    flex-direction: column;
+                    margin-bottom: 0;
+
+                    article {
+                        width: 100%;
+                        max-width: unset;
+                        min-width: unset;
+                        max-height: unset;
+                        min-height: unset;
+                        margin-bottom: 3em;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .howSection,
+        .infographic {
+            img {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        .forSchool {
+            .cards {
+                section {
+                    flex-direction: column;
+                    width: 100%;
+                    margin-bottom: 0em !important;
+
+                    article {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: 3em;
+
+                        span.index {
+                            margin-left: auto !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .schoolBenefits {
+            .cards {
+                article {
+                    margin-right: 0em !important;
+                    padding-right: 0;
+
+                    .title {
+                        text-align: center;
+                    }
+
+                    .image {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .body {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .infographic {
+            padding-top: 1em;
+            .title {
+                margin-bottom: 1.5em;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wrapper {
+        .studentPlatform {
+            .cards {
+                article {
+                    width: calc(min(90%, 17em));
+                }
+            }
+        }
+        .clientelle {
+            .top {
+                .absolute {
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+}

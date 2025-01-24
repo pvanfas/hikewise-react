@@ -1,0 +1,363 @@
+@import "../utils/variables.scss";
+
+.Toastify__toast--success {
+    background: #2bba5b !important;
+    color: white !important;
+}
+
+.Toastify__toast--error {
+    background: #f0bc13 !important;
+    color: white !important;
+}
+
+.swiper-pagination-bullet {
+    background: white !important;
+    border: 1px solid $themePurple !important;
+    width: 8px;
+    height: 8px;
+    opacity: 0.5;
+}
+.swiper-pagination-bullet-active {
+    background-color: $themePurple !important;
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+    box-shadow: 0px 8px 5px rgba($themePurple, 0.3);
+}
+
+.swiper-container {
+    padding: 1em !important;
+}
+
+#Page4Wrapper {
+    .swiper-pagination-bullet {
+        border: 1px solid rgba(1, 1, 1, 0.1) !important;
+        background: white !important;
+        opacity: 1;
+        display: inline-block;
+        margin-right: 0.4em;
+        background: #f6f6f6 0% 0% no-repeat padding-box;
+        box-shadow: -1px 1px 3px #00000029;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    .swiper-pagination-bullet-active {
+        display: inline-block;
+        background-color: $themePurple !important;
+        width: 25px;
+        border-radius: 20px;
+        height: 15px;
+        box-shadow: -1px 1px 4px #00000029;
+        margin-right: 0.4em;
+    }
+}
+
+#testCompletionModal {
+    .swiper-pagination-bullet {
+        background: white !important;
+        border: 1px solid $themePurple !important;
+        width: 8px;
+        height: 8px;
+        opacity: 0.5;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: $themePurple !important;
+        opacity: 1;
+        width: 8px;
+        height: 8px;
+        box-shadow: 0px 8px 5px rgba($themePurple, 0.3);
+    }
+}
+
+#Clientelle_Carousel {
+    .swiper-container {
+        padding-bottom: 3em;
+
+        .swiper-pagination-bullet {
+            background: white !important;
+            border: 1px solid $themePurple !important;
+            width: 8px;
+            height: 8px;
+            opacity: 0.5;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: $themePurple !important;
+            opacity: 1;
+            width: 8px;
+            height: 8px;
+            box-shadow: 0px 8px 5px rgba($themePurple, 0.3);
+        }
+    }
+}
+
+#Clientelle_Carousel_New {
+    .swiper-container {
+        padding-bottom: 4em !important;
+
+        .swiper-pagination-bullet {
+            background: white !important;
+            border: 1px solid $themePurple !important;
+            width: 8px;
+            height: 8px;
+            opacity: 0.5;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: $themePurple !important;
+            opacity: 1;
+            width: 8px;
+            height: 8px;
+            box-shadow: 0px 8px 5px rgba($themePurple, 0.3);
+        }
+
+        $width: 25px;
+        $height: 8px;
+
+        .swiper-pagination-bullet {
+            background: #eeeeee !important;
+            border: none !important;
+            box-shadow: none !important;
+            width: $width;
+            height: $height;
+            opacity: 1;
+            border-radius: 10px !important;
+            margin-right: 10px;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: $themePurple !important;
+            opacity: 1;
+            width: $width;
+            height: $height;
+            border-radius: 10px !important;
+            margin-right: 10px;
+        }
+    }
+}
+
+#wvpMobile {
+    .swiper-pagination-bullet {
+        background: white !important;
+        border: 1px solid $themePurple !important;
+        width: 8px;
+        height: 8px;
+        opacity: 0.5;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: $themePurple !important;
+        opacity: 1;
+        width: 8px;
+        height: 8px;
+        box-shadow: 0px 8px 5px rgba($themePurple, 0.3);
+    }
+}
+
+#Testimonials_Carouse {
+    .swiper-container {
+        $width: 40px;
+        $height: 10px;
+
+        .swiper-pagination-bullet {
+            background: #eeeeee !important;
+            border: none !important;
+            box-shadow: none !important;
+            width: $width;
+            height: $height;
+            opacity: 1;
+            border-radius: 10px !important;
+            margin-right: 10px;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: $themePurple !important;
+            opacity: 1;
+            width: $width;
+            height: $height;
+            border-radius: 10px !important;
+            margin-right: 10px;
+        }
+    }
+}
+
+#ReviewsCarousel {
+    .swiper-container {
+        padding-block-end: 50px !important;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 1.5rem;
+        color: $themePurple;
+    }
+
+    .swiper-button-next::after {
+        position: relative;
+        right: 2em;
+    }
+
+    .swiper-button-prev::after {
+        position: relative;
+        left: 2em;
+    }
+
+    $width: 40px;
+    $height: 10px;
+
+    .swiper-pagination-bullets {
+        // bottom: 100px;
+    }
+
+    .swiper-pagination-bullet {
+        background: #eeeeee !important;
+        border: none !important;
+        box-shadow: none !important;
+        width: $width;
+        height: $height;
+        opacity: 1;
+        border-radius: 10px !important;
+        margin-right: 10px;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: $themePurple !important;
+        opacity: 1;
+        width: $width;
+        height: $height;
+        border-radius: 10px !important;
+        margin-right: 10px;
+    }
+}
+
+div.rbc-event {
+    border: none !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+
+    display: flex !important;
+    justify-content: center !important;
+}
+
+div.rbc-event-content {
+    display: none;
+}
+
+div.rbc-event-label {
+    width: 100% !important;
+    text-align: center;
+}
+
+div.rbc-timeslot-group {
+    min-height: 40px !important;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: none;
+}
+
+div.rbc-time-slot {
+    display: flex;
+    align-items: center;
+    border-right: none !important;
+    color: #616161;
+    font-weight: 500;
+}
+.rbc-time-content > * + * > * {
+    border-left: 1px solid #f2f2f2;
+}
+.rbc-time-column {
+    width: 200px;
+    text-align: center;
+}
+
+.rbc-current-time-indicator {
+    display: none;
+}
+
+span.rbc-label {
+    font-size: 12px !important;
+    width: 100%;
+}
+
+div.rbc-allday-cell,
+div.rbc-time-header {
+    display: none !important;
+}
+
+div.rbc-time-content {
+    border-top: none !important;
+}
+
+div.rbc-time-view {
+    border-bottom: none !important;
+    border-radius: 3px;
+}
+
+div.rbc-events-container {
+    margin-right: 0 !important;
+}
+
+div.rbc-toolbar {
+    margin-bottom: 40px !important;
+}
+
+div.progressbar-container {
+    background-color: #383838;
+}
+
+div.progressbar-container {
+    border-radius: 10px !important;
+    .progressbar-progress {
+        border-radius: 10px !important;
+    }
+}
+
+div.progressbar-container#Personality {
+    .progressbar-progress {
+        background-color: $personality !important;
+    }
+}
+div.progressbar-container#Aptitude {
+    .progressbar-progress {
+        background-color: $aptitude !important;
+    }
+}
+
+div.progressbar-container#WVP {
+    .progressbar-progress {
+        background-color: $wvp !important;
+    }
+}
+div.progressbar-container#Aptitude {
+    .progressbar-progress {
+        background-color: $aptitude !important;
+    }
+}
+
+div.rbc-toolbar span.rbc-btn-group:first-child {
+    border-radius: 15px !important;
+    border: 1px solid #00bfa5 !important;
+    padding: 3px !important;
+
+    button {
+        background-color: white !important;
+        border-radius: none !important;
+        border: transparent !important;
+        font-size: 13px;
+    }
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+    display: none;
+}
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::after {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .rbc-time-column {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div.rbc-toolbar {
+        span.rbc-btn-group {
+            margin-bottom: 12px;
+        }
+    }
+}

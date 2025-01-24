@@ -1,0 +1,14 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+    span:first-child {
+        border-bottom: 2px solid $themePurple;
+    }
+    span:last-child {
+        color: $themePurple;
+    }
+}

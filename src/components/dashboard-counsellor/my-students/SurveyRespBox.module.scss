@@ -1,0 +1,115 @@
+@import "~utils/variables";
+
+.wrapper {
+    background-color: color;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.1);
+
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+
+    width: 100%;
+    margin-bottom: 2em;
+
+    height: fit-content;
+
+    header {
+        margin-bottom: 2.5em;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid $themePurple;
+        padding-bottom: 1em;
+    }
+
+    table {
+        width: 100%;
+        border: 1px solid rgba(1, 1, 1, 0.1);
+        border-radius: 5px;
+        margin-bottom: 1.5em;
+
+        th {
+            text-align: left;
+            padding-inline: 1em;
+            padding-top: 1em;
+        }
+
+        td {
+            padding-inline: 1em;
+            height: 2em;
+            border-bottom: 1px solid rgba(1, 1, 1, 0.1);
+        }
+
+        tr:last-child {
+            td {
+                border-bottom: none;
+            }
+        }
+
+        td:nth-child(2),
+        th:nth-child(2) {
+            text-align: right;
+        }
+    }
+
+    ul {
+        padding-left: 1em !important;
+        margin-bottom: 2em;
+
+        li {
+            margin-bottom: 0.5em;
+        }
+    }
+
+    article {
+        margin-bottom: 2em;
+        display: flex;
+
+        span {
+            display: inline-block;
+        }
+
+        .ques {
+            font-size: 0.9rem;
+            width: 200px;
+            min-width: 200px;
+            margin-right: 4em;
+            color: rgba(1, 1, 1, 0.7);
+            word-wrap: break-word;
+        }
+
+        .ans {
+            display: inline-block;
+            font-size: 0.9rem;
+            span {
+                margin-right: 0.5em;
+            }
+            white-space: pre-line;
+            word-wrap: break-word;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wrapper {
+        article {
+            flex-direction: column;
+        }
+    }
+}
+
+.wrapper.feedback {
+    article {
+        .ques {
+            width: 350px;
+            min-width: 350px;
+        }
+    }
+}

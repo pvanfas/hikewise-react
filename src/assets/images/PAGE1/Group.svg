@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="662" height="662" viewBox="0 0 662 662">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Oval" cx="331" cy="331" r="331" transform="translate(0.025 0.162)" fill="#2f2f2f"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.472" y1="0.364" x2="0.251" y2="1.035" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c682ff"/>
+      <stop offset="1" stop-color="#9456c8"/>
+    </linearGradient>
+  </defs>
+  <g id="Group" transform="translate(-0.025 -0.162)">
+    <circle id="Oval-2" data-name="Oval" cx="331" cy="331" r="331" transform="translate(0.025 0.162)" fill="#2f2f2f"/>
+    <g id="Group-2" data-name="Group" clip-path="url(#clip-path)">
+      <circle id="Oval-3" data-name="Oval" cx="212" cy="212" r="212" transform="translate(256.025 0.162)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

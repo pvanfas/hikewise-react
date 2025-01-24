@@ -1,0 +1,73 @@
+@import ".../../../../utils/variables.scss";
+
+.wrapper {
+  .title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .loaderWrapper {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    .card.active {
+      transform: scale(1.2);
+      background-color: white;
+      border: 2px solid $themePurple;
+      box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.1);
+      z-index: 1;
+    }
+
+    .card.inActive {
+      z-index: 0;
+      box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.1);
+    }
+
+    .card {
+      margin-right: 30px;
+    }
+
+    button {
+      width: 120px;
+      height: 40px;
+      border-radius: 5px;
+      border: 1px solid $themePurple;
+      color: $themePurple;
+      background-color: $themePurple;
+      color: white;
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+
+      .card {
+        margin-right: 0 !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .wrapper {
+    .cards {
+      .card {
+        min-width: unset;
+        width: 96% !important;
+      }
+    }
+  }
+}

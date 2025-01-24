@@ -1,0 +1,52 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+
+    background: url("../../assets/images/PAGE3/banner_bg.svg");
+    background-position: center;
+    background-size: cover;
+
+    .main {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-inline: 1em;
+
+        div {
+            margin-block: 0.2em;
+        }
+
+        .mainText {
+            font-size: 1.3rem;
+            letter-spacing: 0.4px;
+            text-align: center;
+        }
+
+        .subtext {
+            letter-spacing: 0.05px;
+            text-align: center;
+        }
+
+        button {
+            margin-block: 1em;
+            background-color: white;
+            color: $themePurple;
+            font-weight: 600;
+            width: 160px;
+            height: 40px;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        .main {
+            padding-inline: 10px;
+        }
+    }
+}

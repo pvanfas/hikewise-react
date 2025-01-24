@@ -1,0 +1,342 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+  padding-top: calc(#{$navbarHeight});
+
+  .infoGraphicStepImg {
+    width: 50% !important;
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+
+  .hPadding {
+    padding-inline: 100px;
+  }
+
+  .sectionHeader {
+    font-weight: 600;
+    span {
+      color: $themePurple;
+    }
+  }
+  .contentText {
+    p {
+      color: #919191;
+      width: 100%;
+      margin-block: 1em;
+      line-height: 25px;
+    }
+  }
+
+  .hero {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    position: relative;
+    overflow-x: hidden;
+    min-height: 900px;
+    z-index: 0;
+
+    .graphic {
+      position: absolute;
+      overflow-x: hidden;
+      width: 100%;
+      z-index: -1;
+
+      &.left {
+        left: -80px;
+        top: 300px;
+        width: fit-content;
+
+        img {
+          width: 700px;
+        }
+      }
+
+      &.right {
+        right: -400px !important;
+        top: 100px;
+        width: fit-content;
+      }
+    }
+
+    .textBox {
+      width: fit-content;
+      margin-top: 8em;
+      margin-right: 15rem;
+
+      h1 {
+        font-weight: 800;
+        font-size: 2.5rem;
+        width: 100%;
+        max-width: 30ch;
+        margin-bottom: 0.5em;
+        line-height: 45px;
+      }
+
+      .subtitle {
+        color: #a8a8a8;
+        width: 60ch;
+        line-height: 25px;
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .reportSection {
+    margin-top: -8rem;
+
+    .contentText {
+      margin-bottom: 5em;
+      p {
+        width: 100%;
+      }
+    }
+
+    .infoGraphic {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 7em;
+
+      img {
+        width: 95%;
+        max-width: 1000px;
+      }
+    }
+  }
+
+  .howSection {
+    .sectionHeader {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    .contentText {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // text-align: justify;
+      margin-top: 3em;
+    }
+
+    .logos {
+      height: 200px;
+    }
+
+    .infoGraphic {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5em;
+
+      img {
+        width: 95%;
+        max-width: 1000px;
+      }
+    }
+  }
+
+  .whatSection {
+    width: 100%;
+    overflow-x: hidden;
+
+    .sectionHeader {
+      text-align: center;
+      margin-bottom: 3em;
+    }
+
+    position: relative;
+    z-index: 0;
+
+    .graphic {
+      position: absolute;
+      z-index: -1;
+
+      &.left {
+        left: -280px;
+
+        top: 130px;
+        img {
+          width: 500px;
+        }
+      }
+
+      &.right {
+        right: -180px;
+        top: -20px;
+        img {
+          width: 400px;
+        }
+      }
+    }
+
+    .whatCards {
+      section {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        width: 23em;
+        box-shadow: 0px 10px 20px #00000033;
+        border-radius: 18px;
+
+        padding: 1.2em;
+        padding-bottom: 1.7em;
+        margin-right: 2em;
+        margin-bottom: 0em;
+        background-color: white;
+
+        .image {
+          text-align: center;
+        }
+
+        .title {
+          text-align: center;
+          font-size: 1.1rem;
+          padding-inline: 2.5em;
+          margin-top: 1.5em;
+          height: 4em;
+        }
+
+        .text {
+          color: #6d7783;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  .banner {
+    width: 100%;
+    padding-top: 1em;
+
+    background: url("../../assets/images/PAGE3/banner_bg.svg");
+    background-position: center;
+    background-size: cover;
+
+    .main {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      div {
+        margin-block: 0.2em;
+      }
+
+      .mainText {
+        font-size: 1.3rem;
+        letter-spacing: 0.4px;
+      }
+
+      .subtext {
+        letter-spacing: 0.05px;
+      }
+
+      button {
+        margin-block: 1em;
+        background-color: white;
+        color: $themePurple;
+        font-weight: 600;
+        width: 120px;
+        height: 35px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .wrapper {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      min-height: unset;
+
+      .graphic.right {
+        display: none;
+      }
+
+      .graphic.left {
+        position: static;
+
+        img {
+          width: 600px !important;
+          padding-right: 50px;
+        }
+      }
+
+      .textBox {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+
+        .subtitle {
+          width: 100%;
+        }
+      }
+    }
+
+    .reportSection {
+      margin-top: 8em;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    .hPadding {
+      padding-inline: 50px;
+    }
+
+    .whatSection {
+      .graphic.left {
+        top: 160px;
+        img {
+          width: 450px;
+        }
+      }
+      .graphic.right {
+        top: 50%;
+        img {
+          width: 350px;
+        }
+      }
+
+      .whatCards {
+        .card {
+          margin-right: 0 !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    .hPadding {
+      padding-inline: 30px;
+    }
+
+    .hero {
+      .graphic.left {
+        img {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    .hPadding {
+      padding-inline: 20px;
+    }
+  }
+}

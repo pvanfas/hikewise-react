@@ -1,0 +1,204 @@
+/** @format */
+
+@import "../../../utils/variables.scss";
+
+.wrapper {
+  #uploadBtn {
+    background-color: $themePurple;
+    color: white;
+    width: 140px;
+    border-radius: 5px;
+
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    svg {
+      margin-right: 10px;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+
+    input[type="file"] {
+      display: none;
+    }
+  }
+
+  #dloadBtn {
+    margin-bottom: 10px;
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+  .title {
+    margin-bottom: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+    .tabs {
+      margin-left: 1em;
+
+      span {
+        display: inline-block;
+        font-size: 0.9rem;
+        margin-left: 0.5em;
+        cursor: pointer;
+        background-color: #eee;
+        border-radius: 10px;
+        padding-inline: 1em;
+        padding-block: 0.5em;
+      }
+
+      span.active {
+        background-color: #26d426;
+        color: white;
+      }
+    }
+  }
+
+  .loaderWrapper {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sessions {
+    display: flex;
+    flex-wrap: wrap;
+
+    .slotEnd {
+      background-color: rgba(81, 81, 81, 0.1);
+      color: rgba(1, 1, 1, 0.6);
+      width: 140px;
+      margin-bottom: 10px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+
+    .session {
+      width: 320px;
+      height: 250px;
+
+      margin-right: 30px;
+      margin-bottom: 30px;
+      border-radius: 20px;
+      box-shadow: 1px 1px 8px rgba(1, 1, 1, 0.1);
+
+      background-color: #fafafa;
+      transition: all 0.2s;
+
+      .sessionTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        color: #07054b;
+        padding: 0 15px;
+        height: 50px;
+        background-color: white;
+        border-radius: 20px 20px 0 0;
+      }
+
+      .body {
+        padding-left: 20px;
+        .header {
+          height: 50px;
+          display: flex;
+          align-items: center;
+
+          color: #737373;
+          font-weight: 500;
+        }
+
+        .content {
+          display: flex;
+          align-items: center;
+
+          .left,
+          .right {
+            width: 50%;
+          }
+
+          .left {
+            display: flex;
+            flex-direction: column;
+
+            .dateDate {
+              color: #00d797;
+              font-size: 65px;
+              font-weight: 500;
+            }
+
+            .dateMonth {
+              display: flex;
+              color: $themePurple;
+
+              div:first-child {
+                margin-right: 5px;
+              }
+              div:last-child {
+                margin-left: 5px;
+              }
+              span:first-child {
+                display: inline-block;
+                margin-right: 3px;
+              }
+            }
+          }
+
+          .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            padding-top: 20px;
+
+            .btnDark {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    .sessions {
+      flex-direction: column;
+      align-items: center;
+
+      .session {
+        margin-right: 0;
+      }
+    }
+
+    .title {
+      flex-direction: column;
+
+      .tabs {
+        margin-top: 1em;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        span {
+          margin-bottom: 0.8em;
+        }
+      }
+    }
+  }
+}

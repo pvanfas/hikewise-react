@@ -1,0 +1,44 @@
+@import "~utils/variables.scss";
+
+.wrapper {
+    width: 700px;
+    padding: 1.5em;
+    height: 600px;
+    overflow-y: auto;
+
+    .title {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 2em;
+
+        font-size: 1.2rem;
+
+        div:first-child {
+            color: $themePurple;
+            font-weight: 500;
+        }
+
+        div:last-child {
+            cursor: pointer;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: rgba(1, 1, 1, 0.1);
+
+            display: flex;
+            font-weight: 400;
+            color: rgba(1, 1, 1, 0.5);
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .content {
+        color: rgba(1, 1, 1, 0.8);
+        p {
+            margin-bottom: 1em;
+            line-height: 25px;
+        }
+    }
+}

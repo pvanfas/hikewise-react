@@ -1,0 +1,25 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+        font-size: 22px;
+        color: $themePurple;
+        font-weight: 500;
+    }
+
+    .graphic {
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .text {
+        color: $themePurple;
+        text-align: center;
+    }
+}

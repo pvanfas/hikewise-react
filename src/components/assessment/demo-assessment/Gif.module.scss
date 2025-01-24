@@ -1,0 +1,18 @@
+.wrapper {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      margin-right: 30px;
+      width: 7em;
+      height: 40px;
+      border: 1px solid rgba(1, 1, 1, 0.1);
+    }
+  }
+}

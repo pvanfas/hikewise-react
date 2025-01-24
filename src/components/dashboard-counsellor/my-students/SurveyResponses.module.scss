@@ -1,0 +1,67 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    h3 {
+        margin-bottom: 2em;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .tabs {
+        display: flex;
+
+        article {
+            width: 170px;
+            height: 33px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(1, 1, 1, 0.1);
+            padding-inline: 10px;
+            margin-right: 2em;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        article.active {
+            background-color: $themePurple;
+            color: white;
+        }
+    }
+
+    .responses {
+        margin-top: 2em;
+
+        article {
+            margin-bottom: 1em;
+
+            span {
+                display: inline-block;
+            }
+
+            span.ques {
+                font-size: 0.9rem;
+                width: 350px;
+                margin-right: 4em;
+                color: rgba(1, 1, 1, 0.7);
+            }
+
+            span.ans {
+                span {
+                    margin-right: 0.5em;
+                }
+            }
+        }
+    }
+
+    .noResp {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,58 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+    color: #242021;
+
+    span.label {
+        padding-top: 1px;
+        display: inline-block;
+    }
+
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+
+        &:checked ~ .checkmark {
+            background-color: $themePurple;
+        }
+
+        &:checked ~ .checkmark:after {
+            display: block;
+        }
+    }
+
+    .checkmark {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        border-radius: 5px;
+        border: 1px solid #969696;
+        background-color: white;
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: none;
+
+            left: 4.2px;
+            top: 1px;
+            width: 2px;
+            height: 5.5px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+    }
+}

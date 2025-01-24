@@ -1,0 +1,105 @@
+.wrapper {
+    .slide {
+        width: 100%;
+        margin-bottom: 3em;
+
+        section {
+            width: 100%;
+            height: fit-content;
+
+            .row {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 4em;
+                padding: 1em;
+                height: inherit;
+
+                article {
+                    width: 30em;
+                    box-shadow: 2px 2px 15px rgba(1, 1, 1, 0.1);
+                    padding: 1.2em;
+                    margin-right: 4em;
+                    border-radius: 5px;
+                    background-color: white;
+
+                    .user {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 1em;
+
+                        span.image {
+                            $size: 5em;
+                            width: $size;
+                            height: $size;
+                            margin-right: 1em;
+
+                            img {
+                                object-fit: cover;
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 50%;
+                            }
+                        }
+
+                        span.info {
+                            display: flex;
+                            flex-direction: column;
+
+                            .name {
+                                margin-bottom: 2px;
+                            }
+
+                            .designation {
+                                font-size: 0.9rem;
+                                color: #273b60;
+                            }
+                        }
+                    }
+
+                    .body {
+                        line-height: 25px;
+                        color: #273b60;
+                    }
+                }
+
+                article:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .wrapper {
+        .slide {
+            section {
+                .row {
+                    article {
+                        margin-right: 1.4em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        .slide {
+            margin-bottom: 0;
+            section {
+                .row {
+                    margin-bottom: 0em;
+                    padding-block: 0;
+                    flex-direction: column;
+
+                    article {
+                        margin-bottom: 2em;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

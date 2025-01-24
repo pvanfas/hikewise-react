@@ -1,0 +1,93 @@
+@import "~utils/variables";
+
+.wrapper {
+    padding-block-start: 5em;
+
+    .top {
+        position: relative;
+        height: 10em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .absolute {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-size: 9rem;
+            font-weight: 500;
+            letter-spacing: 10px;
+            text-align: center;
+            color: $themePurple;
+            opacity: 0.1;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .title {
+            font-weight: 500;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .numbers {
+            position: relative;
+            text-align: center;
+            font-size: 2rem;
+            padding-inline: 10px;
+
+            span {
+                color: $themePurple;
+                font-size: 2rem;
+            }
+
+            span.bold {
+                font-weight: 600;
+            }
+
+            span.black {
+                font-weight: 500;
+                color: black;
+                padding-left: 10px;
+                word-break: break-all;
+                font-size: 0.9em;
+            }
+        }
+    }
+
+    h4 {
+        margin-bottom: 0.5em;
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    .slide {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    article {
+        img {
+            width: 90px;
+            height: auto !important;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        .top {
+            .absolute {
+                font-size: 5rem;
+            }
+        }
+    }
+}

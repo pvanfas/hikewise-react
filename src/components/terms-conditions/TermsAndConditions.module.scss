@@ -1,0 +1,28 @@
+@import "~utils/variables";
+
+.wrapper {
+  padding-top: calc(#{$navbarHeight} + 2em);
+
+  .title {
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+    font-weight: 500;
+  }
+
+  p {
+    margin-bottom: 1em;
+    line-height: 25px;
+    color: rgba(1, 1, 1, 0.7);
+  }
+
+  ul {
+    padding-left: 50px;
+  }
+}

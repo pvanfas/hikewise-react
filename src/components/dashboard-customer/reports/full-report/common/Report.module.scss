@@ -1,0 +1,157 @@
+@import "../../../../../utils/variables.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 210mm;
+
+  > div:not(.staticImg) {
+    background: url("https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/report/rise/00.svg");
+  }
+
+  * {
+    font-family: "Mulish", sans-serif;
+    box-sizing: border-box;
+  }
+
+  .title {
+    color: $themePurple;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+  }
+
+  .text {
+    font-weight: 300;
+    font-size: 14px !important;
+    line-height: 25px;
+  }
+
+  .thinText {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+
+  img.fullSize {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .staticImg {
+    position: relative;
+  }
+
+  .absoluteContent {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .absoluteContent.bestFitCareers {
+    padding-top: 50px;
+
+    div.title {
+      margin-bottom: 50px;
+    }
+
+    .careers {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 200px;
+        margin-bottom: 50px;
+
+        div {
+          text-align: center;
+        }
+
+        img {
+          width: 90px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .page1 {
+    position: relative;
+    .nameContainer {
+      position: absolute;
+      bottom: 65px;
+      left: 47px;
+
+      .text {
+        font-size: 16px;
+        font-size: 500;
+      }
+
+      .boldText {
+        color: $themePurple;
+        font-size: 22px;
+        margin: 5px 0;
+        font-weight: 600;
+      }
+
+      .language {
+        margin-bottom: 9px;
+      }
+
+      .date {
+      }
+    }
+  }
+
+  .page5.profileSummary {
+    .text {
+      margin-bottom: 30px;
+    }
+  }
+
+  .boxContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .graphContainer {
+      position: relative;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+  }
+}
+
+@media print {
+  .graphcontainer {
+    border: 2px solid black;
+  }
+}

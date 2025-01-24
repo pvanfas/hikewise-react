@@ -1,0 +1,103 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .loaderWrapper {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box:hover {
+        border: 2px solid $themePurple;
+    }
+    .boxLocked {
+        border: none !important;
+    }
+
+    // .box.lockHover {
+    //     border: none;
+    // }
+
+    .box {
+        width: 300px;
+        height: 200px;
+        background-color: white;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        border: 2px solid transparent;
+        transition: border 0.5s;
+
+        position: relative;
+
+        .lockOverlay {
+            position: absolute;
+            top: -10px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            background: rgba(187, 128, 237, 0.8);
+            border-radius: 10px;
+            display: flex;
+            padding: 10px;
+
+            svg {
+                color: white;
+            }
+
+            animation: appearSlowly 0.3s ease-in;
+        }
+
+        img {
+            width: 150px;
+            height: 120px;
+        }
+
+        div {
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and(max-width: 800px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+
+        .box {
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and(max-width: 400px) {
+    .wrapper {
+        .card {
+            width: 100%;
+        }
+    }
+}
+
+@keyframes appearSlowly {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

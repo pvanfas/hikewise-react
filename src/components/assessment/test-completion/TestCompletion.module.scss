@@ -1,0 +1,38 @@
+.wrapper {
+  .modalWrapper {
+    position: relative;
+    .crossButton {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      color: #636363;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: rgba(1, 1, 1, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    padding: 20px;
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px !important;
+    box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.1);
+
+    .swiperContainer {
+      width: 100% !important;
+      display: flex !important;
+      justify-content: center !important;
+    }
+
+    .swiperSlide {
+      margin-bottom: 40px;
+      width: 100%;
+    }
+  }
+}

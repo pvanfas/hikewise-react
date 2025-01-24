@@ -1,0 +1,41 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding-top: calc(#{$navbarHeight} + 80px);
+    padding-inline: 20px;
+
+    .loaderWrapper {
+        z-index: 10;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    .cardContainer {
+        height: auto;
+        min-height: 550px;
+        height: fit-content;
+        padding: 60px 30px;
+        padding-bottom: 4em;
+        position: relative;
+        margin-bottom: 50px;
+        width: calc(min(100%, 700px));
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .wrapper {
+        .cardContainer {
+            min-height: 600px;
+            padding-inline: 20px;
+        }
+    }
+}

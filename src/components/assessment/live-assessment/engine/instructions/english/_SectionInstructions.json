@@ -1,0 +1,443 @@
+{
+    "REDESIGN": {
+        "personality": {
+            "title": "Personality Assessment Instructions",
+            "intro": "This section contains some general qualifying statements about your behavior. In every question, you will have five options to choose from to express how accurately each statement describes you. ",
+            "imp_points": {
+                "listType": "ul",
+                "points": [
+                    {
+                        "type": "li",
+                        "content": "Describe yourself as you generally are now and not according to what you wish to be in the future. "
+                    },
+                    {
+                        "type": "li",
+                        "content": "Try to describe yourself as you honestly see yourself, in relation to other people you know of the same sex as you are, and roughly your same age, so that you can describe yourself in an honest manner."
+                    },
+                    {
+                        "type": "li",
+                        "content": "It is imperative that your answers are completely honest, even if you don’t like the answers."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Don’t try to fake as it will detrimentally affect the test results and its whole purpose."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Once you start a question, you will have access to the immediate previous question only."
+                    },
+                    {
+                        "type": "li",
+                        "content": "So choose the options (responses) carefully."
+                    }
+                ]
+            }
+        },
+        "wvp": {
+            "title": "WVP Assessment Instructions",
+            "imp_points": {
+                "listType": "ul",
+                "points": [
+                    {
+                        "type": "li",
+                        "content": "There are no right or wrong answers! Base your answers on how you honestly feel."
+                    },
+                    {
+                        "type": "li",
+                        "content": "There are 20 Cards (Work Value Preferences) on the left side of the screen. "
+                    },
+                    {
+                        "type": "li",
+                        "content": "The five columns under the Importance Scale on the right side of the screen range from (<strong>Most Important</strong>) to (<strong>Least Important</strong>)."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Drag and put each card in the column that best matches how important for you to have that ‘work value preference’ in your ideal job."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Put exactly 4 cards in each column. You may need to move the cards around until you have exactly 4 cards in each column."
+                    },
+                    {
+                        "type": "li",
+                        "content": "When you’re done, the 4 most important statements should be in Column 5, the 4 next important in Column 4, and so on. The 4 least important statements should be in Column 1."
+                    }
+                ]
+            }
+        },
+        "interest": {
+            "title": "Interest Assessment Instructions",
+            "intro": "This section of the test contains questions that describe work activities that some people do at their jobs. Read each question carefully and decide whether or not you would like to do the activity described.",
+            "imp_points": {
+                "type": "ul",
+                "points": [
+                    {
+                        "type": "ol",
+                        "content": "<strong>Try not to think about</strong>",
+                        "items": [
+                            {
+                                "type": "li",
+                                "content": "Whether you have enough education or training to perform the activity, or"
+                            },
+                            {
+                                "type": "li",
+                                "content": "How much money you would make performing the activity."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "li",
+                        "content": "Simply think about whether you would “like” or “dislike” performing the work activity."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Remember that there are no right or wrong answers."
+                    },
+                    {
+                        "type": "li",
+                        "content": "The goal is for you to learn more about your personal work-related interests."
+                    },
+                    {
+                        "type": "li",
+                        "content": "There is no time limit for completing the questions. Take your time."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Once you start a question, you will have access to the immediate previous question only."
+                    },
+                    {
+                        "type": "li",
+                        "content": "So choose the options (responses) carefully."
+                    }
+                ]
+            }
+        },
+        "eq": {
+            "title": "Emotional Quotient Assessments",
+            "intro": "This section of the test will help you to know more about how you feel about yourself and the people around you. This test will evaluate the way you use your emotional skills in your personal and professional life.",
+            "imp_points": {
+                "type": "ul",
+                "points": [
+                    {
+                        "type": "li",
+                        "content": "The questions given in this section will ask about your emotional responses to different situations. Answer on the basis of how you FEEL and don’t try to THINK too much about it."
+                    },
+                    {
+                        "type": "li",
+                        "content": "There are no right or wrong answers."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Answer honestly and do not spend too much time."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Usually your first response is the best response."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Once you start a question, you will have access to the immediate previous question only. "
+                    },
+                    {
+                        "type": "li",
+                        "content": "So choose the options (responses) carefully."
+                    }
+                ]
+            }
+        }
+    },
+    "SAIL": {
+        "personality": {
+            "title": "Personality Assessment Instructions",
+            "intro": "This section contains some general qualifying statements about your behavior. In every question, you will have five options to choose from to express how accurately each statement describes you. ",
+            "imp_points": {
+                "listType": "ul",
+                "points": [
+                    {
+                        "type": "li",
+                        "content": "Describe yourself as you generally are now and not according to what you wish to be in the future. "
+                    },
+                    {
+                        "type": "li",
+                        "content": "Try to describe yourself as you honestly see yourself, in relation to other people you know of the same sex as you are, and roughly your same age, so that you can describe yourself in an honest manner."
+                    },
+                    {
+                        "type": "li",
+                        "content": "It is imperative that your answers are completely honest, even if you don’t like the answers."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Don’t try to fake as it will detrimentally affect the test results and its whole purpose."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Once you start a question, you will have access to the immediate previous question only."
+                    },
+                    {
+                        "type": "li",
+                        "content": "So choose the options (responses) carefully."
+                    }
+                ]
+            }
+        },
+        "wvp": {
+            "title": "WVP Assessment Instructions",
+            "imp_points": {
+                "listType": "ul",
+                "points": [
+                    {
+                        "type": "li",
+                        "content": "There are no right or wrong answers! Base your answers on how you honestly feel."
+                    },
+                    {
+                        "type": "li",
+                        "content": "There are 20 Cards (Work Value Preferences) on the left side of the screen. "
+                    },
+                    {
+                        "type": "li",
+                        "content": "The five columns under the Importance Scale on the right side of the screen range from (<strong>Most Important</strong>) to (<strong>Least Important</strong>)."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Drag and put each card in the column that best matches how important for you to have that ‘work value preference’ in your ideal job."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Put exactly 4 cards in each column. You may need to move the cards around until you have exactly 4 cards in each column."
+                    },
+                    {
+                        "type": "li",
+                        "content": "When you’re done, the 4 most important statements should be in Column 5, the 4 next important in Column 4, and so on. The 4 least important statements should be in Column 1."
+                    }
+                ]
+            }
+        },
+        "interest": {
+            "title": "Interest Assessment Instructions",
+            "intro": "This section of the test contains questions that describe work activities that some people do at their jobs. Read each question carefully and decide whether or not you would like to do the activity described.",
+            "imp_points": {
+                "type": "ul",
+                "points": [
+                    {
+                        "type": "ol",
+                        "content": "<strong>Try not to think about</strong>",
+                        "items": [
+                            {
+                                "type": "li",
+                                "content": "Whether you have enough education or training to perform the activity, or"
+                            },
+                            {
+                                "type": "li",
+                                "content": "How much money you would make performing the activity."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "li",
+                        "content": "Simply think about whether you would “like” or “dislike” performing the work activity."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Remember that there are no right or wrong answers."
+                    },
+                    {
+                        "type": "li",
+                        "content": "The goal is for you to learn more about your personal work-related interests."
+                    },
+                    {
+                        "type": "li",
+                        "content": "There is no time limit for completing the questions. Take your time."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Once you start a question, you will have access to the immediate previous question only."
+                    },
+                    {
+                        "type": "li",
+                        "content": "So choose the options (responses) carefully."
+                    }
+                ]
+            }
+        },
+        "eq": {
+            "title": "Emotional Quotient Assessments",
+            "intro": "This section of the test will help you to know more about how you feel about yourself and the people around you. This test will evaluate the way you use your emotional skills in your personal and professional life.",
+            "imp_points": {
+                "type": "ul",
+                "points": [
+                    {
+                        "type": "li",
+                        "content": "The questions given in this section will ask about your emotional responses to different situations. Answer on the basis of how you FEEL and don’t try to THINK too much about it."
+                    },
+                    {
+                        "type": "li",
+                        "content": "There are no right or wrong answers."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Answer honestly and do not spend too much time."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Usually your first response is the best response."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Once you start a question, you will have access to the immediate previous question only. "
+                    },
+                    {
+                        "type": "li",
+                        "content": "So choose the options (responses) carefully."
+                    }
+                ]
+            }
+        }
+    },
+    "RISE": {
+        "personality": {
+            "title": "Personality Assessment Instructions",
+            "intro": "This section contains some general qualifying statements about your behavior. In every question, you will have five options to choose from to express how accurately each statement describes you. ",
+            "imp_points": {
+                "listType": "ul",
+                "points": [
+                    {
+                        "type": "li",
+                        "content": "Describe yourself as you generally are now and not according to what you wish to be in the future. "
+                    },
+                    {
+                        "type": "li",
+                        "content": "Try to describe yourself as you honestly see yourself, in relation to other people you know of the same sex as you are, and roughly your same age, so that you can describe yourself in an honest manner."
+                    },
+                    {
+                        "type": "li",
+                        "content": "It is imperative that your answers are completely honest, even if you don’t like the answers."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Don’t try to fake as it will detrimentally affect the test results and its whole purpose."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Once you start a question, you will have access to the immediate previous question only."
+                    },
+                    {
+                        "type": "li",
+                        "content": "So choose the options (responses) carefully."
+                    }
+                ]
+            }
+        },
+        "wvp": {
+            "title": "WVP Assessment Instructions",
+            "imp_points": {
+                "listType": "ul",
+                "points": [
+                    {
+                        "type": "li",
+                        "content": "There are no right or wrong answers! Base your answers on how you honestly feel."
+                    },
+                    {
+                        "type": "li",
+                        "content": "There are 20 Cards (Work Value Preferences) on the left side of the screen. "
+                    },
+                    {
+                        "type": "li",
+                        "content": "The five columns under the Importance Scale on the right side of the screen range from (<strong>Most Important</strong>) to (<strong>Least Important</strong>)."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Drag and put each card in the column that best matches how important for you to have that ‘work value preference’ in your ideal job."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Put exactly 4 cards in each column. You may need to move the cards around until you have exactly 4 cards in each column."
+                    },
+                    {
+                        "type": "li",
+                        "content": "When you’re done, the 4 most important statements should be in Column 5, the 4 next important in Column 4, and so on. The 4 least important statements should be in Column 1."
+                    }
+                ]
+            }
+        },
+        "interest": {
+            "title": "Interest Assessment Instructions",
+            "intro": "This section of the test contains questions that describe some work activities. Read each question carefully and decide whether or not you would like to do the activity described.",
+            "imp_points": {
+                "type": "ul",
+                "points": [
+                    {
+                        "type": "ol",
+                        "content": "<strong>Try not to think about</strong>",
+                        "items": [
+                            {
+                                "type": "li",
+                                "content": "Whether you have enough education or training to perform the activity, or"
+                            },
+                            {
+                                "type": "li",
+                                "content": "How much money you would make performing the activity."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "li",
+                        "content": "Simply think about whether you would “like” or “dislike” performing the work activity."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Remember that there are no right or wrong answers."
+                    },
+                    {
+                        "type": "li",
+                        "content": "The goal is for you to learn more about your personal work-related interests."
+                    },
+                    {
+                        "type": "li",
+                        "content": "There is no time limit for completing the questions. Take your time."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Once you start a question, you will have access to the immediate previous question only."
+                    },
+                    {
+                        "type": "li",
+                        "content": "So choose the options (responses) carefully."
+                    }
+                ]
+            }
+        },
+        "eq": {
+            "title": "Emotional Quotient Assessments",
+            "intro": "This section of the test will help you to know more about how you feel about yourself and the people around you. This test will evaluate the way you use your emotional skills in your personal and professional life.",
+            "imp_points": {
+                "type": "ul",
+                "points": [
+                    {
+                        "type": "li",
+                        "content": "The questions given in this section will ask about your emotional responses to different situations. Answer on the basis of how you FEEL and don’t try to THINK too much about it."
+                    },
+                    {
+                        "type": "li",
+                        "content": "There are no right or wrong answers."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Answer honestly and do not spend too much time."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Usually your first response is the best response."
+                    },
+                    {
+                        "type": "li",
+                        "content": "Once you start a question, you will have access to the immediate previous question only. "
+                    },
+                    {
+                        "type": "li",
+                        "content": "So choose the options (responses) carefully."
+                    }
+                ]
+            }
+        }
+    }
+}

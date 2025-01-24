@@ -1,0 +1,468 @@
+{
+  "tabs": [
+    {
+      "name": "Personality",
+      "key": "personality",
+      "isDone": false
+    },
+    {
+      "name": "Aptitude",
+      "key": "aptitude",
+      "isDone": false
+    },
+    {
+      "name": "Interest",
+      "key": "interest"
+    },
+    {
+      "name": "WVP",
+      "key": "wvp"
+    }
+  ],
+  "content": [
+    {
+      "type": "TEST_INTRO"
+    },
+    {
+      "id": 6,
+      "type": "QUESTION",
+      "quesType": "TEXT",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I see myself as a good leader",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 8,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I am not interested in other people’s problems",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 14,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I can talk others into doing things",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 34,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I show my feelings when I’m happy",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 39,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I avoid difficult reading material",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 40,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I reveal little about myself",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 26,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I rarely get caught up in the excitement",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 41,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I have difficulty understanding abstract ideas",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 46,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "In this question, you have to fill in the blanks with the most appropriate word(s) from the given options",
+        "title": "Rohan and Rohit are twin brothers, but they do not look _______",
+        "options": ["unique", "different", "likely", "alike"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 56,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "In this question, you are given a set of four figures which has a repeating pattern characteristic to it. You have to select the figure which will come next in the series.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-I---Q3.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-I---A3a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-I---A3b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-I---A3c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-I---A3d.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-I---A3e.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 206,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In this question, you will see four pairs of English letters. Each pair has been put into its own box. You must decide how many pairs contain letters that are the same",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T2_Q2.png",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 152,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "In this question, you will be given a sentence of which some parts have been jumbled up. You have to rearrange these parts which are labelled as P, Q, R and S to make a meaningful sentence. The correct order of the parts is the right answer.",
+        "title": "<h6>Education is </h6> <p>P: of the proper sense of responsibilities</p> <p>Q: the first need</p> <p>R:  in a citizen</p> <p>S: for the development</p> ",
+        "options": ["SQPR", "QSRP", "QSPR", "PQRS"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 39,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "In this question, you will be given two groups of symbols (with three symbols in Group 1 and two in Group 2). You have to find out which symbol among the given options should be the third symbol in Group 2 so that Group 2 also shares the trait which is characteristic of Group 1.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-II---Q2.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-II---A2a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-II---A2b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-II---A2c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-II---A2d.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_AR_T-II---A2e.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 121,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In this question, you have to recognise the tool given in the question and choose the most closely related tool or object from the given choices.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail-_MR-_T_Q9.png",
+        "options": ["A", "B", "C", "D", "E"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 121,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "In this question, your analogical reasoning skills will be put to test. You will be given two figures in the left of sign  ( :: ) which are connected in some way. The same relationship exists between the third figure and one of the four alternatives. You have to find the correct alternative in each case.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T5_Q7.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T5_A7a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T5_A7b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T5_A7c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T5_A7d.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 121,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "In this question, you will be given some mathematical problem. You have to solve these problems to find out the right answer among the four given options.",
+        "title": "If 35% of an item cost ₹140.00, what was the full cost?",
+        "options": ["₹300", "₹400", "₹500", "₹600"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 77,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In this question, you will see four pairs of English letters. Each pair has been put into its own box. You must decide how many pairs contain letters that are the same",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T2_Q7.png",
+        "options": ["0", "1", "2", "3", "4"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 51,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In this question, you will have to solve some number puzzles. Few numbers are inserted in a figure following a particular rule for their placement at different places in relation to the figure. You have to find out the missing number in the given figure.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail-_NA-_T4_Q2.png",
+        "options": ["32", "36", "100", "57"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 20,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In the above Figure, the girl weighs 100kg and the boy weighs 50 kg. If the boy is sitting 6 meters from the pivot, then how many meters from the pivot should the girl sit to balance the seesaw?",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail-_MR-_Q4.png",
+        "options": ["1 meter", "3 meter", "2 meter", "4 meter"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 163,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "In this question, you have to identify the relationship between the given symbols and pick the correct symbol from the four options given, which you feel best continues the series.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T1_Q4.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T1_A4a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T1_A4b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T1_A4c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T1_A4d.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/sail/Sail_AP_PA_T1_A4e.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 8,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Study the history of past civilizations",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 10,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Write scripts for movies or television shows",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 20,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Conduct chemical experiments",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 21,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Represent a client in a lawsuit",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 34,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Provide physical therapy to people recovering from an injury",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 49,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Teach an elementary school class",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 50,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Assemble parts of electronic devices",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 51,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Help elderly people with their daily activities",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 54,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Invent a replacement for sugar",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 81,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Do volunteer work at a non-profit organization",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 85,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Set up and operate machines to make products",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 100,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Work in a biology lab & Conduct biological research",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 110,
+      "type": "GIF",
+      "tabKey": "wvp"
+    }
+  ]
+}

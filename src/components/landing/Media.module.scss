@@ -1,0 +1,91 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    width: 100%;
+
+    padding-block: 5em;
+    padding-block-end: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 100%;
+    // overflow-x: auto;
+
+    h4 {
+        margin-bottom: 2em;
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    .tabs {
+        display: flex;
+
+        justify-content: center;
+        margin-bottom: 2em;
+
+        max-width: 100%;
+        padding-bottom: 1em;
+        overflow-x: auto;
+
+        article.active {
+            opacity: 1;
+
+            &::after {
+                width: 100%;
+            }
+        }
+
+        article {
+            margin-right: 100px;
+            padding-inline: 10px;
+            opacity: 0.5;
+            height: 60px;
+            cursor: pointer;
+
+            position: relative;
+            &::after {
+                position: absolute;
+                transition: all 0.2s;
+                text-align: center;
+                content: "";
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 4px;
+                border-radius: 2px;
+                background-image: linear-gradient(-256deg, #9456c8 0%, #c682ff 100%);
+            }
+
+            img {
+                width: 100px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        p {
+            max-width: 70ch;
+            color: rgba(1, 1, 1, 0.5);
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        .tabs {
+            article {
+                margin-right: 50px;
+            }
+        }
+    }
+}

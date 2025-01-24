@@ -1,0 +1,161 @@
+@import "../../../utils/variables.scss";
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .tabsWrapper {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    flex-direction: column;
+    margin-bottom: 60px;
+    overflow-x: auto;
+  }
+
+  .testCard {
+    width: 1200px;
+    height: fit-content;
+
+    box-shadow: 0 1.5px 12.5px 0 rgba(0, 0, 0, 0.11);
+    border-bottom: 5px solid $themePurple;
+    margin-bottom: 50px;
+    position: relative;
+
+    $padding: 0px 40px;
+
+    padding-bottom: 40px;
+
+    .header {
+      border-bottom: 2px solid $themePurple;
+      height: 70px;
+      box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: $padding;
+      padding-inline: 20px;
+      width: 100%;
+
+      .title {
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 20px;
+      }
+
+      .aptiTimer {
+        visibility: hidden;
+      }
+      .aptiTimer.show {
+        visibility: visible;
+      }
+    }
+
+    .main {
+      display: flex;
+      height: 100%;
+
+      width: 100%;
+      margin-bottom: 130px;
+
+      .categories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+      }
+
+      .quesAns {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 30px;
+        margin-left: 0;
+        padding-top: 20px;
+
+        .loaderWrapper {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .quesAns.aptitude {
+        padding-left: 310px;
+      }
+
+      .quesAns.wvp {
+        padding-left: 0;
+      }
+
+      .categories.wvp {
+        min-width: 0 !important;
+        width: 0 !important;
+      }
+
+      .quesAns.wvp {
+        width: 100%;
+      }
+    }
+  }
+
+  .testCard.wvp {
+    min-width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .testCard.wvp {
+    min-width: 1270px !important;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .testCard.wvp {
+    min-width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tabsWrapper {
+      width: 90%;
+    }
+
+    .testCard {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    .main {
+      .quesAns {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    .testCard {
+      width: 95%;
+    }
+
+    .quesAns.wvp {
+      padding-inline: 1em !important;
+    }
+  }
+}

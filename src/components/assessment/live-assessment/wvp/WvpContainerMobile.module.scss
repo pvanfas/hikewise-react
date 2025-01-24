@@ -1,0 +1,70 @@
+@import "../../../../utils/variables.scss";
+
+.wrapper {
+  padding: 0 50px;
+
+  .dropTargets {
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.1);
+  }
+
+  .swiperContainer {
+    .slide {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .name {
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+    }
+
+    .slide:last-child {
+      margin-bottom: 80px;
+    }
+  }
+
+  .questions {
+    margin-top: 20px;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+
+    .instructionsBtn {
+      cursor: pointer;
+      font-size: 0.9rem;
+      color: #707070;
+      text-decoration: underline;
+    }
+
+    button {
+      background-color: $themePurple;
+      color: white;
+      height: 35px;
+      width: 100px;
+      border-radius: 5px;
+      margin-bottom: 1em;
+      margin-top: 1em;
+
+      &:disabled {
+        pointer-events: none;
+        background-color: grey;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    padding: 0 10px !important;
+  }
+}

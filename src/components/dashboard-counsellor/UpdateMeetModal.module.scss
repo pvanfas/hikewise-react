@@ -1,0 +1,111 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    padding: 20px;
+    min-height: 150px;
+    height: fit-content;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .loaderWrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    position: relative;
+    .close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 25px;
+        color: $themePurple;
+        cursor: pointer;
+    }
+
+    .completeWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+
+        svg {
+            color: $themePurple;
+            margin-right: 10px;
+        }
+
+        .text {
+            margin-bottom: 20px;
+            color: black;
+            font-size: 18px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        button {
+            background-color: $themePurple;
+            color: white;
+            height: 35px;
+            border-radius: 5px;
+            width: 100px;
+        }
+    }
+
+    .title {
+        color: $themePurple;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    form {
+        margin-bottom: 20px;
+
+        label {
+            display: inline-block;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            color: rgba(1, 1, 1, 0.8);
+            display: flex;
+            align-items: center;
+        }
+
+        input {
+            border: 1px solid #eeeeee;
+            height: 40px;
+            padding-left: 10px;
+            margin-left: auto;
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+
+    .buttons {
+        margin-top: 1em;
+        button {
+            height: 40px;
+            width: 150px;
+            background-color: $themePurple;
+            color: white;
+            border-radius: 5px;
+        }
+    }
+
+    p.apiResp {
+        font-size: 0.9rem;
+        margin-top: 1em;
+    }
+
+    .apiResp.apiError {
+        color: red;
+    }
+}

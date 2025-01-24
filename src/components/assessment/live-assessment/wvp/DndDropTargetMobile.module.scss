@@ -1,0 +1,63 @@
+@import "../../../../utils/variables.scss";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 99%;
+
+  //   background-color: white;
+  //   border: 1px solid pink;
+
+  .droppedWrapper {
+    background: $themePurple;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    padding-right: 30px;
+    position: relative;
+    text-align: center;
+    span {
+      cursor: pointer;
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      font-size: 20px;
+    }
+  }
+
+  .targetWrapper {
+    height: 60px;
+    width: 100%;
+    background-color: #eeeeee;
+  }
+
+  .targetWrapper.overActive {
+    background-color: #ead1ff !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .wrapper {
+    .droppedWrapper,
+    .targetWrapper {
+      height: 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .wrapper {
+    .droppedWrapper,
+    .targetWrapper {
+      height: 90px;
+    }
+  }
+}

@@ -1,0 +1,148 @@
+@import "../../../../utils//variables.scss";
+
+.catSidebarArrow {
+    position: absolute;
+    top: -30px;
+}
+
+.catSidebarArrow.hidden {
+    display: none;
+}
+
+.wrapper.active {
+    position: absolute !important;
+    left: 0px;
+    top: 1px;
+    width: 0;
+    padding: 0;
+    * {
+        visibility: hidden;
+    }
+}
+
+.wrapper.active.open {
+    width: 260px;
+    padding: 20px 10px 20px 25px;
+    * {
+        visibility: visible;
+    }
+}
+
+.wrapper {
+    height: calc(100% + 129px) !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 260px;
+    padding: 20px 10px 20px 25px;
+    height: calc(100% - 5px);
+
+    border-right: 1px solid #eeeeee;
+    box-shadow: 1px 1px 10px #eeeeee;
+
+    background-color: white;
+    z-index: 5;
+    transition: width 0.2s;
+
+    position: absolute !important;
+    left: 0px;
+    top: 1px;
+
+    &::-webkit-scrollbar {
+        width: 7px; /* Mostly for vertical scrollbars */
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #d6beea;
+    }
+    &::-webkit-scrollbar-track {
+        background: #eeeeee;
+    }
+
+    $size: 15px;
+
+    .connector {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: $size;
+        height: 15px;
+        div {
+            font-size: 8px;
+            color: $themePurple;
+        }
+    }
+
+    span.circle {
+        display: inline-block;
+        border-radius: 50%;
+        border: 2px solid white;
+        box-shadow: 1px 1px 10px rgba(1, 1, 1, 0.1);
+    }
+
+    .cat.active {
+        .catName {
+            color: $themePurple;
+            font-weight: 700;
+            span.circle {
+                background-color: $themePurple !important;
+            }
+        }
+    }
+
+    .cat {
+        margin-bottom: 10px;
+
+        .catName {
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            color: #b5b5b5;
+            margin-bottom: 10px;
+            width: 300px;
+
+            span.circle {
+                width: $size;
+                height: $size;
+                background-color: #eeeeee;
+                margin-right: 10px;
+            }
+        }
+
+        .subcats {
+            padding-left: 10px;
+            .subcatContainer {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .subcat {
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    color: #b5b5b5;
+
+                    span.circle {
+                        min-width: calc(#{$size} - 2px);
+                        min-height: calc(#{$size} - 2px);
+                        background-color: #eeeeee;
+                        margin-right: 10px;
+                        margin-left: 1px;
+                    }
+
+                    span:last-child {
+                        display: inline-block;
+                        // width: 350px;
+                        // border: 1px solid red;
+                    }
+                }
+
+                .subcat.active {
+                    color: #c682ff;
+                    span.circle {
+                        background-color: #c682ff !important;
+                    }
+                }
+            }
+        }
+    }
+}

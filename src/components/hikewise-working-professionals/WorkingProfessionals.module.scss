@@ -1,0 +1,496 @@
+@import "~utils/variables";
+
+.wrapper {
+  .loaderWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 100%;
+  }
+  .hero {
+    display: flex;
+    padding-top: 10em;
+
+    $textWidth: 60%;
+
+    position: relative;
+    .absolute {
+      position: absolute;
+      left: -10em;
+      top: 10em;
+
+      img {
+        width: 400px;
+      }
+    }
+
+    .text {
+      width: $textWidth;
+      padding-top: 2em;
+      z-index: 2;
+
+      .header {
+        font-size: 2.8rem;
+        margin-bottom: 0.2em;
+        max-width: 20ch;
+
+        span {
+          color: $themePurple;
+        }
+      }
+
+      .subheader {
+        margin-bottom: 1em;
+        font-size: 1.5rem;
+      }
+
+      p {
+        color: #646464;
+        max-width: 45ch;
+        margin-bottom: 2em;
+        line-height: 22px;
+      }
+    }
+
+    .image {
+      width: calc(100% - #{$textWidth});
+
+      img {
+        width: 30em;
+      }
+    }
+  }
+
+  .howSection {
+    padding-top: 10em;
+
+    header {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2.5em;
+
+      * {
+        font-size: 1.5rem;
+      }
+    }
+
+    .steps {
+      padding-inline: 3em;
+
+      .step {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 7em;
+
+        .left {
+          width: 50%;
+
+          div:first-child {
+            color: #8e8e8e;
+            font-size: 0.9rem;
+            margin-bottom: 0.5em;
+          }
+
+          div:nth-child(2) {
+            font-weight: 500;
+            font-size: 1.2rem;
+            margin-bottom: 1em;
+          }
+
+          .body {
+            p {
+              margin-bottom: 2em;
+              color: #273b60;
+            }
+          }
+        }
+
+        .right {
+          img {
+            width: 300px;
+          }
+        }
+      }
+
+      .step:nth-child(2) {
+        .left {
+          order: 2;
+          padding-top: 5em;
+        }
+      }
+
+      .step:last-child {
+        .right {
+          padding-top: 3em;
+          img {
+            width: 350px;
+          }
+        }
+      }
+    }
+  }
+
+  .whySection {
+    header {
+      font-size: 2rem;
+      margin-bottom: 2em;
+      font-weight: 500;
+
+      width: calc(min(600px, 100%));
+
+      span {
+        color: $themePurple;
+      }
+    }
+
+    .content {
+      display: flex;
+
+      .body {
+        width: 50%;
+
+        p {
+          margin-bottom: 2em;
+          color: #080c15;
+          line-height: 25px;
+        }
+      }
+
+      .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+
+        img {
+          width: 400px;
+        }
+      }
+    }
+  }
+
+  .plans {
+    text-align: center;
+    background-color: #f5fafd;
+    padding-block: 1em;
+
+    header {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 2em;
+
+      font-size: 2.3rem !important;
+
+      div {
+        margin-top: 0.5em;
+        font-size: 1.2rem;
+        color: #080c15;
+      }
+
+      span {
+        margin-left: 10px;
+        color: $themePurple;
+      }
+    }
+
+    .cards {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .card {
+        margin-right: 30px;
+      }
+      .card:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+
+  //   .who {
+  //     padding-top: 15em;
+  //     display: flex;
+
+  //     .image {
+  //       width: 45%;
+
+  //       img {
+  //         width: 400px;
+  //       }
+  //     }
+
+  //     .content {
+  //       header {
+  //         font-size: 2.5rem;
+  //         margin-bottom: 1em;
+
+  //         span {
+  //           color: $themePurple;
+  //         }
+  //       }
+  //     }
+
+  //     .body {
+  //       margin-bottom: 3em;
+  //       article {
+  //         margin-bottom: 1.5em;
+  //         .point {
+  //           display: flex;
+  //           align-items: center;
+  //           font-weight: 500;
+  //           font-size: 1.1rem;
+
+  //           span {
+  //             width: 25px;
+  //             height: 25px;
+  //             display: flex;
+  //             justify-content: center;
+  //             align-items: center;
+  //             background-color: #9456c830;
+  //             border-radius: 50%;
+  //             margin-right: 1em;
+
+  //             svg {
+  //               fill: #6300b7;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+
+  //   .who.alt {
+  //     .image {
+  //       order: 2;
+  //       width: 40%;
+  //       img {
+  //         // width: 550px;
+  //         width: calc(min(100%, 550px));
+  //       }
+  //     }
+
+  //     .content {
+  //       width: 60%;
+
+  //       .desc {
+  //         padding-left: 2.7em;
+  //         color: #646464;
+  //         max-width: 50ch;
+  //         line-height: 25px;
+  //       }
+  //     }
+  //   }
+
+  .plans {
+    padding-top: 8em;
+    padding-bottom: 8em;
+    max-width: 100%;
+
+    header {
+      text-align: center;
+      font-size: 1.5rem;
+      span {
+        color: $themePurple;
+      }
+    }
+
+    .text {
+      margin-block: 1em;
+      margin-bottom: 3em;
+      display: flex;
+      justify-content: center;
+
+      p {
+        text-align: center;
+        max-width: 50ch;
+      }
+    }
+
+    // .cards {
+    //   display: flex;
+    //   justify-content: space-between;
+
+    //   .slide {
+    //     margin-bottom: 2em;
+    //     width: auto;
+    //   }
+    // }
+  }
+
+  .testimonials {
+    padding-top: 7em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    .hero {
+      flex-direction: column;
+
+      .absoluteGraphic {
+        display: none;
+        left: -6em;
+        top: 0;
+        img {
+          width: 200px;
+        }
+      }
+
+      .text {
+        order: 2;
+        width: 100%;
+
+        .header {
+          margin: 0 auto;
+          text-align: center;
+          font-size: 2rem;
+          margin-bottom: 0.4em;
+        }
+
+        .subheader {
+          margin-bottom: 1em;
+          font-size: 1.3rem;
+        }
+
+        p {
+          margin: 0 auto;
+          width: 100%;
+          text-align: center;
+        }
+      }
+      .image {
+        order: 1;
+        padding-top: 1em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 2em;
+
+        img {
+          width: calc(min(100%, 450px));
+        }
+      }
+
+      .button {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin-top: 3em;
+      }
+    }
+
+    .plans {
+      .cards {
+        flex-direction: column !important;
+        width: 100%;
+        align-items: center;
+
+        .card {
+          margin-bottom: 3em !important;
+        }
+      }
+    }
+
+    .howSection {
+      .steps {
+        padding-inline: 0em;
+
+        .step {
+          flex-direction: column;
+          justify-content: unset;
+          align-items: center;
+
+          .left {
+            order: 2 !important;
+            margin-top: 2em;
+            width: 100%;
+          }
+
+          .right {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              width: 250px;
+            }
+          }
+        }
+      }
+    }
+
+    .whySection {
+      header {
+        text-align: center;
+        width: 100%;
+      }
+      .content {
+        flex-direction: column;
+
+        .image {
+          display: flex;
+          justify-content: center;
+          order: 1 !important;
+          width: 100%;
+          margin-bottom: 2em;
+        }
+        .body {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          order: 2 !important;
+        }
+      }
+    }
+
+    .who {
+      padding-top: 7em;
+      flex-direction: column;
+
+      .image {
+        width: 100%;
+        margin-bottom: 1em;
+
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 350px;
+        }
+      }
+
+      .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .who.alt {
+      width: 100%;
+
+      .content {
+        order: 2;
+        width: 100%;
+
+        header {
+          display: block;
+          text-align: center;
+        }
+      }
+      .image {
+        width: 100%;
+        order: 1;
+        margin-bottom: 4em;
+      }
+
+      .content {
+      }
+    }
+  }
+}

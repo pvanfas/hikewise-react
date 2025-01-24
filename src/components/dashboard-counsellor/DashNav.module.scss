@@ -1,0 +1,91 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: $dashNavHeight;
+    background-color: white;
+    transition: width 0.1s;
+    z-index: 2;
+    box-shadow: 0px 1px 5px 0 rgba(1, 1, 1, 0.1);
+    width: 100%;
+
+    .logo {
+        cursor: pointer;
+        margin-right: 136px;
+        height: $dashNavHeight;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 120px;
+        }
+    }
+
+    .ham {
+        $height: 30px;
+        height: $height;
+        line-height: $height;
+        width: 100px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: white;
+
+        svg {
+            margin-right: 8px;
+        }
+    }
+
+    .ham.mobile {
+        position: absolute;
+        right: 20px !important;
+    }
+
+    .userController {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 120px;
+
+        .image {
+            min-width: 50px;
+            min-height: 50px;
+            border-radius: 50%;
+            background-color: #eeeeee;
+        }
+
+        .controller {
+            font-weight: 500;
+            .name {
+                color: #575757;
+            }
+            .logout {
+                font-size: 14px;
+                cursor: pointer;
+                color: #3950fa;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.wrapper.mobile {
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,238 @@
+@import "~utils/variables";
+
+.wrapper {
+  padding-top: 60px;
+  padding-bottom: 50px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .text {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .textGray {
+      color: #707070;
+    }
+
+    .socialHandles {
+      display: flex;
+
+      span {
+        cursor: pointer;
+      }
+
+      a {
+        text-decoration: none;
+        margin-right: 10px;
+
+        img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          object-fit: cover;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .socialHandles.buttons {
+      a {
+        width: 160px;
+        text-align: center;
+        display: inline-flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 1em;
+
+        button {
+          width: 100%;
+          height: 35px;
+          padding-inline: 5px;
+          color: white;
+          border-radius: 5px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+
+          svg {
+            margin-right: 0.2em;
+          }
+        }
+      }
+
+      .btnTele {
+        margin-right: 1em;
+        background-color: $themePurple;
+      }
+
+      .btnWhatsapp {
+        background-color: #25d366;
+      }
+    }
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+
+    .col {
+      display: flex;
+      flex-direction: column;
+
+      color: #707070;
+      div {
+        margin-bottom: 5px;
+      }
+    }
+
+    .logo {
+      margin-bottom: auto;
+    }
+
+    .linksWrapper {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+
+      .links {
+        .link {
+          color: #707070;
+          text-decoration: none;
+          padding-block: 3px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .line {
+      color: #707070;
+      text-decoration: none;
+      padding-block: 3px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .hr {
+    margin-block: 3em;
+    width: 100%;
+    // background-color: rgba(1, 1, 1, 0.1);
+    // height: 1px;
+  }
+
+  footer {
+    section {
+      margin-bottom: 2em;
+
+      .title {
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        font-size: 1rem;
+      }
+
+      p {
+        color: #707070;
+        line-height: 30px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+    .socialHandles {
+      justify-content: center;
+      margin-bottom: 2em;
+    }
+
+    .socialHandles.buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    button {
+      margin: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .text {
+      text-align: center;
+    }
+
+    .linksWrapper {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+
+      .links {
+        .link {
+          color: #707070;
+          text-decoration: none;
+          padding-block: 3px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .left {
+      margin-bottom: 1em;
+      margin-right: 0 !important;
+    }
+
+    .right {
+      align-items: center;
+
+      display: flex;
+      flex-direction: column;
+
+      .text {
+        text-align: center;
+      }
+    }
+
+    .main {
+      flex-direction: column;
+
+      .logo {
+        order: 2;
+        margin-top: 30px;
+
+        div {
+          text-align: center;
+        }
+      }
+
+      .linksWrapper {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .wrapper {
+    .main {
+      .linksWrapper {
+        align-items: center;
+        flex-direction: column;
+
+        .col {
+          width: 300px;
+          text-align: center;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}

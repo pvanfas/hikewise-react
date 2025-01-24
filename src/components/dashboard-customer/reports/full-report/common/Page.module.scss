@@ -1,0 +1,11 @@
+.wrapper {
+  width: 210mm;
+  height: 297.11mm;
+  padding: 1.9cm 1.9cm;
+  overflow-y: hidden;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}

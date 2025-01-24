@@ -1,0 +1,91 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+  padding-block: 50px;
+  background-color: #fcfcfc;
+  overflow-y: hidden;
+
+  .title {
+    color: $themePurple;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .faqs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .faq {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px;
+      padding: 1em;
+      padding-right: 1em;
+      padding-bottom: 0;
+      box-shadow: 0 1px 10px 0 rgba(187, 187, 187, 0.2);
+      margin-bottom: 1.5em;
+      background-color: white;
+      width: 49% !important;
+
+      height: 70px;
+
+      &:nth-child(2n) {
+        margin-left: 1em;
+      }
+
+      div:first-child {
+        width: 100%;
+        position: relative;
+        margin-bottom: 1em;
+        padding-right: 90px;
+        cursor: pointer;
+
+        span {
+          position: absolute;
+          right: 20px;
+          top: 50%;
+          transform: translateY(-50%);
+          color: $themePurple;
+        }
+      }
+      div:last-child {
+        margin-bottom: 1.5em;
+        color: rgba(1, 1, 1, 0.5);
+        line-height: 25px;
+        height: 0;
+        display: none;
+      }
+    }
+
+    .faq.open {
+      height: auto;
+      div:last-child {
+        height: auto;
+        display: block;
+      }
+    }
+  }
+
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+
+    .faqs {
+      .faq {
+        width: 100% !important;
+        margin-left: 0em !important;
+      }
+    }
+  }
+}

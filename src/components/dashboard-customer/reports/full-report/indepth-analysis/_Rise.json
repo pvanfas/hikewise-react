@@ -1,0 +1,751 @@
+{
+    "Numerical Aptitude": {
+        "intro": {
+            "points": [
+                "Numerical Aptitude is the ability to understand numerical relationships and handle numerical concepts. It measures how well a person can reason with and use numbers, and work with quantitative materials and ideas.",
+                "Numerical Aptitude is relevant for any sort of work in which accurate calculations or precise measurements are needed to be made."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "It may be very difficult for you to understand numerical concepts and perform computations using numbers.",
+                "You might require a lot of time to grasp new numerical concepts and their manipulation.",
+                "It might not be possible for you to recognize numerical relationships or apply numerical reasoning for decision making."
+            ],
+            "2": [
+                "You have a reasonable level of understanding of numerical concepts and an average capacity to perform computations using numbers.",
+                "You may be able to learn new numerical concepts and manipulate them fairly effectively.",
+                "You are likely to be fairly good at identifying the relevant numerical information required for decision making and applying numerical reasoning while analyzing information."
+            ],
+            "3": [
+                "You have a superior understanding of numerical concepts and mathematical operations",
+                "You are likely to excel at tasks that require the ability to perform complex computations using numbers.",
+                "It's easy for you to learn new numerical concepts quickly and effectively manipulate them.",
+                "You are very good at identifying the relevant numerical information needed to enhance decision making.",
+                "You are consistent in applying sound numerical reasoning when analyzing information and recognizing the numerical relationships among apparently different concepts."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Numerical Aptitude through the following strategies:",
+                "2": "You can improve your Numerical Aptitude through the following strategies:",
+                "3": "You have a highly developed Numerical Aptitude."
+            },
+            "points": {
+                "1": [
+                    "<strong>Make simple calculations a part of your daily life.</strong> Practice performing calculations without a calculator.",
+                    "Work on <strong>improving understanding of basic mathematical concepts</strong> such as factors and multiples, exponents and roots, fractions and ratios etc.",
+                    "Sudoku and many other <strong>number games, puzzles</strong> etc. are really good to build up short-cuts and reasoning abilities where numbers are concerned.",
+                    "Develop a deep understanding of numbers and how they behave by <strong>rigorously practicing</strong> a lot of numerical problems. Start with easy to solve problems. This will build your confidence to work your way to tougher ones."
+                ],
+                "2": [
+                    "Work on further <strong>improving understanding of basic mathematical concepts</strong> such as factors and multiples, exponents and roots, fractions and ratios etc.",
+                    "Develop a deep understanding of numbers and how they behave by <strong>rigorously practicing</strong> a lot of numerical problems ranging from basic ones to more advanced and complex ones.",
+                    "Sudoku and many other <strong>number games, puzzles</strong> etc. are really good to build up short-cuts and reasoning abilities where numbers are concerned"
+                ],
+                "3": []
+            }
+        }
+    },
+    "Verbal Aptitude": {
+        "intro": {
+            "points": [
+                "Verbal Aptitude is the ability to understand and apply concepts framed in words. It demonstrates your ability to reason with words, deduce meaningful relationships from them and to manipulate ideas on an abstract level.",
+                "Verbal Aptitude is important for any work that requires the understanding of complex verbal relationships and skill in manipulating verbal concepts."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "Your command over language is not up to the mark. While you will be able to formulate arguments in a fairly logical manner, you may face difficulty understanding the finer points of complex arguments.",
+                "You may find it difficult to understand new ideas, and explain them coherently to others.",
+                "Tasks that require the understanding of complex verbal relationships and skill in manipulating verbal concepts can turn out to be tough for you."
+            ],
+            "2": [
+                "Your communication skills are good. You can understand others’ views and articulate your own points to an extent.",
+                "You have a reasonable ability to find the right words to explain ideas and to interpret written and spoken instructions.",
+                "You are fairly good at grasping new verbal concepts and learning new languages."
+            ],
+            "3": [
+                "You are excellent at communication. You can comprehend others’ views very well and articulate your own points, easily framing supporting arguments.",
+                "You have a very high ability to find the right words to explain ideas and to interpret written and spoken instructions.",
+                "You are likely to be very quick at grasping new verbal concepts and learning new languages.",
+                "You are highly effective at integrating relevant information from diverse perspectives, recognizing subtle relationships among apparently different concepts or ideas."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Verbal Aptitude through the following strategies:",
+                "2": "You can improve your Verbal Aptitude through the following strategies:",
+                "3": "You have a well-developed verbal aptitude."
+            },
+            "points": {
+                "1": [
+                    "<strong>Build word power: develop</strong> a good vocabulary through extensive reading.",
+                    "<strong>Use a dictionary</strong> to help you and look up new words for their meanings and synonyms.",
+                    "<strong>Improving Verbal Reasoning Skills by</strong> playing word games or games like spotting the odd word out, finding synonyms or spelling challenges."
+                ],
+                "2": [
+                    "<strong>Build a good vocabulary</strong> through extensive reading.",
+                    "<strong>Improve Verbal Reasoning Skills by</strong> playing word games or games like spotting the odd word out, finding synonyms or spelling challenges.",
+                    "<strong>Try to write out stories</strong> – especially creative ones where you have to work out the flow, the reasoning etc."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Mechanical Reasoning": {
+        "intro": {
+            "points": [
+                "Mechanical Reasoning is the ability to understand basic mechanical principles of machinery, tools, and motion. The focus is on simple principles that involve reasoning as opposed to specific knowledge.",
+                "Mechanical Reasoning   is important for any sort of work involving the application of principles of commonly encountered physical forces, and design, operation or repair of equipment."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "It may be difficult for you to understand the principles of physical forces and mechanical elements or apply them in practical situations.",
+                "You may not be able to learn unfamiliar mechanical concepts quickly and may find it very difficult to install devices or equipment.",
+                "The ability to diagnose problems involving machinery and make repairs may not come naturally to you."
+            ],
+            "2": [
+                "You are fairly good at tasks that require an understanding of the principles of physical forces and mechanical elements.",
+                "You may possess a reasonable level of mechanical expertise which can be applied in practical situations.",
+                "You are likely to be able to grasp new or unfamiliar mechanical concepts moderately well and can   install common devices or equipment.",
+                "The ability to diagnose problems involving machinery or equipment and make lasting repairs, is fairly good."
+            ],
+            "3": [
+                "You are excellent at tasks that require an understanding of the principles of physical forces and mechanical elements and can apply these in practical situations.",
+                "You possess a broad level of mechanical expertise that can be applied across several roles or functions.",
+                "You are likely to be very good at learning new or unfamiliar mechanical concepts quickly and installing complex devices or equipment in a manner that meets or exceeds specifications.",
+                "You are quick and accurate in diagnosing complex problems involving machinery or equipment and making repairs that would rarely or never require rework."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Mechanical Reasoning through the following strategies:",
+                "2": "You can improve your Mechanical Reasoning through the following strategies:",
+                "3": "You have a high mechanical reasoning ability"
+            },
+            "points": {
+                "1": [
+                    "You may undertake <strong>‘do-it-yourself’ projects,</strong> or repair things around your home, for giving yourself the scope to exercise your mechanical competence.",
+                    "<strong>You can work with construction kits</strong> or simply take discarded household devices apart and put them back together again.",
+                    "<strong>Improve your understanding of simple concepts related to forces and machines</strong> and their applications in practical situations."
+                ],
+                "2": [
+                    "You may <strong>undertake ‘do-it-yourself’ projects,</strong> or repair things around your home, for giving yourself the scope to exercise your mechanical competence.",
+                    "Practice problems involving concepts on: Mechanics, Structures, Energy and Forces",
+                    "<strong>You can work with construction kits</strong> or simply take discarded household devices apart and put them back together again."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Abstract Reasoning": {
+        "intro": {
+            "points": [
+                "<strong>Abstract reasoning</strong> refers to the ability to reason beyond the obvious. It is concerned with being able to understand complex concepts and assimilate new information beyond previous experience. It includes the ability to detect and analyze patterns and relationships among discrete pieces of information and solve problems on a complex, intangible level.",
+                "Abstract Reasoning is necessary for success in positions that require effective problem solving and decision-making, especially when nonverbal forms of information are involved."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You may find it difficult to draw accurate conclusions from the available information and solve problems on a complex, thought-based level.",
+                "Working with new concepts, recognizing patterns and similarities among things may not come naturally to you.",
+                "You are not likely to be oriented towards combining pieces of relevant information from diverse perspectives and integrating verbal and non-verbal ideas."
+            ],
+            "2": [
+                "To an extent you are capable of analyzing information and solving problems, although not on a complex, thought-based level.",
+                "You may be fairly good at working with new concepts and ideas and recognizing relationships among things.",
+                "You are likely to be reasonably good at integrating pieces of relevant information from diverse perspectives and dealing with non-verbal problems."
+            ],
+            "3": [
+                "You hold great ability to analyze information and solve problems on a complex, thought-based level.",
+                "You are proficient at working with new concepts, abstract ideas and recognizing patterns and similarities between them.",
+                "You are likely to be very good at identifying non-obvious causes of problems and drawing accurate conclusions from the available information.",
+                "You demonstrate high ability in developing insight into non-verbal problems and integrating pieces of relevant information from diverse perspectives."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Abstract Reasoning through the following strategies:",
+                "2": "You can improve your Abstract Reasoning through the following strategies:",
+                "3": "You have a high level of abstract reasoning ability."
+            },
+            "points": {
+                "1": [
+                    "<strong>Be a fine observer</strong> – observe receptively what happens around you with an open mind and attempt to observe the patterns in human and nature’s behavior.",
+                    "You can exercise your abstract reasoning skills by <strong>practicing solving</strong> puzzles, optical illusions, and other “brain teasers”.",
+                    "<strong>Engage with problems</strong> that you enjoy solving and look for ways of approaching them from a different angle more abstractly. Try forming theories about ways of solving these problems.",
+                    "Seek out and practice abstract problems and thought experiments in newspapers, magazines and quiz books, and from online platforms."
+                ],
+                "2": [
+                    "You can exercise your abstract reasoning skills by <strong>practicing solving puzzles, optical illusions, and other “brain teasers”.</strong>",
+                    "<strong>Engage with problems that you enjoy solving</strong> and look for ways of approaching them from a different angle more abstractly. Try forming theories about ways of solving these problems.",
+                    "<strong>Seek out and practice abstract problems</strong> and thought experiments in newspapers, magazines and quiz books, and from online platforms.",
+                    "<strong>Use improvisations:</strong> such skills may also help increase your creativity and abstract thinking skills."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Spatial Aptitude": {
+        "intro": {
+            "points": [
+                "Spatial Aptitude is concerned with the understanding of space and dimensions, and visualizing of objects in 2-D and 3-D perspectives. It is the skill to analyze, comprehend and express imaginary signs and shapes.",
+                "Spatial Aptitude is important in positions that require the ability to mentally create and manipulate images Derived from written plans"
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You might not do well in work where it is important to understand three-dimensional relationships between objects.",
+                "You may find it difficult to visualize a three dimensional object from a pattern or to visualize an object if rotated in space.",
+                "Your ability to manipulate shapes and relate three-dimensional objects to their pictures may not be good."
+            ],
+            "2": [
+                "You have an average level of ability to visualize a three dimensional object from a pattern and also to visualize an object if rotated in space.",
+                "You would do fairly well in work where it is important to understand three-dimensional relationships between objects.",
+                "To an extent you will be able to manipulate shapes in two dimensions and visualize three-dimensional objects presented as two-dimensional pictures."
+            ],
+            "3": [
+                "You would excel in work where it is required to manipulate shapes in two dimensions or to visualize three-dimensional objects presented as two-dimensional pictures.",
+                "You have a high ability to accurately visualize a three dimensional object from a pattern or blueprint and also to visualize an object if rotated in space.",
+                "You would do very well in work where it is important to understand three-dimensional relationships between objects."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Spatial Aptitude through the following strategies:",
+                "2": "You can improve your Spatial Aptitude through the following strategies:",
+                "3": "You have a high spatial aptitude"
+            },
+            "points": {
+                "1": [
+                    "Try to get involved in <strong>activities such as drawing, carpentry, and photography and play computer games</strong> which require navigation.",
+                    "<strong>Practice assembling and making things:</strong> you could build models or assemble jigsaw puzzles. Three-dimensional puzzles provide very good practice in imagining how complex parts fit together.",
+                    "Try <strong>solving Rubik's cube </strong>(considered the perfect brain training), or learning strategy games that involve moving pieces, like checkers and chess."
+                ],
+                "2": [
+                    "Take up activities like <strong>2D drawing</strong> or drawing which includes outlines, edges and shading.",
+                    "<strong>Practice assembling and making things:</strong> you could build models or assemble jigsaw puzzles. Three-dimensional puzzles provide very good practice in imagining how complex parts fit together.",
+                    "Try <strong>Solving Rubik’s cube</strong> (considered the perfect brain training), or learning strategy games that involve moving pieces, like checkers and chess."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Perceptual Aptitude": {
+        "intro": {
+            "points": [
+                "Perceptual aptitude is the ability to respond promptly to different kinds of stimuli, particularly visual, gained through sensory systems and to process the information quickly for manipulating and interpreting the environment.",
+                "Perceptual aptitude is important in many kinds of routine or detailed work and also for work where precision is required."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You may have difficulty in working with speed and accuracy.",
+                "Making logical decisions based upon visual information may not be easy for you",
+                "Work where attention to detail and quality are important may not be suitable for you."
+            ],
+            "2": [
+                "You are capable of working with a fair amount of accuracy and speed.",
+                "You are reasonably good at making logical decisions based upon visual information.",
+                "You are likely to perform moderately well in work where attention to detail and quality are important."
+            ],
+            "3": [
+                "You are capable of working with high levels of speed and accuracy.",
+                "You are excellent at making logical decisions based upon visual information and also possess a high ability to compare and mark written lists quickly and accurately.",
+                "You are likely to excel in work where attention to detail and quality are important.   "
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Perceptual Aptitude through the following strategies:",
+                "2": "You can improve your Perceptual Aptitude through the following strategies:",
+                "3": "You have a highly developed perceptual aptitude"
+            },
+            "points": {
+                "1": [
+                    "<strong>Take part in activities that involve identifying and recognizing letters </strong> (e.g., matching letters or whole words or finding and outlining forms, pictures or letters that are hidden in a large picture)",
+                    "Try <strong>solving puzzles</strong> like jigsaws of designs, letters, pictures, words, etc. and ‘spot the difference’ games or memory games that are available online and in print.",
+                    "<strong>Virtual games</strong> that require quick reflexes can improve your perceptual skills provided that you spend only a limited amount of time with greater focus.",
+                    "<strong>Pay attention to detail</strong> in observing things around you and try to filter out relevant information."
+                ],
+                "2": [
+                    "Take part in activities that involve identifying and recognizing letters (e.g., matching letters or whole words or finding and outlining forms, pictures or letters that are hidden in a large picture)",
+                    "Try <strong>solving puzzles</strong> like jigsaws with designs, letters, pictures, words, etc. and ‘spot the difference’ games or memory games that are available online and in print.",
+                    "<strong>Virtual games</strong> that require quick reflexes can improve your perceptual skills provided that you spend only a limited amount of time with greater focus.",
+                    "<strong>Play sports which require fast reaction time</strong> such as badminton, table tennis and squash, etc."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Self Control": {
+        "intro": {
+            "points": [
+                "It refers to being in control of your emotions and not giving in to temptation; being calm or easygoing and pleasant even in very difficult situations"
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You may get provoked when things do not go your way. You are sensitive about being treated unfairly and feel resentful and bitter when you feel you are being cheated.",
+                "You feel strong cravings and urges that you have difficulty resisting. At times you may get frustrated quickly you tend to be oriented toward short-term pleasures and rewards rather than long-term consequences."
+            ],
+            "2": [
+                "You are usually an easy-going person but might get angry at times. Your level of anger is moderate.",
+                "To an extent you will be able to resist temptations but you might fall in as it gets stronger. You do experience strong cravings and consequently find yourselves tempted to overindulge."
+            ],
+            "3": [
+                "You are likely to be an easy-going person and it’s not easy to provoke you or make you angry .You may be able to execute difficult tasks without losing your temper.",
+                "You find it easier to resist and overcome temptations and also can tolerate strong, irresistible cravings."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Self Control through the following strategies:",
+                "2": "You can improve your Self Control through the following strategies:",
+                "3": "Your self control is high."
+            },
+            "points": {
+                "1": [
+                    "<strong>Observe what happens</strong> during moments of losing self control and critically examine the causes of your behavior",
+                    "<strong>Set specific goals for improvement:</strong> Understand precisely what you are trying to control.",
+                    "<strong>Decrease exposure  </strong> to things that lead to undesirable behavior.",
+                    "<strong>Increase the attractiveness of the desirable behavior:</strong> acknowledge even the slightest of benefits that you get when you move towards the right behavior.",
+                    "<strong>Create a recovery plan:</strong> Understand that you’ll probably experience setbacks and your self-control might fail. Don’t be harsh on yourself over a failure – try again."
+                ],
+                "2": [
+                    "<strong>Observe what happens</strong> during moments of losing self control <strong>and critically examine the causes</strong> of your behavior",
+                    "<strong>Set goals for improvement:</strong> Understand precisely what you are trying to control.",
+                    "<strong>Decrease exposure</strong> to things that lead to undesirable behavior.",
+                    "<strong>Increase the attractiveness of the desirable behavior:</strong> acknowledge even the slightest of benefits that you get when you move towards the right behavior."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Stress Tolerance": {
+        "intro": {
+            "points": [
+                "It is the ability to be confident, fearless, and remain calm and composed while dealing with stressful situations"
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You may often feel like something dangerous is about to happen. You may be afraid of specific situations or be just generally fearful. You may feel tense, jittery, and nervous.",
+                "You may experience feelings of sadness, and loneliness. You may be  easily discouraged and often demotivated",
+                "You are very likely to be concerned about rejection and ridicule that cause you to feel shy and uncomfortable around others. You may feel easily embarrassed.",
+                "You may experience panic, confusion, and helplessness when under pressure or stress. You might find it extremely difficult to cope with stress, becoming dependent, hopeless, or panicked when facing emergency situations."
+            ],
+            "2": [
+                "You are usually calm and relaxed, but occasionally you feel afraid that something bad or dangerous is about to happen.",
+                "You generally tend to be free from depressive feelings. However sometimes, you feel sad, hopeless, or lonely",
+                "Generally, you do not feel nervous in social situations, but at times your concern about rejection and ridicule cause you to feel shy and uncomfortable around others.",
+                "You generally feel confident of handling yourselves in difficult situations, but you might feel unable to cope with stress, becoming dependent, hopeless, or panicked when facing emergency situations."
+            ],
+            "3": [
+                "You are generally calm, relaxed and fearless. You do not usually worry about things that might go wrong.",
+                "You tend to be free from depressive feelings like guilt, sadness, hopelessness, and loneliness.",
+                "You do not bother about being watched and judged by others and do not feel nervous in social situations.",
+                "You tend to remain poised, confident, and clear-headed when stressed. You are able to handle yourself in difficult situations."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Stress Tolerance through the following strategies:",
+                "2": "You can improve your Stress Tolerance through the following strategies:",
+                "3": "Your stress tolerance is high."
+            },
+            "points": {
+                "1": [
+                    "<strong>Recognize your stress and name it:</strong> Ignoring your stress doesn’t improve your tolerance to it. But paying attention to it and putting it into words does.",
+                    "<strong>Change your position or your perspective:</strong> You may not be able to change or control external circumstances causing your stress, but you can take other actions, like changing your position, your role, or your perspective.",
+                    "<strong>Don’t be afraid of the stress:</strong> Getting afraid about your stress increases the stress. But if you think that stress is a natural or even helpful response, then you can manage it in a better way.",
+                    "<strong>Allow yourself recovery time:</strong> When a stressful situation comes your way, especially one involving a big loss or change, be sure to allow yourself time to recover.",
+                    "<strong>Get support</strong>: Experts agree that one of the key factors in how well we handle stress is whether we have support when we are stressed. Seek the help of a qualified professional if required"
+                ],
+                "2": [
+                    "<strong>Recognize your stress and name it:</strong> Ignoring your stress doesn’t improve your tolerance to it. But paying attention to it and putting it into words does.",
+                    "<strong>Change your position or your perspective:</strong> You may not be able to change or control external circumstances causing your stress, but you can take other actions, like changing your position, your role, or your perspective.",
+                    "<strong>Don’t be afraid of the stress:</strong> Getting afraid about your stress increases the stress. But if you think that stress is a natural or even helpful response, then you can manage it in a better way.",
+                    "<strong>Allow yourself recovery time:</strong> When a stressful situation comes your way, especially one involving a big loss or change, be sure to allow yourself time to recover.",
+                    "<strong>Get support:</strong> Experts agree that one of the key factors in how well we handle stress is whether we have support when we are stressed. Talk it over with someone who can help you."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Compassion": {
+        "intro": {
+            "points": [
+                "Being compassionate is having concern for others and being helpful, generous and considerate towards them  "
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You often feel that others are selfish, dishonest, and potentially dangerous.",
+                "You are not particularly interested in helping those in need. Requests for help could feel like an unnecessary burden and not as a satisfying opportunity.",
+                "You do not get moved by human suffering. You are more concerned with truth and impartial justice than with being merciful."
+            ],
+            "2": [
+                "You generally believe that others are honest and well-intentioned, but sometimes you tend to assume that others may be dishonest or dangerous.",
+                "You have concern for others' welfare and a willingness to assist others in need. However you are somewhat self-centered and reluctant to get involved in the problems of others.",
+                "You are usually moved by others' needs, but in some situations, you tend to be more practical and less sympathetic, taking pride in being realistic."
+            ],
+            "3": [
+                "You assume that most people are fair, honest, and have good intentions.",
+                "You find helping other people genuinely rewarding. You believe in going out of the way to assist those who are in need and find that doing things for others makes you happy",
+                "You are tenderhearted and compassionate, feel the pain of others intensely and are easily moved to pity."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Compassion through the following strategies:",
+                "2": "You can improve your Compassion through the following strategies:",
+                "3": "Your compassion is high."
+            },
+            "points": {
+                "1": [
+                    "<strong>Listen attentively:</strong>  Listen with the intent of understanding. This will give others a sense of being heard.",
+                    "<strong>Remember the whole person:</strong> When someone exhibits an undesirable behavior, do not equate it to them as a whole. Remind yourself of  their positive qualities",
+                    "<strong>Put yourself in the other person’s position:</strong> Suffering is universal although the particular details of the problems may be subjective. Remind yourself of a time when you went through something related.",
+                    "<strong>Practice expressing gratitude.</strong> It is important to appreciate the positive events and people in your life. This will help you practice humility and reciprocate the goodness you have received from others."
+                ],
+                "2": [
+                    "Try to <strong>listen attentively</strong> to others with the intention of understanding and give people your undivided attention.",
+                    "<strong>Suspend judgment</strong> and be open minded while interacting with others.",
+                    "<strong>Remember the whole person:</strong> When someone exhibits an undesirable behavior, do not equate it to them as a whole. Remind yourself of  their positive qualities ",
+                    "<strong>Put yourself in the other person’s position:</strong> Suffering is universal although the particular details of the problems may be subjective. Remind yourself of a time when you went through something related.",
+                    "<strong>Practice expressing gratitude</strong>. It is important to appreciate the positive events and people in your life. This will help you practice humility and reciprocate the goodness you have received from others."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Politeness": {
+        "intro": {
+            "points": [
+                "Politeness refers to being cooperative, forgiving, mild-mannered, sincere and humble."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You tend to show yourselves as superior to others and may be seen as disagreeably arrogant by other people.",
+                "You do not consider it important to use words of courtesy or gratitude. You may even pressurize others to get your own way.",
+                "You may believe that being dishonest is sometimes required in social relationships."
+            ],
+            "2": [
+                "You generally give way to others and tend to forgive and forget. But sometimes you prefer to compete rather than to cooperate, and have no reluctance to express aggression.",
+                "You are usually humble and modest, but occasionally you express superiority and may be considered conceited or arrogant by others.",
+                "You are generally frank, sincere, and trusting. But sometimes you consider flattery, cunningness, or deception as necessary tactics for getting your way."
+            ],
+            "3": [
+                "You dislike confrontations. You are perfectly willing to compromise or to deny your own needs in order to get along with others.",
+                "You do not like to claim that you are better than other people, though you are not necessarily lacking in self-confidence or self-esteem.",
+                "You see no need for pretense or manipulation when dealing with others and are therefore candid, frank, and sincere in your interactions."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Politeness through the following strategies:",
+                "2": "You can improve your Politeness through the following strategies:",
+                "3": "You are highly polite."
+            },
+            "points": {
+                "1": [
+                    "<strong>Incorporate greeting culture:</strong> Use your energy to express formal greetings and don’t be hesitant to apologize when it’s required.",
+                    "<strong>Compliment others:</strong> Take initiative in praising others. Be enthusiastic and true to your words.",
+                    "<strong>Don’t say anything negative:</strong> You should try to find new ways to express disapproval that are more polite than going with your regular responses that may sound very negative.",
+                    "<strong>Respect your stance:</strong> You may have to disagree with others, but you can do so without causing conflict by keeping a positive tone of voice and smiling face.",
+                    "<strong>Body language:</strong> Don’t forget, when it’s appropriate, to embrace and use your body language to accentuate your words and praises. They make you a more characteristic and memorable person, and people will easily remember your rhetoric and positive attitude."
+                ],
+                "2": [
+                    "<strong>Compliment others:</strong> Take initiative in praising others. Be enthusiastic and true to your words.",
+                    "<strong>Respect your stance:</strong> You may have to disagree   with others, but you can do so without causing conflict by keeping a positive tone of voice and smiling face.",
+                    "<strong>Body language:</strong> Don’t forget, when it’s appropriate, to embrace and use your body language to accentuate your words and praises. They make you a more characteristic and memorable person, and people will easily remember your rhetoric and positive attitude."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Industriousness": {
+        "intro": {
+            "points": [
+                "Industriousness refers to having high aspirations and working persistently towards achieving one’s goals."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You may feel ineffective, and may have a sense that you are not in control of your  own life.",
+                "You are content to get by with a minimal amount of work, and might be seen by others as lazy.",
+                "Often you find it difficult to complete tasks on time -even those tasks you want very much to complete.",
+                "It may be difficult for you to set goals and achieve them."
+            ],
+            "2": [
+                "Although you are generally well-prepared to deal with life, you may sometimes have a poor opinion of your abilities and feel that you are under prepared.",
+                "Sometimes you feel lazy, aimless and complacent although on the whole you may have high aspiration levels and work hard to achieve your goals.",
+                "Occasionally due to boredom or other distractions you find it difficult to complete the tasks you have begun. . However most of the time you are able to motivate yourself to carry the tasks to completion"
+            ],
+            "3": [
+                "You set very high standards for yourself and you are self-motivated.",
+                "You strive hard to achieve excellence. Your drive to be recognized as successful keeps you on track toward your high goals.",
+                "You are able to overcome reluctance to begin tasks and stay on course despite distractions."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Industriousness through the following strategies:",
+                "2": "You can improve your Industriousness through the following strategies:",
+                "3": "You are highly industrious"
+            },
+            "points": {
+                "1": [
+                    "<strong>Set yourself goals</strong> and persevere in achieving them despite challenges you may have to face. You may start off with small, well defined goals and later extend to larger ones.",
+                    "<strong>Get busy.</strong> Many individuals spend a considerable amount of time sitting around, thinking, wondering and worrying.  However, if you simply start on and get engaged in some useful activity, you will find that there aren’t as many complex problems, as you had expected, hindering your progress.",
+                    "<strong>Surround yourself with individuals who are engaged in productive activity.</strong> People tend to enjoy those activities that appear like group activities, and this can help you develop your own industriousness.",
+                    "<strong>Find activities that you enjoy</strong> and participate in them. People enjoy the fruits of their labor even more when the activity itself is enjoyable."
+                ],
+                "2": [
+                    "<strong>Don’t settle for mediocrity.</strong> Identify and take up tasks that could better utilize your potential and improve your strengths/skill sets.",
+                    "<strong>Surround yourself with individuals who are engaged in productive activity.</strong> People tend to enjoy those activities that appear like group activities, and this can help you develop your own industriousness.",
+                    "<strong>Find activities that you enjoy</strong> and participate in them. People enjoy the fruits of their labor even more when the activity itself is enjoyable.",
+                    "<strong>Look around for what work needs to be done</strong> for self or for others. Participating in resolving these things can help one to feel useful and helpful."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Orderliness": {
+        "intro": {
+            "points": [
+                "Orderliness refers to being neat, tidy, well-organized and methodical; having the ability to be cautious and deliberate and to think carefully before acting."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You are likely to be disorganized and scattered as you may find it difficult to stick to schedules and follow routines.",
+                "You feel stifled by contracts, rules, and regulations. Others may see you as unreliable or irresponsible.",
+                "You dislike planning ahead and often act without thinking of the consequences."
+            ],
+            "2": [
+                "You are usually neat, tidy, and well-organized, but there are times when you tend to get disorganized.",
+                "You try to adhere strictly to your ethical principles and earnestly fulfill your moral obligations as you understand them. However sometimes, you are more casual about such matters and may appear to be undependable or unreliable.",
+                "You generally take decisions after careful consideration, but at times you end up being hasty and speak or act without considering the consequences."
+            ],
+            "3": [
+                "You are well-organized and like to keep lists and make detailed plans.",
+                "You like to live according to routines and schedules and may get disturbed if things get out of hand.",
+                "You have a strong sense of moral obligation.",
+                "You are cautious and deliberate. And take your time when making decisions."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can practice Orderliness through the following strategies:",
+                "2": "You can practice Orderliness through the following strategies:",
+                "3": "You are highly orderly."
+            },
+            "points": {
+                "1": [
+                    "<strong>Arrange the space around you</strong> in the way you like, keep it orderly and attractive. Have a place for your things and put them away when you finish using them. Order around you creates order inside you.",
+                    "<strong>Make step by step plans and follow them.</strong> Break down complex problems into small parts and handle them one at a time. Make use of <em>Flow charts</em> and <em>To Do lists</em>",
+                    "<strong>Stick to your daily work plan</strong> by regulating your sleep pattern and food habits. Being punctual will give you more time on hand. Repeated practice will make being orderly a part of your natural behavior."
+                ],
+                "2": [
+                    "<strong>Make step by step plans and follow them:</strong> Break down problems into small parts and handle them one at a time. Make use of flow charts and to do lists.",
+                    "<strong>Stick to your daily work plan</strong> by maintaining   your sleep pattern and food habits. Being punctual will give you more time in hand. Repeated practice will make being orderly a part of your natural behavior. "
+                ],
+                "3": []
+            }
+        }
+    },
+    "Enthusiasm": {
+        "intro": {
+            "points": [
+                "It refers to being cheerful and optimistic and being able to experience joy and satisfaction in the company of others."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You may be reserved and do not reach out to others and thus it is likely that you appear to be cold and distant.",
+                "You tend to feel overwhelmed by large crowds and therefore actively avoid social gatherings.",
+                "You are less likely to naturally experience happiness, enthusiasm, optimism, and joy."
+            ],
+            "2": [
+                "Although you are usually affectionate and friendly, and genuinely like people it may be difficult at times for you to form close attachments to them.",
+                "Generally, you enjoy the company of others but at times you need privacy and time to be on your own.",
+                "You try to remain cheerful and optimistic and are able to laugh easily most of the time. "
+            ],
+            "3": [
+                "You genuinely like people and openly appreciate others. You make friends quickly and it is easy for you to form close, intimate relationships.",
+                "You find the company of others pleasantly stimulating and rewarding. You enjoy the excitement of crowds. You love bright lights and hustle and bustle.",
+                "You enjoy being the center of attention, being a sensation seeker.",
+                "It is very natural for you to experience positive emotions like happiness, enthusiasm, optimism, and joy."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Enthusiasm through the following strategies:",
+                "2": "You can improve your Enthusiasm through the following strategies:",
+                "3": "You are highly enthusiastic"
+            },
+            "points": {
+                "1": [
+                    "<strong>Find what interests you:</strong> Develop a love for learning. Ask a lot of questions and do plenty of exploration.",
+                    "<strong>Focus on the good:</strong> Look for the opportunities that difficulties offer and live your life with gratitude. Focus on what you can do instead of what you can’t. If you focus too much on the negative, it can zap you of your creativity, energy, and productivity.",
+                    "<strong>Hang around with enthusiastic people:</strong> Enthusiasm is contagious. The more you can find ways to connect with and develop relationships with enthusiastic people, the more excitement will “rub off” on you, inspiring you to want to do more."
+                ],
+                "2": [
+                    "<strong>Find what interests you:</strong> Develop a love for learning. Ask a lot of questions and do plenty of exploration.",
+                    "<strong>Hang around with enthusiastic people:</strong> Enthusiasm is contagious. The more you can find ways to connect with and develop relationships with enthusiastic people, the more excitement will “rub off” on you, inspiring you to want to do more."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Assertiveness": {
+        "intro": {
+            "points": [
+                "It refers to being dominant, forceful, and socially able; having the ability to take charge and assume leadership."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You generally let others control the activities of a group and prefer to be a follower and not a leader.",
+                "You tend to feel overwhelmed by large crowds and therefore actively avoid social gatherings.",
+                "You are less likely to naturally experience happiness, enthusiasm, optimism, and joy."
+            ],
+            "2": [
+                "Usually, you speak without hesitation and like to lead a group, but at times you prefer to keep in the background and let others do the talking.",
+                "You are not necessarily sluggish or lazy and generally like to lead a fast-paced life, but sometimes you prefer to be more leisurely and relaxed in tempo.",
+                "You seek excitement and stimulation most of the time and may like bright colors and loud environments, but there are times when thrill seeking does not excite you much."
+            ],
+            "3": [
+                "You like to speak out, take charge, and be the leader in groups that you are part of.",
+                "You like to lead a fast-paced, busy life, moving quickly, energetically, and vigorously between multiple activities.",
+                "You are easily bored when things are not exciting. You may enjoy taking risks and seeking thrills."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Assertiveness through the following strategies:",
+                "2": "You can improve your Assertiveness through the following strategies:",
+                "3": "You are highly assertive."
+            },
+            "points": {
+                "1": [
+                    "<strong>Make the decision to positively assert yourself:</strong> Commit to being assertive rather than being passive or aggressive and start practicing this today.",
+                    "<strong>Aim for open communication:</strong> Be honest and tell others how you feel or what you want without making accusations or making them feel guilty.  Remember to respect other people when you are sharing your feelings, wants, needs, beliefs or opinions.",
+                    "<strong>Listen actively:</strong> Try to understand the other person’s point of view and don’t interrupt when they are explaining it to you.",
+                    "<strong>Agree to disagree:</strong> Remember that having a different point of view doesn’t mean you are right and the other person is wrong.",
+                    "<strong>Practice assertiveness:</strong> Talk in an assertive way in front of a mirror or with a friend. Pay attention to your body language as well as to the words you say.",
+                    "<strong>Use assertive phrases without being aggressive:</strong>    Stick with statements that include ‘I’ in them such as ‘I think’ or ‘I feel’. Don’t use aggressive language such as ‘you always’ or ‘you never’."
+                ],
+                "2": [
+                    "<strong>Make the decision to positively assert yourself:</strong> Commit to being assertive rather than being passive or aggressive and start practicing this.",
+                    "<strong>Aim for open and honest communication:</strong> Remember to respect other people when you are sharing your feelings, wants, needs, beliefs or opinions.",
+                    "<strong>Agree to disagree:</strong> Remember that having a different point of view doesn’t mean you are right and the other person is wrong.",
+                    "<strong>Practice assertiveness:</strong> Talk in an assertive way in front of a mirror or with a friend. Pay attention to your body language as well as to the words you say.",
+                    "<strong>Use assertive phrases without being aggressive:</strong> Stick with statements that include ‘I’ in them such as ‘I think’ or ‘I feel’. Don’t use aggressive language such as ‘you always’ or ‘you never’."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Intellect": {
+        "intro": {
+            "points": [
+                "Intellect refers to the quality of cleverness, originality, quickness and willingness to consider new ideas."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You may be slow in doing complex tasks and you may find it difficult to face unexpected problems.",
+                "You are likely to be better at dealing with people or things rather than with ideas.",
+                "You may regard intellectual exercises as difficult to understand or as a waste of time."
+            ],
+            "2": [
+                "Usually, you enjoy both philosophical arguments and brain teasers but you may prefer not to engage in such tasks very often.",
+                "You don’t get curious about things generally and you tend to narrowly focus your thoughts on limited topics."
+            ],
+            "3": [
+                "You are open-minded to new and unusual ideas and focus on tackling new challenges.",
+                "You like to debate intellectual issues as you are happy to think about abstract ideas.",
+                "You enjoy riddles, puzzles, and brain teasers."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can improve your Intellect through the following strategies:",
+                "2": "You can improve your Intellect through the following strategies:",
+                "3": "You have a high intellect."
+            },
+            "points": {
+                "1": [
+                    "<strong>Invest in self-directed, life-long learning;</strong> continually acquire new knowledge, skills and competencies to adapt to new challenges.",
+                    "<strong>Stay alert and be curious</strong> about the world around you, and don't be afraid to ask questions, even those that others might consider as irrelevant.",
+                    "<strong>Engage in new thoughts and ideas:</strong> A thirst for knowledge and an interest in new information may come more naturally to some than to others. However, a conscious effort to read up on new ideas, pay attention to sensory experiences, learn a new language, and pick up new skills can stimulate your intellect",
+                    "<strong>Don’t be afraid to get out of your comfort zone:</strong> Be prepared to try things which are new to you.",
+                    "<strong>Collaborate and network with people;</strong> build and enhance your relationships, especially with those who are wiser and/or who demand more out of you.",
+                    "<strong>Read extensively,</strong> also covering areas which are outside of your interest domains"
+                ],
+                "2": [
+                    "<strong>Invest in self-directed, life-long learning;</strong> continually acquire new knowledge, skills and competencies to adapt to new challenges.",
+                    "<strong>Stay alert. Be curious</strong> about the world around you, and don't be afraid to ask questions, even those that others might consider as irrelevant.",
+                    "<strong>Collaborate and network with people;</strong> build and enhance your relationships, especially with those who are wiser and/or who demand more out of you.",
+                    "<strong>Read extensively,</strong> also covering areas which are outside your interest domains."
+                ],
+                "3": []
+            }
+        }
+    },
+    "Openness": {
+        "intro": {
+            "points": [
+                "Openness refers to the individual's willingness to try out new things,  ability to think outside the box  and act  differently."
+            ]
+        },
+        "critical_analysis": {
+            "1": [
+                "You are likely to be more oriented to facts than fantasy.",
+                "It might be difficult for you to find an interest and sense of beauty  in most forms of art",
+                "It may be difficult for you to identify and express emotions accurately",
+                "You are very likely to prefer routine over variety and ‘change’ is something you might find uncomfortable.",
+                "You tend to stick to rules and norms brought by authority"
+            ],
+            "2": [
+                "You are usually appreciative of art and  find beauty  in nature",
+                "You are likely to welcome unconventional  values  and respect diverse viewpoints",
+                "You tend to be involved in imagination and fantasy to an extent, but at times, you are straight forward and prefer to keep your mind on the task at hand.",
+                "You may experience deeper and more differentiated emotional states and feel both happiness and unhappiness more keenly than others do. Occasionally, you do not believe that feeling states are of much importance.",
+                "You prefer novelty and variety to familiarity and routine. Over time, you may engage in a series of different hobbies. However, you find ‘change’ difficult at times.",
+                "You tend to accept authority and to honor tradition"
+            ],
+            "3": [
+                "You tend  to be highly appreciative of arts and  find beauty  in nature",
+                "You may find it difficult to obey authority and stick to rules that appear irrelevant to you.",
+                "You are likely to use fantasy as a way of creating a richer, more interesting world.",
+                "You are likely to have good access and awareness of your own feelings  and the feelings of others."
+            ]
+        },
+        "improvement_strats": {
+            "intro": {
+                "1": "You can develop and maintain certain openness habits that can maximize your potential for creative growth:",
+                "2": "You can develop and maintain certain openness habits that can maximize your potential for creative growth:",
+                "3": "Your openness is high."
+            },
+            "points": {
+                "1": [
+                    "<strong>Expose yourself to nature and art:</strong> One of the characteristics of those who score high on the openness measure is the involvement in aesthetically triggering experiences and the appreciation of artistic events. Going to art galleries and plays or even going for a walk in nature may stimulate your perceptions and increase your aesthetic sensitivity.",
+                    "<strong>Bring changes in your routine:</strong> Following too rigid a schedule can limit your sense of receptiveness to new experiences. In order to benefit from the creativity that is correlated with this personality trait, you may want to incorporate an adventurous spirit in your day-to-day life. Adding variety in daily choices may help bring out the openness side of your personality.",
+                    "<strong>Find a way to change things:</strong> If your current work/activity doesn’t interest you, or if you find yourself dreading work, that’s a sign you need to change. Either look at how you can change your work or remember why you got started in the first place, and change your feelings about your work."
+                ],
+                "2": [
+                    "<strong>Expose yourself to nature and art:</strong> One of the characteristics of those who score high on the openness measure is the involvement in aesthetically triggering experiences and the appreciation of artistic events. Going to art galleries and plays or even going for a walk in nature may stimulate your perceptions and increase your aesthetic sensitivity.",
+                    "<strong>Bring changes in your routine:</strong> Following too rigid a schedule can limit your sense of receptiveness to new experiences. In order to benefit from the creativity that is correlated with this personality trait, you may want to incorporate an adventurous spirit in your day-to-day life. Adding variety in daily choices may help bring out the openness side of your personality."
+                ],
+                "3": []
+            }
+        }
+    }
+}

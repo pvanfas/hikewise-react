@@ -1,0 +1,446 @@
+{
+  "REDESIGN": {
+    "aptitude": {
+      "Verbal Aptitude": {
+        "distribution": [
+          {
+            "type": "Selecting Words",
+            "quesCount": 6,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Sentence Correction",
+            "quesCount": 4,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Spellings",
+            "quesCount": 10,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Completing Statements",
+            "quesCount": 6,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Sentence Formation",
+            "quesCount": 5,
+            "time": "4 minutes"
+          }
+        ]
+      },
+      "Spatial Aptitude": {
+        "distribution": [
+          {
+            "type": "Rotated Blocks",
+            "quesCount": 10,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Matching Pieces and Parts",
+            "quesCount": 10,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Understanding Patterns",
+            "quesCount": 10,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Mirror Image",
+            "quesCount": 5,
+            "time": "2 minutes"
+          }
+        ]
+      },
+      "Perceptual Aptitude": {
+        "distribution": [
+          {
+            "type": "Series Completion",
+            "quesCount": 15,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Perceptual Speed",
+            "quesCount": 15,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Checking Information",
+            "quesCount": 10,
+            "time": "1 minute"
+          },
+          {
+            "type": "Working with Diagrams",
+            "quesCount": 6,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Analogical Reasoning",
+            "quesCount": 10,
+            "time": "4 minutes"
+          }
+        ]
+      },
+      "Numerical Aptitude": {
+        "distribution": [
+          {
+            "type": "Computation",
+            "quesCount": 10,
+            "time": "2 minutes"
+          },
+          {
+            "type": "Arithmetic Reasoning",
+            "quesCount": 20,
+            "time": "8 minutes"
+          },
+          {
+            "type": "Number Series",
+            "quesCount": 10,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Number Puzzles",
+            "quesCount": 6,
+            "time": "5 minutes"
+          }
+        ]
+      },
+      "Mechanical Reasoning": {
+        "distribution": [
+          {
+            "type": "Tools Analogy",
+            "quesCount": 10,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Mechanical Aptitude",
+            "quesCount": 12,
+            "time": "12 minutes"
+          }
+        ]
+      },
+      "Abstract Reasoning": {
+        "distribution": [
+          {
+            "type": "Series Completion",
+            "quesCount": 8,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Symbol Analogies",
+            "quesCount": 15,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Pattern Comparison",
+            "quesCount": 10,
+            "time": "5 minutes"
+          }
+        ]
+      }
+    }
+  },
+  "SAIL": {
+    "aptitude": {
+      "Verbal Aptitude": {
+        "distribution": [
+          {
+            "type": "Selecting Words",
+            "quesCount": 6,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Sentence Correction",
+            "quesCount": 5,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Spellings",
+            "quesCount": 10,
+            "time": "5 minutes"
+          },
+          {
+            "type": "One Word Substitutes",
+            "quesCount": 8,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Ordering of Words",
+            "quesCount": 4,
+            "time": "4 minutes"
+          }
+        ]
+      },
+      "Spatial Aptitude": {
+        "distribution": [
+          {
+            "type": "Matching Pieces and Parts",
+            "quesCount": 10,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Understanding Patterns",
+            "quesCount": 15,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Construction of Squares",
+            "quesCount": 10,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Mirror Image",
+            "quesCount": 10,
+            "time": "4 minutes"
+          }
+        ]
+      },
+      "Perceptual Aptitude": {
+        "distribution": [
+          {
+            "type": "Series Completion",
+            "quesCount": 15,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Perceptual Speed",
+            "quesCount": 15,
+            "time": "2 minutes"
+          },
+          {
+            "type": "Checking Information",
+            "quesCount": 10,
+            "time": "1 minute"
+          },
+          {
+            "type": "Working with Diagrams",
+            "quesCount": 6,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Analogical Reasoning",
+            "quesCount": 10,
+            "time": "4 minutes"
+          }
+        ]
+      },
+      "Numerical Aptitude": {
+        "distribution": [
+          {
+            "type": "Computation",
+            "quesCount": 10,
+            "time": "2 minutes"
+          },
+          {
+            "type": "Arithmetic Reasoning",
+            "quesCount": 20,
+            "time": "8 minutes"
+          },
+          {
+            "type": "Number Series",
+            "quesCount": 10,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Number Puzzles",
+            "quesCount": 6,
+            "time": "5 minutes"
+          }
+        ]
+      },
+      "Mechanical Reasoning": {
+        "distribution": [
+          {
+            "type": "Tools Analogy",
+            "quesCount": 10,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Mechanical Aptitude",
+            "quesCount": 12,
+            "time": "12 minutes"
+          }
+        ]
+      },
+      "Abstract Reasoning": {
+        "distribution": [
+          {
+            "type": "Series Completion",
+            "quesCount": 8,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Symbol Analogies",
+            "quesCount": 15,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Pattern Comparison",
+            "quesCount": 10,
+            "time": "5 minutes"
+          }
+        ]
+      }
+    }
+  },
+  "RISE": {
+    "aptitude": {
+      "Verbal Aptitude": {
+        "distribution": [
+          {
+            "type": "Selecting Words",
+            "quesCount": 6,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Antonyms",
+            "quesCount": 6,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Spellings",
+            "quesCount": 10,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Synonyms",
+            "quesCount": 6,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Sentence Formation",
+            "quesCount": 6,
+            "time": "5 minutes"
+          }
+        ]
+      },
+      "Spatial Aptitude": {
+        "distribution": [
+          {
+            "type": "Matching Pieces and Parts",
+            "quesCount": 10,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Understanding Patterns",
+            "quesCount": 10,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Visual Estimation",
+            "quesCount": 10,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Mirror Image",
+            "quesCount": 10,
+            "time": "4 minutes"
+          }
+        ]
+      },
+      "Perceptual Aptitude": {
+        "distribution": [
+          {
+            "type": "Analogy Figures",
+            "quesCount": 8,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Perceptual Speed",
+            "quesCount": 15,
+            "time": "2 minutes"
+          },
+          {
+            "type": "Analogy Codes",
+            "quesCount": 8,
+            "time": "2 minutes"
+          },
+          {
+            "type": "Classification",
+            "quesCount": 8,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Alpha Numeric Series",
+            "quesCount": 8,
+            "time": "2 minutes"
+          },
+          {
+            "type": "Series Completion",
+            "quesCount": 8,
+            "time": "3 minutes"
+          }
+        ]
+      },
+      "Numerical Aptitude": {
+        "distribution": [
+          {
+            "type": "Computation",
+            "quesCount": 10,
+            "time": "2 minutes"
+          },
+          {
+            "type": "Arithmetic Reasoning",
+            "quesCount": 20,
+            "time": "8 minutes"
+          },
+          {
+            "type": "Number Series",
+            "quesCount": 8,
+            "time": "5 minutes"
+          },
+          {
+            "type": "Number Puzzles",
+            "quesCount": 6,
+            "time": "5 minutes"
+          }
+        ]
+      },
+      "Mechanical Reasoning": {
+        "distribution": [
+          {
+            "type": "Tools Analogy",
+            "quesCount": 10,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Mechanical Aptitude",
+            "quesCount": 12,
+            "time": "12 minutes"
+          }
+        ]
+      },
+      "Abstract Reasoning": {
+        "distribution": [
+          {
+            "type": "Analogy",
+            "quesCount": 8,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Repeating Patterns",
+            "quesCount": 8,
+            "time": "4 minutes"
+          },
+          {
+            "type": "Growing Patterns",
+            "quesCount": 8,
+            "time": "2 minutes"
+          },
+          {
+            "type": "Reducing Patterns",
+            "quesCount": 8,
+            "time": "3 minutes"
+          },
+          {
+            "type": "Classification",
+            "quesCount": 8,
+            "time": "3 minutes"
+          }
+        ]
+      }
+    }
+  }
+}

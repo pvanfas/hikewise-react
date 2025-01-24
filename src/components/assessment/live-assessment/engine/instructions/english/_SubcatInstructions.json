@@ -1,0 +1,1038 @@
+{
+  "REDESIGN": {
+    "aptitude": {
+      "Abstract Reasoning": {
+        "Abstract Series Completion": {
+          "title": "Abstract Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will see a series of shapes and you have to find out which shape among the five given options comes next in the series.</p>"
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Symbol Analogies": {
+          "title": "Symbol Analogies",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will be given two groups of symbols (with three symbols in Group 1 and two in Group 2). You have to find out which symbol among the given options should be the third symbol in Group 2 so that Group 2 also shares the trait which is characteristic of Group 1.</p>"
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Pattern Comparison": {
+          "title": "Pattern Comparsion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, a related pair of figures is given to you followed by another five numbered pair of figures. You have to select the pair that has a relationship similar to that in the original pair given in the question.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        }
+      },
+      "Mechanical Reasoning": {
+        "Tools Analogy": {
+          "title": "Tools Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you have to recognise the tool given in the question and choose the most closely related tool or object from the given choices.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mechanical Aptitude": {
+          "title": "Mechanical Aptitude",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, your mechanical aptitude will be tested. You have to select the right answer from the options given for each question.</p>"
+            }
+          ],
+          "quesCount": 12,
+          "time": "12 minutes"
+        }
+      },
+      "Numerical Aptitude": {
+        "Computation": {
+          "title": "Computation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you have to perform some basic mathematical operations like addition, subtraction, multiplication and division.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "2 minutes"
+        },
+        "Arithmetic Reasoning": {
+          "title": "Arithmetic Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will be given some mathematical problem. You have to solve these problems to find out the right answer among the four given options.</p>"
+            }
+          ],
+          "quesCount": 20,
+          "time": "8 minutes"
+        },
+        "Number Series": {
+          "title": "Number Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will be given a series of numbers among which one number will be missing. You have to find out the missing number in the series.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Number Puzzles": {
+          "title": "Number Puzzles",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will have to solve some number puzzles. Few numbers are inserted in a figure following a particular rule for their placement at different places in relation to the figure. You have to find out the missing number in the given figure.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/number_puzzles.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Solution.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>5 x 2 + 2 = 12;</span> &nbsp;&nbsp; <span>12 x 2 + 2 = 26;</span></p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>26 x 2 +2 = 54;</span></p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      },
+      "Perceptual Aptitude": {
+        "Perceptual Series Completion": {
+          "title": "Perceptual Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you have to identify the relationship between the given symbols and pick the correct symbol from the four options given, which you feel best continues the series.</p>"
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Perceptual Speed": {
+          "title": "Perceptual Speed",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will see four pairs of English letters. Each pair has been put into its own box. You must decide how many pairs contain letters that are the same. In this test capital letters [like ‘F’] are the same as small letters [like ‘f’].</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/perceptual_speed.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "2 minutes"
+        },
+        "Checking Information": {
+          "title": "Checking Information",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, your ability to check information quickly will be put to test. You will be given two lists of reference numbers. In each line, you have to find out the column in which there is a mismatch between the two lists. If there is no difference in a line, choose option ‘E’.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/checking_information.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "1 minutes"
+        },
+        "Working with Diagrams": {
+          "title": "Working with Diagrams",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, your ability to follow instructions coded as symbols will be put to test.  In this test columns of shapes are presented in BOXES. You have to change these shapes using commands that are shown as symbols contained in CIRCLES and select the final state of the shapes from the given options.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/working_with_diagrams.png"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Analogical Reasoning": {
+          "title": "Analogical Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, your ability to follow instructions coded as symbols will be put to test.  In this test columns of shapes are presented in BOXES. You have to change these shapes using commands that are shown as symbols contained in CIRCLES and select the final state of the shapes from the given options.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/analogical_reasoning.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Spatial Aptitude": {
+        "Rotated Blocks": {
+          "title": "Rotated Blocks",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will be rotating solid three-dimensional blocks of various shapes in order to test your ability to think in three-dimensions. For each shape you will find four possible answers which may represent that shape rotated 360 degrees in any direction. Your task is to determine which of the four choices is the only one that could be the original shape, rotated.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>You’ll want to pay close attention to detail here in order to catch some of the small differences that may lead you to an incorrect answer. Some of the most common mistakes are made when you overlook subtly placed extra lines or mirror images. They may appear correct at a glance but under closer examination are wrong. Study the images carefully and the answers will become obvious.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/rotated_blocks.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Matching Pieces and Parts": {
+          "title": "Matching Pieces and Parts",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will be given a set of 4 - 5 pieces and you have to select the answer choice that represents a figure comprised of ALL the given pieces. Pieces may be rotated and/or reflected.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Understanding Patterns": {
+          "title": "Understanding Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, your capacity to transform 2-D into 3-D will be tested. You should be able to mentally fold up a 2-dimensional pattern into a 3-dimensional solid. You will be given a 2-D shape and you have to find out which among the four given 3-D shapes can be made by folding and/or rolling the given 2-D shape.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/understanding_patterns.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Mirror Image": {
+          "title": "Mirror Image",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you have to choose the correct mirror image of the figure given in the question from the four given options. The dotted line in the question represents the mirror.</p>"
+            }
+          ],
+          "quesCount": 5,
+          "time": "2 minutes"
+        }
+      },
+      "Verbal Aptitude": {
+        "Selecting Words": {
+          "title": "Selecting Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you have to fill in the blanks with the most appropriate word(s) from the given options.</p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Sentence Correction": {
+          "title": "Sentence Correction",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you have to select the phrase among the given options which should replace the phrase printed in <strong>BOLD</strong> so that the sentence becomes grammatically correct. If you think that the given sentence is correct as it is, then please choose option <strong>‘E’</strong>.</p>"
+            }
+          ],
+          "quesCount": 4,
+          "time": "3 minutes"
+        },
+        "Spellings": {
+          "title": "Spellings",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will be given a set of four words among which one is not spelt correctly. You have to find out the wrongly spelt word. If you think that all the four words are spelt correctly, then please choose option <strong>‘E’</strong>.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Completing Statements": {
+          "title": "Completing Statements",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will be given an incomplete statement (stem) followed by fillers. You have to pick out the best one which can complete the incomplete stem correctly and meaningfully.</p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        },
+        "Sentence Formation": {
+          "title": "Sentence Formation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will be given a sentence broken into five or more parts. You have to join these parts to make a meaningful sentence. The correct order of the parts is the right answer.</p>"
+            }
+          ],
+          "quesCount": 5,
+          "time": "4 minutes"
+        }
+      }
+    }
+  },
+  "SAIL": {
+    "aptitude": {
+      "Abstract Reasoning": {
+        "Abstract Series Completion": {
+          "title": "Abstract Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you are given a set of five figures which has a repeating pattern characteristic to it. You have to select the figure which will come next in the series."
+            },
+            {
+              "type": "TEXT",
+              "content": "Before starting the test, let's look at sample problem and its solution"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/instructions/series_completion.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<strong>Solution</strong> Arrow rotates through an angle of 90° and 45° anticlockwise alternatively and inner figure rotates through an angles of 90° and 45° clockwise in alternate block. Hence the correct answer is (d)"
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Symbol Analogies": {
+          "title": "Symbol Analogies",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given two groups of symbols (with three symbols in Group 1 and two in Group 2). You have to find out which symbol among the given options should be the third symbol in Group 2 so that Group 2 also shares the trait which is characteristic of Group 1."
+            },
+            {
+              "type": "TEXT",
+              "content": "Before starting the test, let's look at sample problem and its solution"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/instructions/symbol_analogies.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Pattern Comparison": {
+          "title": "Pattern Comparison",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you are given a set of five figures and in 4 out of the 5 figures, elements I and II are related in some way. You have to find out the figure in which element I is not so related to element II."
+            },
+            {
+              "type": "TEXT",
+              "content": "Before starting the test, let's look at sample problem and its solution"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/instructions/pattern_comparison.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        }
+      },
+      "Mechanical Reasoning": {
+        "Tools Analogy": {
+          "title": "Tools Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to recognise the tool given in the question and choose the most closely related tool or object from the given choices."
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mechanical Aptitude": {
+          "title": "Mechanical Aptitude",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, your mechanical aptitude will be tested. You have to select the right answer from the options given for each question."
+            }
+          ],
+          "quesCount": 12,
+          "time": "12 minutes"
+        }
+      },
+      "Numerical Aptitude": {
+        "Computation": {
+          "title": "Computation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to perform some basic mathematical operations like addition, subtraction, multiplication and division"
+            }
+          ],
+          "quesCount": 10,
+          "time": "2 minutes"
+        },
+        "Arithmetic Reasoning": {
+          "title": "Arithmetic Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given some mathematical problem. You have to solve these problems to find out the right answer among the four given options."
+            }
+          ],
+          "quesCount": 20,
+          "time": "8 minutes"
+        },
+        "Number Series": {
+          "title": "Number Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a series of numbers among which one number will be missing. You have to find out the missing number in the series."
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Number Puzzles": {
+          "title": "Number Puzzles",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will have to solve some number puzzles. Few numbers are inserted in a figure following a particular rule for their placement at different places in relation to the figure. You have to find out the missing number in the given figure.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/number_puzzles.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Solution.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>5 x 2 + 2 = 12;</span> &nbsp;&nbsp; <span>12 x 2 + 2 = 26;</span></p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>26 x 2 +2 = 54;</span></p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      },
+      "Perceptual Aptitude": {
+        "Perceptual Series Completion": {
+          "title": "Perceptual Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to identify the relationship between the given symbols and pick the correct symbol from the four options given, which you feel best continues the series."
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Perceptual Speed": {
+          "title": "Perceptual Speed",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will see four pairs of English letters. Each pair has been put into its own box. You must decide how many pairs contain letters that are the same. In this test capital letters [like ‘F’] are the same as small letters [like ‘f’].</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/perceptual_speed.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "2 minutes"
+        },
+        "Checking Information": {
+          "title": "Checking Information",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, your ability to check information quickly will be put to test. You will be given two lists of reference numbers. In each line, you have to find out the column in which there is a mismatch between the two lists. If there is no difference in a line, choose option ‘E’."
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/checking_information.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "1 minutes"
+        },
+        "Working with Diagrams": {
+          "title": "Working with Diagrams",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, your ability to follow instructions coded as symbols will be put to test.  In this test columns of shapes are presented in BOXES. You have to change these shapes using commands that are shown as symbols contained in CIRCLES and select the final state of the shapes from the given options."
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/working_with_diagrams.png"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Analogical Reasoning": {
+          "title": "Analogical Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, your analogical reasoning skills will be put to test. You will be given two figures in the left of sign  ( :: ) which are connected in some way.  The same relationship exists between the third figure and one of the four alternatives. You have to find the correct alternative in each case."
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/analogical_reasoning.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Spatial Aptitude": {
+        "Matching Pieces and Parts": {
+          "title": "Matching Pieces and Parts",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to pick the answer choice that contains the two parts that can come together to make the figure shown in the question. Pieces may be reflected and/or rotated. "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Understanding Patterns": {
+          "title": "Understanding Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, your capacity to transform 2-D into 3-D will be tested. You should be able to mentally fold up a 2-dimensional pattern into a 3-dimensional solid. You will be given a 2-D shape and you have to find out which among the four given 3-D shapes can be made by folding and/or rolling the given 2-D shape."
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/understanding_patterns.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "4 minutes"
+        },
+        "Construction of Squares": {
+          "title": "Construction of Squares",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, a key figure is given, followed by four other alternatives marked (a), (b), (c), (d). Select one figure from the alternative, which fits exactly into the key figure to form a complete square."
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mirror Image": {
+          "title": "Mirror Image",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to choose the correct mirror image of the figure given in the question from the four given options. "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Verbal Aptitude": {
+        "Selecting Words": {
+          "title": "Selecting Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to fill in the blanks with the most appropriate word(s) from the given options. "
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Sentence Correction": {
+          "title": "Sentence Correction",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you have to select the phrase among the given options which should replace the phrase printed in <strong>BOLD </strong>so that the sentence becomes grammatically correct. If you think that the given sentence is correct as it is, then please choose option &lsquo;<strong>E</strong>&rsquo;.</p>"
+            }
+          ],
+          "quesCount": 5,
+          "time": "4 minutes"
+        },
+        "Spellings": {
+          "title": "Spellings",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a set of four words among which only one is spelt correctly. You have to find out the correctly spelt word."
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "One Word Substitutes": {
+          "title": "One Word Substitutes",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to select the most appropriate word among the given options that can imply the same meaning as the phrase given in the question."
+            }
+          ],
+          "quesCount": 8,
+          "time": "4 minutes"
+        },
+        "Ordering of Words": {
+          "title": "Ordering of Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a sentence of which some parts have been jumbled up. You have to rearrange these parts which are labelled as P, Q, R and S to make a meaningful sentence. The correct order of the parts is the right answer."
+            }
+          ],
+          "quesCount": 4,
+          "time": "4 minutes"
+        }
+      }
+    }
+  },
+  "RISE": {
+    "aptitude": {
+      "Abstract Reasoning": {
+        "Analogy": {
+          "title": "Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, a related pair of abstract figures is given to you followed by another figure which needs to be paired with another figure. You have to select the figure among the given options so that the second pair also has a relationship similar to that in the original pair."
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Repeating Patterns": {
+          "title": "Repeating Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you are given a set of four figures which has a repeating pattern characteristic to it. You have to select the figure which will come next in the series."
+            }
+          ],
+          "quesCount": 8,
+          "time": "4 minutes"
+        },
+        "Growing Patterns": {
+          "title": "Growing Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you are given a set of four figures which has a growing pattern characteristic to it. You have to select the figure which will come next in the series."
+            }
+          ],
+          "quesCount": 8,
+          "time": "2 minutes"
+        },
+        "Reducing Patterns": {
+          "title": "Reducing Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you are given a set of four figures which has a reducing pattern characteristic to it. You have to select the figure which will come next in the series."
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Abstract Classification": {
+          "title": "Abstract Classification",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you are given a set of five figures among which you have to pick the odd one out."
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        }
+      },
+      "Mechanical Reasoning": {
+        "Tools Analogy": {
+          "title": "Tools Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to recognise the tool given in the question and choose the most closely related tool or object from the given choices."
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mechanical Aptitude": {
+          "title": "Mechanical Aptitude",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, your mechanical aptitude will be tested. You have to select the right answer from the options given for each question."
+            }
+          ],
+          "quesCount": 12,
+          "time": "12 minutes"
+        }
+      },
+      "Numerical Aptitude": {
+        "Computation": {
+          "title": "Computation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to perform some basic mathematical operations like addition, subtraction, multiplication and division."
+            }
+          ],
+          "quesCount": 10,
+          "time": "2 minutes"
+        },
+        "Arithmetic Reasoning": {
+          "title": "Arithmetic Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given some mathematical problem. You have to solve these problems to find out the right answer among the four given options."
+            }
+          ],
+          "quesCount": 20,
+          "time": "8 minutes"
+        },
+        "Number Series": {
+          "title": "Number Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a series of numbers among which one number will be missing. You have to find out the missing number in the series."
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Number Puzzles": {
+          "title": "Number Puzzles",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will have to solve some number puzzles. Few numbers are inserted in a figure following a particular rule for their placement at different places in relation to the figure. You have to find out the missing number in the given figure.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/number_puzzles.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Solution.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>5 x 2 + 2 = 12;</span> &nbsp;&nbsp; <span>12 x 2 + 2 = 26;</span></p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>26 x 2 +2 = 54;</span></p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      },
+      "Perceptual Aptitude": {
+        "Analogy Figures": {
+          "title": "Analogy Figures",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, your analogical reasoning skills while working with figures will be put to test. You will be given two figures in the left which are connected in some way.  The same relationship exists between the third figure and one of the four alternatives. You have to find the correct alternative in each case."
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Perceptual Speed": {
+          "title": "Perceptual Speed",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>In each question, you will see four pairs of English letters. Each pair has been put into its own box. You must decide how many pairs contain letters that are the same. In this test capital letters [like ‘F’] are the same as small letters [like ‘f’].</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/perceptual_speed.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "2 minutes"
+        },
+        "Analogy Codes": {
+          "title": "Analogy Codes",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, your analogical reasoning skills while working with codes will be put to test. You will be given two pair of alphanumeric codes which shares a similar relationship. A third incomplete pair will also be given. You have to choose the code among the four given alternatives so that the third pair also has the same relationship as in the first two."
+            }
+          ],
+          "quesCount": 8,
+          "time": "2 minutes"
+        },
+        "Perceptual Classification": {
+          "title": "Perceptual Classification",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a set of five alphanumeric codes among which you have to pick the odd one out."
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Alpha Numeric Series": {
+          "title": "Alpha Numeric Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a set of four alphanumeric codes which has a pattern characteristic to it. You have to find out which among the four given options will come next in the series. "
+            }
+          ],
+          "quesCount": 8,
+          "time": "2 minutes"
+        },
+        "Perceptual Series Completion": {
+          "title": "Perceptual Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a set of four shapes which has a pattern characteristic to it. You have to find out which among the four given options will come next in the series. "
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        }
+      },
+      "Spatial Aptitude": {
+        "Matching Pieces and Parts": {
+          "title": "Matching Pieces and Parts",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to pick the answer choice that contains the two parts that can come together to make the figure shown in the question. Pieces may be reflected and/or rotated. "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Understanding Patterns": {
+          "title": "Understanding Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, your capacity to transform 2-D into 3-D will be tested. You should be able to mentally fold up a 2-dimensional pattern into a 3-dimensional solid. You will be given a 2-D shape and you have to find out which among the four given 3-D shapes can be made by folding and/or rolling the given 2-D shape"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Before starting the test, let’s look at a sample problem and its solution.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/understanding_patterns.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Visual Estimation": {
+          "title": "Visual Estimation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a set of five objects among which two are exactly the same. You have to find out the matching pair and choose the answer option accordingly.In each question, you will be given a set of five objects among which two are exactly the same. You have to find out the matching pair and choose the answer option accordingly."
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mirror Image": {
+          "title": "Mirror Image",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to choose the correct mirror image of the figure given in the question from the four given options. "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Verbal Aptitude": {
+        "Selecting Words": {
+          "title": "Selecting Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to fill in the blanks with the most appropriate word(s) from the given options. "
+            }
+          ],
+          "quesCount": 6,
+          "time": "4 minutes"
+        },
+        "Antonyms": {
+          "title": "Antonyms",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to choose the most appropriate word among the given options which conveys a meaning exactly opposite (i.e. antonym) to the word given in the question. "
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Spellings": {
+          "title": "Spellings",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a set of four words among which only one is spelt correctly. You have to find out the correctly spelt word."
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Synonyms": {
+          "title": "Synonyms",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you have to choose the most appropriate word among the given options which conveys a meaning similar (i.e. synonym) to the word given in the question."
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Sentence Formation": {
+          "title": "Sentence Formation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "In each question, you will be given a sentence broken into five or more parts. You have to join these parts to make a meaningful sentence. The correct order of the parts is the right answer. "
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      }
+    }
+  }
+}

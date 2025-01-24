@@ -1,0 +1,278 @@
+@import "../../utils/variables.scss";
+
+.wrapper {
+    .header {
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .loaderWrapper {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner {
+        display: flex;
+
+        .mainCard {
+            background-color: white;
+            width: 550px;
+            padding: 55px 30px;
+            margin-right: 100px;
+            box-shadow: -20.78px 12px 79px #1042611a;
+
+            .depts {
+                display: flex;
+                flex-direction: column;
+                align-items: space-between;
+
+                .row {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .dept {
+                        padding: 10px;
+                        background-color: #f5f6fa;
+                        margin: 0 20px 20px 0;
+                        min-width: 210px;
+
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-radius: 15px;
+
+                        box-shadow: 0px 3px 6px #00000008;
+
+                        > span {
+                            color: #07054b;
+                        }
+
+                        &:last-child {
+                            margin-right: 0;
+                        }
+
+                        input::-webkit-outer-spin-button,
+                        input::-webkit-inner-spin-button {
+                            -webkit-appearance: none;
+                        }
+
+                        input {
+                            border: 1px solid transparent;
+                            height: 42px;
+                            font-weight: 700;
+                            font-size: 18px;
+                            border-radius: 15px;
+                            width: 70px;
+                            text-align: right;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+
+                .row:last-child {
+                    .dept {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .footer {
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    > div:first-child {
+                        margin-right: 15px;
+                        width: 255px;
+
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 5px;
+
+                        span {
+                            border-bottom: 1px solid #eeeeee;
+                            font-size: 25px;
+                            color: $themePurple;
+                            font-weight: 600;
+                        }
+                    }
+
+                    div:nth-child(2),
+                    div:nth-child(3),
+                    div:nth-child(4) {
+                        font-size: 14px;
+                        color: #878787;
+                        width: 255px;
+                        text-align: right;
+                    }
+
+                    div:nth-child(4) {
+                        margin-top: 10px;
+                        font-weight: 600;
+                    }
+                }
+
+                button {
+                    background-color: $themePurple;
+                    width: 210px;
+                    height: 40px;
+                    color: white;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .discountCard {
+            width: 300px;
+            height: inherit;
+            background-color: white;
+            box-shadow: -20.78px 12px 79px #1042611a;
+
+            padding-bottom: 20px;
+            padding-top: 120px;
+
+            position: relative;
+            .graphic {
+                position: absolute;
+                top: -80px;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .amount {
+                text-align: center;
+                font-size: 25px;
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+
+            .discounts {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .discount {
+                    width: 240px;
+                    padding: 8px 0;
+
+                    display: flex;
+                    justify-content: space-between;
+
+                    .licenseCount {
+                        text-align: right;
+                        width: 110px;
+                    }
+
+                    .discountPercent {
+                        color: $themePurple;
+                        font-weight: 600;
+
+                        span {
+                            color: #080c15;
+                            margin-left: 1px;
+                            font-weight: 400;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .wrapper {
+        .inner {
+            flex-direction: column;
+            align-items: center;
+
+            .mainCard {
+                margin: 0;
+                margin-bottom: 20px;
+            }
+            .discountCard {
+                margin-top: 50px;
+                width: 400px;
+                padding-top: 200px;
+                height: fit-content;
+
+                .graphic {
+                    position: absolute;
+                    top: -50px;
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wrapper {
+        .inner {
+            .mainCard,
+            .discountCard {
+                width: 100%;
+            }
+
+            .discountCard {
+                margin-top: 50px;
+                // width: 400px;
+                padding-top: 200px;
+                height: fit-content;
+
+                .graphic {
+                    position: absolute;
+                    top: -50px;
+                    width: 100%;
+
+                    img {
+                        min-width: 90%;
+                    }
+                }
+            }
+
+            .mainCard {
+                padding: 55px 20px;
+
+                .depts {
+                    .row {
+                        flex-direction: column !important;
+
+                        .dept {
+                            margin: 0;
+                            margin-bottom: 20px !important;
+                        }
+                    }
+                }
+
+                .footer {
+                    flex-direction: column;
+
+                    button {
+                        width: 100%;
+                    }
+
+                    .left {
+                        > div:first-child {
+                            width: 100%;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

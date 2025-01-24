@@ -1,0 +1,1038 @@
+{
+  "REDESIGN": {
+    "aptitude": {
+      "Abstract Reasoning": {
+        "Abstract Series Completion": {
+          "title": "Abstract Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला आकारांची मालिका पाहायला मिळेल आणि दिलेल्या पाच पर्यायांनंतर मालिकेमध्ये पुढे कोणता आकार येईल हे शोधायचे आहे.</p>"
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Symbol Analogies": {
+          "title": "Symbol Analogies",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला चिन्हांचे दोन समूह देण्यात येतील (तीन चिन्हे समूह 1 मध्ये आणि दोन चिन्हे समूह 2 मध्ये). समूह 2 मधील तिसरे चिन्ह कोणते असेल हे दिलेल्या चिन्हांमधून तुम्हाला शोधून काढायचे आहे. यासाठी समूह 1 ची वैशिष्ट्ये असणारा गुणविशेष समूह 2 मध्ये असावा.</p>"
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Pattern Comparison": {
+          "title": "Pattern Comparsion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये एक आकृतीची जोडी देण्यात आली आहे आणि या संबंधित पाच आकृत्यांच्या जोड्या देण्यात आल्या आहेत. तुम्हाला दिलेल्या प्रश्नातील मूळ जोडीशी साम्य असणारी जोडी निवडायची आहे.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        }
+      },
+      "Mechanical Reasoning": {
+        "Tools Analogy": {
+          "title": "Tools Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला दिलेली साधने ओळखायची आहेत आणि दिलेल्या पर्यायांमधून सर्वांत जास्त साम्य असणारे साधन निवडायचे आहे.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mechanical Aptitude": {
+          "title": "Mechanical Aptitude",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुमची यांत्रिक अभिक्षमता तपासण्यात येईल. प्रत्येक प्रश्नासाठी असणाऱ्या पर्यायांपैकी तुम्हाला अचूक उत्तर निवडायचे आहे. </p>"
+            }
+          ],
+          "quesCount": 12,
+          "time": "12 minutes"
+        }
+      },
+      "Numerical Aptitude": {
+        "Computation": {
+          "title": "Computation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला काही मूलभूत गणिती समस्या जसे की बेरीज, वजाबाकी, गुणाकार आणि भागाकार करणे आवश्यक आहे.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "2 minutes"
+        },
+        "Arithmetic Reasoning": {
+          "title": "Arithmetic Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला काही गणितीय समस्या दिल्या जातील. अचूक उत्तर शोधून काढण्यासाठी तुम्हाला त्या समस्या सोडवाव्या लागतील.</p>"
+            }
+          ],
+          "quesCount": 20,
+          "time": "8 minutes"
+        },
+        "Number Series": {
+          "title": "Number Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>तुम्हाला प्रत्येक प्रश्नामध्ये अंकांची मालिका दिली जाईल यामधील काही अंक गाळलेले असतील. तुम्हाला गाळलेले शब्द शोधून काढायचे आहेत. </p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Number Puzzles": {
+          "title": "Number Puzzles",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला काही अंक कोडी सोडवायची आहेत. एका विशिष्ट नियमानुसार आकृतीशी संबंधित वेगवेगळ्या जागेवर अंकांची मांडणी करण्यात आली आहे. तुम्हाला दिलेल्या आकृतीमधील गाळलेले अंक शोधून काढायचे आहेत.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/number_puzzles.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Solution.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>5 x 2 + 2 = 12;</span> &nbsp;&nbsp; <span>12 x 2 + 2 = 26;</span></p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>26 x 2 +2 = 54;</span></p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      },
+      "Perceptual Aptitude": {
+        "Perceptual Series Completion": {
+          "title": "Perceptual Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला दिलेले चिन्ह आणि दिलेल्या चार पर्यायांपैकी मालिका योग्यप्रकारे सुरू ठेवणारे अचूक चिन्ह यातील संबंध ओळखायचा आहे.</p>"
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Perceptual Speed": {
+          "title": "Perceptual Speed",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला इंग्लिश अक्षरांच्या चार जोड्या पाहायला मिळतील. प्रत्येक जोडी तिच्या चौकटीमध्ये ठेवलेली असेल. समान अक्षरे असणाऱ्या किती जोड्या आहेत हे तुम्हाला ठरवायचे आहे. या चाचणीमध्ये मोठ्या लिपीतील /मोठी अक्षरे ( F सारखी) लहान लिपीतील / लहान अक्षरांसारखी (f सारखी) असतात.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/perceptual_speed.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "2 minutes"
+        },
+        "Checking Information": {
+          "title": "Checking Information",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला दिलेली माहिती जलदपणे तपासण्याच्या क्षमतेचे मापन केले जाईल. तुम्हाला संदर्भित अंकांच्या दोन याद्या देण्यात येतील. दोन याद्यांमधील प्रत्येक ओळीतील न जुळणारे स्तंभ शोधून काढायचे आहेत. ओळीमध्ये कोणताही फरक नसेल तर पर्याय 'ई' निवडा.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/checking_information.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "1 minutes"
+        },
+        "Working with Diagrams": {
+          "title": "Working with Diagrams",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>चिन्हांमध्ये संकेतन केलेल्या सूचनांचे पालन करण्याच्या तुमच्या क्षमतेचे मापन प्रत्येक प्रश्नामध्ये केले जाईल. या चाचणीमध्ये तुम्हाला चौकटींमध्ये आकाराचे स्तंभ सादर करण्यात आले आहेत. वर्तुळामध्ये चिन्हरूपात दर्शवलेल्या आज्ञांचा वापर करून तुम्हाला या आकारांमध्ये बदल करायचे आहेत आणि त्या आकाराची अंतिम स्थिती दिलेल्या पर्यायांमधून निवडायची आहे.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/working_with_diagrams.png"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Analogical Reasoning": {
+          "title": "Analogical Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुमचे समरुपात्मक युक्तिवादासंबंधीची कौशल्यांचे मापन केले जाईल. तुम्हाला एकमेकांशी संबंधित असणाऱ्या दोन आकृत्या (::) या चिन्हाच्या डाव्या बाजूला दिल्या जातील. हा समान संबंध तिसऱ्या आकृतीत आणि चार पर्यायांपैकी एका पर्यायामध्ये असेल. तुम्हाला प्रत्येक बाबतीत अचूक पर्याय शोधावा लागेल.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/analogical_reasoning.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Spatial Aptitude": {
+        "Rotated Blocks": {
+          "title": "Rotated Blocks",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुमची त्रिमितीय विचार करण्याची क्षमता तपासण्यासाठी वेगवेगळ्या आकाराचे त्रिमितीय ठोकळे फिरवून दाखवले जातील. प्रत्येक आकारासाठी तुम्हाला उत्तराचे प्रतिनिधीत्व करणारे संभाव्य चार उत्तरे शोधायची आहेत. </p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चुकीचे उत्तर देण्यास भाग पाडणाऱ्या काही लहान लहान फरकांच्या तपशीलांकडे जवळून लक्ष देणे गरजेचे आहे. जेव्हा तुम्ही अतिरिक्त रेषा / दर्पण प्रतिमा (आरशातील प्रतिमा) यांकडे दुर्लक्ष झाल्यास सामान्यपणे चुका होऊ शकतात. पहिल्या दृष्टीत ते अचूक आहे असे दिसते पण जवळून परीक्षण केल्यानंतर ते चुकीचे आहे असे कळते. प्रतिमांचा काळजीपूर्वक अभ्यास करा आणि यातून उत्तरे स्पष्ट होतील.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या..</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/rotated_blocks.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Matching Pieces and Parts": {
+          "title": "Matching Pieces and Parts",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला ४-५ तुकड्यांचा संच दिला जाईल आणि आकृतीचे प्रतिनिधीत्व करणाऱ्या दिलेल्या सर्व तुकड्यांचा समावेश करून उत्तराची निवड तुम्हाला करायची आहे. हे तुकडे फिरवलेले / प्रतिबिंबित असू शकतात.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Understanding Patterns": {
+          "title": "Understanding Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुमची द्विमितीयमधून त्रिमितीयमध्ये रूपांतरित करण्याची क्षमता तपासली जाणार आहे. तुम्हाला मानसिक पातळीवर द्विमितीय आकृतिबंध दुमडून त्रिमितीय घनामध्ये रूपांतरित करायचे आहे. तुम्हाला द्विमितीय आकार दिला जाईल आणि दिलेले द्विमितीय आकार दुमडून आणि / किंवा गुंडाळून तयार होणारा आकार दिलेल्या चार त्रिमितीय आकारांमधून शोधून काढायचा आहे.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/understanding_patterns.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Mirror Image": {
+          "title": "Mirror Image",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला दिलेल्या चार पर्यायांमधून आकृतीची अचूक दर्पण प्रतिमा निवडायची आहे. प्रश्नामधील बिंदूची रेषा आरसा असल्याचे दर्शवते.</p>"
+            }
+          ],
+          "quesCount": 5,
+          "time": "2 minutes"
+        }
+      },
+      "Verbal Aptitude": {
+        "Selecting Words": {
+          "title": "Selecting Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला दिलेल्या पर्यायांतून अतिशय योग्य शब्द निवडून गाळलेल्या जागा भरायच्या आहेत.</p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Sentence Correction": {
+          "title": "Sentence Correction",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये विधान व्याकरणदृष्ट्या अचूक होण्यासाठी ठळक अक्षरांत छापलेल्या वाक्प्रचारांच्या बदली तुम्हाला दिलेल्या पर्यायांपैकी वाक्प्रचार निवडायचा आहे. जर दिलेले वाक्य आहे तसे अचूक आहे असे तुम्हाला वाटत असेल तर कृपया पर्याय ई निवडा.</p>"
+            }
+          ],
+          "quesCount": 4,
+          "time": "3 minutes"
+        },
+        "Spellings": {
+          "title": "Spellings",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये दिलेल्या चार शब्दांच्या संचामध्ये शब्दलेखन अचूकपणे केलेले नसेल तर तुम्हाला यातील चुकीचा शब्द शोधायचा आहे. जर दिलेले चारही शब्द अचूकपणे लिहिलेले आहेत असे तुम्हाला वाटत असेल तर कृपया पर्याय ई निवडा.</p>"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Completing Statements": {
+          "title": "Completing Statements",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला अर्धवट विधान संपूरक पर्यायांसह देण्यात येतील. अर्धवट विकारांग अचूकपणे आणि अर्थपूर्णपणे पूर्ण करण्यासाठी योग्य संपूरक निवडा.</p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        },
+        "Sentence Formation": {
+          "title": "Sentence Formation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला एका वाक्याचे पाच किंवा त्यापेक्षा जास्त भागांमध्ये विभाजन करून दिले जाईल. ते भाग जुळवून तुम्हाला अर्थपूर्ण वाक्य बनवायचे आहे. या भागांचा अचूक क्रम हेच याचे अचूक उत्तर आहे.</p>"
+            }
+          ],
+          "quesCount": 5,
+          "time": "4 minutes"
+        }
+      }
+    }
+  },
+  "SAIL": {
+    "aptitude": {
+      "Abstract Reasoning": {
+        "Abstract Series Completion": {
+          "title": "Abstract Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला वैशिष्ट्यपूर्ण नमुन्यांची पुनरावृत्ती करून पाच आकृत्यांचा संच देण्यात आला आहे. तुम्हाला मालिकेत पुढे येणारी आकृती ओळखायची आहे."
+            },
+            {
+              "type": "TEXT",
+              "content": "चाचणी सुरू करण्यापूर्वी, नमुना समस्या आणि त्याचे निराकरण पाहू"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/instructions/series_completion.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<strong>उत्तर</strong>एकाआड एक 90° आणि 45° कोनातून घड्याळाच्या विरुद्ध दिशेने बाण फिरतो आणि आतील आकृती 90° आणि 45° कोनातून घड्याळाच्या दिशेने मागोमाग असणाऱ्या जागेत फिरते. म्हणून अचूक उत्तराची आकृती (d) ही आहे."
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Symbol Analogies": {
+          "title": "Symbol Analogies",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला चिन्हांचे दोन समूह देण्यात येतील (तीन चिन्हे समूह 1 मध्ये आणि दोन चिन्हे समूह 2 मध्ये). समूह 2 मधील तिसरे चिन्ह कोणते असेल हे दिलेल्या चिन्हांमधून तुम्हाला शोधून काढायचे आहे. यासाठी समूह 1 ची वैशिष्ट्ये असणारा गुणविशेष समूह 2 मध्ये असावा."
+            },
+            {
+              "type": "TEXT",
+              "content": "चाचणी सुरू करण्यापूर्वी, नमुना समस्या आणि त्याचे निराकरण पाहू"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/instructions/symbol_analogies.png"
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Pattern Comparison": {
+          "title": "Pattern Comparison",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला पाच आकृत्यांचा एक संच देण्यात आला आहे आणि 5 पैकी 4 आकृत्यांमध्ये घटक I आणि घटक II शी काही प्रकारे संबंधित आहेत. तुम्हाला घटक II शी संबंधित नसलेली घटक I मधील आकृती शोधायची आहे."
+            },
+            {
+              "type": "TEXT",
+              "content": "चाचणी सुरू करण्यापूर्वी, नमुना समस्या आणि त्याचे निराकरण पाहू"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/instructions/pattern_comparison.png"
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        }
+      },
+      "Mechanical Reasoning": {
+        "Tools Analogy": {
+          "title": "Tools Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेली साधने ओळखायची आहेत आणि दिलेल्या पर्यायांमधून सर्वांत जास्त साम्य असणारे साधन निवडायचे आहे."
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mechanical Aptitude": {
+          "title": "Mechanical Aptitude",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुमची यांत्रिक अभिक्षमता तपासण्यात येईल. प्रत्येक प्रश्नासाठी असणाऱ्या पर्यायांपैकी तुम्हाला अचूक उत्तर निवडायचे आहे. "
+            }
+          ],
+          "quesCount": 12,
+          "time": "12 minutes"
+        }
+      },
+      "Numerical Aptitude": {
+        "Computation": {
+          "title": "Computation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला काही मूलभूत गणिती समस्या जसे की बेरीज, वजाबाकी, गुणाकार आणि भागाकार करणे आवश्यक आहे."
+            }
+          ],
+          "quesCount": 10,
+          "time": "2 minutes"
+        },
+        "Arithmetic Reasoning": {
+          "title": "Arithmetic Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला काही गणितीय समस्या दिल्या जातील. अचूक उत्तर शोधून काढण्यासाठी तुम्हाला त्या समस्या सोडवाव्या लागतील."
+            }
+          ],
+          "quesCount": 20,
+          "time": "8 minutes"
+        },
+        "Number Series": {
+          "title": "Number Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "तुम्हाला प्रत्येक प्रश्नामध्ये अंकांची मालिका दिली जाईल यामधील काही अंक गाळलेले असतील. तुम्हाला गाळलेले शब्द शोधून काढायचे आहेत. "
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Number Puzzles": {
+          "title": "Number Puzzles",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला काही अंक कोडी सोडवायची आहेत. एका विशिष्ट नियमानुसार आकृतीशी संबंधित वेगवेगळ्या जागेवर अंकांची मांडणी करण्यात आली आहे. तुम्हाला दिलेल्या आकृतीमधील गाळलेले अंक शोधून काढायचे आहेत.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/number_puzzles.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Solution.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>5 x 2 + 2 = 12;</span> &nbsp;&nbsp; <span>12 x 2 + 2 = 26;</span></p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>26 x 2 +2 = 54;</span></p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      },
+      "Perceptual Aptitude": {
+        "Perceptual Series Completion": {
+          "title": "Perceptual Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेले चिन्ह आणि दिलेल्या चार पर्यायांपैकी मालिका योग्यप्रकारे सुरू ठेवणारे अचूक चिन्ह यातील संबंध ओळखायचा आहे."
+            }
+          ],
+          "quesCount": 15,
+          "time": "5 minutes"
+        },
+        "Perceptual Speed": {
+          "title": "Perceptual Speed",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला इंग्लिश अक्षरांच्या चार जोड्या पाहायला मिळतील. प्रत्येक जोडी तिच्या चौकटीमध्ये ठेवलेली असेल. समान अक्षरे असणाऱ्या किती जोड्या आहेत हे तुम्हाला ठरवायचे आहे. या चाचणीमध्ये मोठ्या लिपीतील /मोठी अक्षरे ( F सारखी) लहान लिपीतील / लहान अक्षरांसारखी (f सारखी) असतात.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे उत्तर पाहा.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/perceptual_speed.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "2 minutes"
+        },
+        "Checking Information": {
+          "title": "Checking Information",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेली माहिती जलदपणे तपासण्याच्या क्षमतेचे मापन केले जाईल. तुम्हाला संदर्भित अंकांच्या दोन याद्या देण्यात येतील. दोन याद्यांमधील प्रत्येक ओळीतील न जुळणारे स्तंभ शोधून काढायचे आहेत. ओळीमध्ये कोणताही फरक नसेल तर पर्याय 'ई' निवडा."
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे उत्तर पाहा.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/checking_information.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "1 minutes"
+        },
+        "Working with Diagrams": {
+          "title": "Working with Diagrams",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "चिन्हांमध्ये संकेतन केलेल्या सूचनांचे पालन करण्याच्या तुमच्या क्षमतेचे मापन प्रत्येक प्रश्नामध्ये केले जाईल. या चाचणीमध्ये तुम्हाला चौकटींमध्ये आकाराचे स्तंभ सादर करण्यात आले आहेत. वर्तुळामध्ये चिन्हरूपात दर्शवलेल्या आज्ञांचा वापर करून तुम्हाला या आकारांमध्ये बदल करायचे आहेत आणि त्या आकाराची अंतिम स्थिती दिलेल्या पर्यायांमधून निवडायची आहे."
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे उत्तर पाहा.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/working_with_diagrams.png"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Analogical Reasoning": {
+          "title": "Analogical Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुमचे समरुपात्मक युक्तिवादासंबंधीची कौशल्यांचे मापन केले जाईल. तुम्हाला एकमेकांशी संबंधित असणाऱ्या दोन आकृत्या (::) या चिन्हाच्या डाव्या बाजूला दिल्या जातील. हा समान संबंध तिसऱ्या आकृतीत आणि चार पर्यायांपैकी एका पर्यायामध्ये असेल. तुम्हाला प्रत्येक बाबतीत अचूक पर्याय शोधावा लागेल."
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे उत्तर पाहा.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/analogical_reasoning.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Spatial Aptitude": {
+        "Matching Pieces and Parts": {
+          "title": "Matching Pieces and Parts",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये दोन भाग एकत्र येऊन प्रश्नात दाखवल्याप्रमाणे आकृती बनवण्यासाठी तुम्हाला उत्तराची निवड करायची आहे. हे तुकडे परावर्तित आणि / किंवा परिभ्रमित असू शकतात. "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Understanding Patterns": {
+          "title": "Understanding Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये 2D चे 3D मध्ये रूपांतरित करण्याची तुमची क्षमता तपासायची आहे. द्विमितीय संघात मनात दुमडून त्रिमितीय घनामध्ये रूपांतर करायचे आहे. तुम्हाला 2D आकार दिला जाईल आणि दिलेल्या 2D आकाराला दुमडून आणि / किंवा गुंडाळून दिलेल्या चार 3D आकारांपैकी कोणता बनवता येईल हे शोधायचे आहे. "
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे उत्तर पाहा.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/understanding_patterns.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "4 minutes"
+        },
+        "Construction of Squares": {
+          "title": "Construction of Squares",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला एक प्रश्नाकृती दिली आहे आणि यासोबत (a), (b),(c),(d) अशी नावे असलेले चार पर्याय दिले आहेत. चौरस पूर्ण होण्यासाठी प्रश्नाकृतीमध्ये चपखल बसेल अशी एक आकृती पर्यायांतून निवडायची आहे."
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mirror Image": {
+          "title": "Mirror Image",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेल्या चार पर्यायांमधून दिलेल्या आकृतीच्या अचूक आरशातील प्रतिमेचा पर्याय निवडायचा आहे. "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Verbal Aptitude": {
+        "Selecting Words": {
+          "title": "Selecting Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेल्या पर्यायांतून अतिशय योग्य शब्द निवडून गाळलेल्या जागा भरायच्या आहेत. "
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Sentence Correction": {
+          "title": "Sentence Correction",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये विधान व्याकरणदृष्ट्या अचूक होण्यासाठी ठळक अक्षरांत छापलेल्या वाक्प्रचारांच्या बदली तुम्हाला दिलेल्या पर्यायांपैकी वाक्प्रचार निवडायचा आहे. जर दिलेले वाक्य आहे तसे अचूक आहे असे तुम्हाला वाटत असेल तर कृपया पर्याय ई निवडा.</p>"
+            }
+          ],
+          "quesCount": 5,
+          "time": "4 minutes"
+        },
+        "Spellings": {
+          "title": "Spellings",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला चार शब्दांच्या संचामधील एका शब्दाचे  शब्दलेखन अचूक देण्यात आले आहे. तुम्हाला अचूक शब्दलेखन असलेला  शब्द शोधायचा आहे."
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "One Word Substitutes": {
+          "title": "One Word Substitutes",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेल्या वाक्प्रचारासारखा अर्थ असणारे अतिशय समर्पक शब्द दिलेल्या पर्यायांमधून निवडायचा आहे"
+            }
+          ],
+          "quesCount": 8,
+          "time": "4 minutes"
+        },
+        "Ordering of Words": {
+          "title": "Ordering of Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला वाक्यांचे काही भाग सरमिसळ करून दिले जातील. तुम्हाला अर्थपूर्ण वाक्य बनवण्यासाठी P,Q,R आणि S अशी नावे दिलेल्या वाक्यांच्या भागांची पुनर्मांडणी करायची आहे. या भागांचा अचूक क्रम हे योग्य उत्तर आहे."
+            }
+          ],
+          "quesCount": 4,
+          "time": "4 minutes"
+        }
+      }
+    }
+  },
+  "RISE": {
+    "aptitude": {
+      "Abstract Reasoning": {
+        "Analogy": {
+          "title": "Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये संबंधित अमूर्त आकृचीची जोडी आणखी एका आकृतीसोबत दिली जाईल आणि ही आकृती दुसऱ्या आकृतीशी जुळणारी असणे गरजेचे आहे. तुम्हाला दिलेल्या पर्यायांपैकी आकृती निवडावी लागेल जेणेकरून दुसऱ्या जोडीचा संबंध मूळ जोडीप्रमाणेच असेल."
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Repeating Patterns": {
+          "title": "Repeating Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रशांमध्ये तुम्हाला वैशिष्ट्यपूर्ण  पुनरावृत्ती आकृतिबंध असणाऱ्या चार आकृत्यांचा संच देण्यात येईल. तुम्हाला या मालिकेत येणारी पुढील आकृती निवडायची आहे."
+            }
+          ],
+          "quesCount": 8,
+          "time": "4 minutes"
+        },
+        "Growing Patterns": {
+          "title": "Growing Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रशांमध्ये तुम्हाला वैशिष्ट्यपूर्ण वाढणाऱ्या संघातांची पुनरावृत्ती असणाऱ्या चार आकृत्यांचा संच देण्यात येईल. तुम्हाला या मालिकेत येणारी पुढील आकृती निवडायची आहे."
+            }
+          ],
+          "quesCount": 8,
+          "time": "2 minutes"
+        },
+        "Reducing Patterns": {
+          "title": "Reducing Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रशांमध्ये तुम्हाला वैशिष्ट्यपूर्ण कमी होणाऱ्या संघातांची पुनरावृत्ती असणाऱ्या चार आकृत्यांचा संच देण्यात येईल. तुम्हाला या मालिकेत येणारी पुढील आकृती निवडायची आहे."
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Abstract Classification": {
+          "title": "Abstract Classification",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला पाच आकृत्यांचा संच देण्यात येईल आणि यातून गटात न बसणारी आकृती वेगळी काढा."
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        }
+      },
+      "Mechanical Reasoning": {
+        "Tools Analogy": {
+          "title": "Tools Analogy",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेली साधने ओळखायची आहेत आणि दिलेल्या पर्यायांमधून सर्वांत जास्त साम्य असणारे साधन निवडायचे आहे."
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mechanical Aptitude": {
+          "title": "Mechanical Aptitude",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुमची यांत्रिक अभिक्षमता तपासण्यात येईल. प्रत्येक प्रश्नासाठी असणाऱ्या पर्यायांपैकी तुम्हाला अचूक उत्तर निवडायचे आहे. "
+            }
+          ],
+          "quesCount": 12,
+          "time": "12 minutes"
+        }
+      },
+      "Numerical Aptitude": {
+        "Computation": {
+          "title": "Computation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला काही मूलभूत गणिती समस्या जसे की बेरीज, वजाबाकी, गुणाकार आणि भागाकार करणे आवश्यक आहे."
+            }
+          ],
+          "quesCount": 10,
+          "time": "2 minutes"
+        },
+        "Arithmetic Reasoning": {
+          "title": "Arithmetic Reasoning",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला काही गणितीय समस्या दिल्या जातील. अचूक उत्तर शोधून काढण्यासाठी तुम्हाला त्या समस्या सोडवाव्या लागतील."
+            }
+          ],
+          "quesCount": 20,
+          "time": "8 minutes"
+        },
+        "Number Series": {
+          "title": "Number Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "तुम्हाला प्रत्येक प्रश्नामध्ये अंकांची मालिका दिली जाईल यामधील काही अंक गाळलेले असतील. तुम्हाला गाळलेले शब्द शोधून काढायचे आहेत. "
+            }
+          ],
+          "quesCount": 8,
+          "time": "5 minutes"
+        },
+        "Number Puzzles": {
+          "title": "Number Puzzles",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला काही अंक कोडी सोडवायची आहेत. एका विशिष्ट नियमानुसार आकृतीशी संबंधित वेगवेगळ्या जागेवर अंकांची मांडणी करण्यात आली आहे. तुम्हाला दिलेल्या आकृतीमधील गाळलेले अंक शोधून काढायचे आहेत.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या..</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/number_puzzles.png"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>Solution.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>5 x 2 + 2 = 12;</span> &nbsp;&nbsp; <span>12 x 2 + 2 = 26;</span></p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p><span>26 x 2 +2 = 54;</span></p>"
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      },
+      "Perceptual Aptitude": {
+        "Analogy Figures": {
+          "title": "Analogy Figures",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुमची आकृत्यांसोबत कार्य करताना समरुपतेसंबंधी तार्किक कौशल्यांची तपासणी करण्यात येईल. डाव्या बाजूला तुम्हाला संबंधित असणाऱ्या दोन आकृत्या देण्यात येईल. तिसऱ्या आकृती आणि चौथ्या पर्यायमध्ये समान संबंध असेल. प्रत्येक प्रश्नामध्ये तुम्हाला अचूक पर्याय शोधून काढायचा आहे. "
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Perceptual Speed": {
+          "title": "Perceptual Speed",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "<p>प्रत्येक प्रश्नामध्ये तुम्हाला इंग्लिश अक्षरांच्या चार जोड्या पाहायला मिळतील. प्रत्येक जोडी तिच्या चौकटीमध्ये ठेवलेली असेल. समान अक्षरे असणाऱ्या किती जोड्या आहेत हे तुम्हाला ठरवायचे आहे. या चाचणीमध्ये मोठ्या लिपीतील /मोठी अक्षरे ( F सारखी) लहान लिपीतील / लहान अक्षरांसारखी (f सारखी) असतात.</p>"
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/perceptual_speed.png"
+            }
+          ],
+          "quesCount": 15,
+          "time": "2 minutes"
+        },
+        "Analogy Codes": {
+          "title": "Analogy Codes",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये संकेतांसोबत कार्य करताना समरुपतेसंबंधी तार्किक कौशल्यांची तपासणी केली जाईल. तुम्हाला समान संबंध असलेल्या अक्षर आणि संख्या असलेले संकेतांच्या दोन जोड्या दिल्या जातील. तिसरी अपूर्ण जोडीही दिली जाईल. दिलेल्या चार पर्यायांपैकी पहिल्या दोनांशी असलेला समान संबंध असलेला तो संकेत तुम्हाला निवडायचा आहे."
+            }
+          ],
+          "quesCount": 8,
+          "time": "2 minutes"
+        },
+        "Perceptual Classification": {
+          "title": "Perceptual Classification",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "पप्रत्येक प्रश्नामध्ये तुम्हाला अक्षरे आणि संख्या असलेले पाच संकेत दिले जातील. यातून तुम्हाला गटात न बसणारा संकेत बाजूला काढायचा आहे."
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        },
+        "Alpha Numeric Series": {
+          "title": "Alpha Numeric Series",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला विशिष्ट  वैशिष्ट्यपूर्ण आकृतिबंध असणारे अक्षरे आणि अंक असलेले चार संकेतांचे संच देण्यात येतील. दिलेल्या पर्यायांमधून तुम्हाला मालिकेत येणारा पुढील संकेत शोधायचा आहे. "
+            }
+          ],
+          "quesCount": 8,
+          "time": "2 minutes"
+        },
+        "Perceptual Series Completion": {
+          "title": "Perceptual Series Completion",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला वैशिष्ट्यपूर्ण आकृतिबंध असणारे चार आकारांचे संच देण्यात येतील. तुम्हाला मालिकेत येणारा आकार दिलेल्या चार पर्यायांपैकी निवडायचा आहे. "
+            }
+          ],
+          "quesCount": 8,
+          "time": "3 minutes"
+        }
+      },
+      "Spatial Aptitude": {
+        "Matching Pieces and Parts": {
+          "title": "Matching Pieces and Parts",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये दोन भाग एकत्र येऊन प्रश्नात दाखवल्याप्रमाणे आकृती बनवण्यासाठी तुम्हाला उत्तराची निवड करायची आहे. हे तुकडे परावर्तित आणि / किंवा परिभ्रमित असू शकतात. "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Understanding Patterns": {
+          "title": "Understanding Patterns",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुमची द्विमितीयमधून त्रिमितीयमध्ये रूपांतरित करण्याची क्षमता तपासली जाणार आहे. तुम्हाला मानसिक पातळीवर द्विमितीय आकृतिबंध दुमडून त्रिमितीय घनामध्ये रूपांतरित करायचे आहे. तुम्हाला द्विमितीय आकार दिला जाईल आणि दिलेले द्विमितीय आकार दुमडून आणि / किंवा गुंडाळून तयार होणारा आकार दिलेल्या चार त्रिमितीय आकारांमधून शोधून काढायचा आहे."
+            },
+            {
+              "type": "TEXT",
+              "content": "<p>चाचणी सुरू करण्यापूर्वी नमुना म्हणून दिलेली समस्या आणि त्याचे निराकरण पाहून घ्या.</p>"
+            },
+            {
+              "type": "IMG",
+              "content": "https://hikewise.sgp1.digitaloceanspaces.com/hikewise/images/instructions/understanding_patterns.png"
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        },
+        "Visual Estimation": {
+          "title": "Visual Estimation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला पाच वस्तूंचा संच दिला जाईल आणि यातील दोन वस्तू अतिशय समान असतील. तुम्हाला मिळतीजुळती जोडी शोधायची आहे आणि त्यानुसार उत्तराची निवड करायची आहे."
+            }
+          ],
+          "quesCount": 10,
+          "time": "3 minutes"
+        },
+        "Mirror Image": {
+          "title": "Mirror Image",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेल्या चार पर्यायांमधून आकृतीची अचूक दर्पण प्रतिमा निवडायची आहे. प्रश्नामधील बिंदूची रेषा आरसा असल्याचे दर्शवते. "
+            }
+          ],
+          "quesCount": 10,
+          "time": "4 minutes"
+        }
+      },
+      "Verbal Aptitude": {
+        "Selecting Words": {
+          "title": "Selecting Words",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेल्या पर्यायांतून अतिशय योग्य शब्द निवडून गाळलेल्या जागा भरायच्या आहेत. "
+            }
+          ],
+          "quesCount": 6,
+          "time": "4 minutes"
+        },
+        "Antonyms": {
+          "title": "Antonyms",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेल्या शब्दाचा अगदी विरुद्ध (विरुद्धार्थी शब्द) अर्थ सांगणारा शब्द दिलेल्या पर्यायांमधून अतिशय योग्य शब्द निवडायचा आहे. "
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Spellings": {
+          "title": "Spellings",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला चार शब्दांच्या संचातील केवळ एक शब्द अचूक लिहिलेला असेल. तुम्हाला अचूक स्पेलिंग असलेला शब्द शोधून काढायचा आहे"
+            }
+          ],
+          "quesCount": 10,
+          "time": "5 minutes"
+        },
+        "Synonyms": {
+          "title": "Synonyms",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला दिलेल्या शब्दाचा अगदी समान (समानार्थी शब्द) अर्थ सांगणारा शब्द दिलेल्या पर्यायांमधून अतिशय योग्य शब्द निवडायचा आहे"
+            }
+          ],
+          "quesCount": 6,
+          "time": "3 minutes"
+        },
+        "Sentence Formation": {
+          "title": "Sentence Formation",
+          "body": [
+            {
+              "type": "TEXT",
+              "content": "प्रत्येक प्रश्नामध्ये तुम्हाला वाक्य पाच किंवा त्यापेक्षा जास्त भागांमध्ये तोडले जाते. तुम्हाला या भागांपासून अर्थपूर्ण वाक्य बनवायचे आहे. या भागांचा योग्य क्रम हे अचूक उत्तर आहे. "
+            }
+          ],
+          "quesCount": 6,
+          "time": "5 minutes"
+        }
+      }
+    }
+  }
+}

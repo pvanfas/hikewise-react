@@ -1,0 +1,477 @@
+{
+  "tabs": [
+    {
+      "name": "Personality",
+      "key": "personality",
+      "isDone": false
+    },
+    {
+      "name": "Aptitude",
+      "key": "aptitude",
+      "isDone": false
+    },
+    {
+      "name": "Interest",
+      "key": "interest"
+    }
+  ],
+  "content": [
+    {
+      "type": "TEST_INTRO"
+    },
+    {
+      "id": 6,
+      "type": "QUESTION",
+      "quesType": "TEXT",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I finish what I start",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 8,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I get upset easily",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 14,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I take an interest in other people’s lives",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 34,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I dislike routine",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 39,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I make friends easily",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 40,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I respect authority",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 26,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I laugh a lot",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 41,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "I am not a very enthusiastic person",
+        "options": [
+          "NEVER/VERY RARELY TRUE",
+          "NOT OFTEN TRUE",
+          "SOMETIMES TRUE, SOMETIMES NOT TRUE",
+          "OFTEN TRUE",
+          "VERY OFTEN/ALWAYS TRUE"
+        ]
+      },
+      "tabKey": "personality"
+    },
+    {
+      "id": 46,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "In this question, you have to fill in the blanks with the most appropriate word(s) from the given options",
+        "title": "My uncle decided to take ...... and my sister to the market",
+        "options": ["I", "MINE", "ME", "MYSELF"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 56,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "In this question, you are given a set of four figures which has a repeating pattern characteristic to it. You have to select the figure which will come next in the series.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Picture1.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_AR_T-II---A4a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_AR_T-II---A4b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_AR_T-II---A4c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_AR_T-II---A4d.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 206,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In this question, your analogical reasoning skills while working with codes will be put to test. You will be given two pair of alphanumeric codes which shares a similar relationship. A third incomplete pair will also be given. You have to choose the code among the four given alternatives so that the third pair also has the same relationship as in the first two.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Picture2.png",
+        "options": ["NO36", "NO35", "35NO", "36NO"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 152,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "In this question, your capacity to transform 2-D into 3-D will be tested. You should be able to mentally fold up a 2-dimensional pattern into a 3-dimensional solid. You will be given a 2-D shape and you have to find out which among the four given 3-D shapes can be made by folding and/or rolling the given 2-D shape.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Picture3.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_SA_T-II---A2a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_SA_T-II---A2b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_SA_T-II---A2c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_SA_T-II---A2d.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 39,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In this question, you will have to solve some number puzzles. Few numbers are inserted in a figure following a particular rule for their placement at different places in relation to the figure. You have to find out the missing number in the given figure.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Picture4.png",
+        "options": ["20", "64", "52", "476"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 121,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In this question, you have to recognise the tool given in the question and choose the most closely related tool or object from the given choices.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Picture5.png",
+        "options": ["A", "B", "C", "D", "E"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 77,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "In this question, you will be given a sentence broken into five or more parts. You have to join these parts to make a meaningful sentence. The correct order of the parts is the right answer.",
+        "title": "<p>1.I</p> <p>2.help</p> <p>3.not</p> <p>4.you</> <p>5.did</p>",
+        "options": ["24351", "15324", "45231", "43152", "52431"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 51,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "In this question, a related pair of abstract figures is given to you followed by another figure which needs to be paired with another figure. You have to select the figure among the given options so that the second pair also has a relationship similar to that in the original pair.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Picture6.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_AR_T-I---A7a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_AR_T-I---A7b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_AR_T-I---A7c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_AR_T-I---A7d.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 20,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "ins": "In this question, you will be given some mathematical problem. You have to solve these problems to find out the right answer among the four given options.",
+        "title": "What is paid if an item costing ₹880.00 has a 2½ % discount? ",
+        "options": ["₹868", "₹858", "₹848", "₹846"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 163,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "IMAGE",
+        "ins": "In this question, you will be given a set of four alphanumeric codes which has a pattern characteristic to it. You have to find out which among the four given options will come next in the series.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Picture7.png",
+        "options": [
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_PA_T5_A2a.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_PA_T5_A2b.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_PA_T5_A2c.png",
+          "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Rise_AP_PA_T5_A2d.png"
+        ]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 163,
+      "type": "QUESTION",
+      "question": {
+        "type": "IMAGE",
+        "ansType": "TEXT",
+        "ins": "In this question, you will be given a set of five objects among which two are exactly the same. You have to find out the matching pair and choose the answer option accordingly.",
+        "title": "https://hikewise.sgp1.cdn.digitaloceanspaces.com/hikewise/images/demo/rise/Picture8.png",
+        "options": ["B & C", "A & D", "D & E", "A & E"]
+      },
+      "tabKey": "aptitude"
+    },
+    {
+      "id": 8,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Visualize objects in three dimensions from flat drawings.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 10,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Design brochures and posters.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 20,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Apply math to work out solutions.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 21,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Travel and see things that are new to me.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 34,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Participate in community services and/or volunteering.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 49,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Give presentations and enjoy public speaking.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 50,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Perform in front of others.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 51,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Learn about other cultures.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 54,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Be the leader in a group.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 81,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Make friends with different kinds of people.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 85,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Play a musical instrument.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 100,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Work with computer programs.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 101,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Solve mechanical problems.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 106,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Play video games and figure out how they work.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    },
+    {
+      "id": 112,
+      "type": "QUESTION",
+      "question": {
+        "type": "TEXT",
+        "ansType": "TEXT",
+        "title": "Explore new technology.",
+        "options": ["LIKE", "DISLIKE", "UNSURE"]
+      },
+      "tabKey": "interest"
+    }
+  ]
+}
