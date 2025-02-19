@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { getTabsForTest } from "./helper";
 import { getRequest, multiPostRequest, putRequest } from "utils/api";
+import { getTabsForTest } from "./helper";
 
 import { useAppContext } from "contexts/AllContexts";
 
@@ -71,7 +71,8 @@ export default function useTestController(params) {
 
     let contents = [];
     if (respStatusUpdate.data.is_started) {
-      if (respStatusUpdate.data.is_finished) dispatch({ type: "SET_IS_END", payload: { isEnd: true } });
+      if (respStatusUpdate.data.is_finished)
+        dispatch({ type: "SET_IS_END", payload: { isEnd: true } });
       else
         contents.push({
           key: "First",
@@ -93,7 +94,13 @@ export default function useTestController(params) {
       totMissed += Array.isArray(missedQues[key]) ? missedQues[key].length : 0;
     }
 
-    if (totMissed > 0) tabs.push({ name: "Missed Questions", key: "missing", isDone: false, isActive: false });
+    if (totMissed > 0)
+      tabs.push({
+        name: "Missed Questions",
+        key: "missing",
+        isDone: false,
+        isActive: false,
+      });
 
     tabs.forEach((tab) => {
       let section = {};
@@ -139,7 +146,9 @@ export default function useTestController(params) {
               catName: cat.name,
               tabKey: tab.key,
             });
-            const foundSubcat = respAssignmentData.data.aptitude_status.find((f) => f.subcategory === subcat.name);
+            const foundSubcat = respAssignmentData.data.aptitude_status.find(
+              (f) => f.subcategory === subcat.name
+            );
 
             if (foundSubcat) {
               for (let i = 0; i < foundSubcat.questions; i++) {
@@ -179,8 +188,10 @@ export default function useTestController(params) {
     let quesStats = { attempted: 0, count: 0 };
 
     tabs.forEach((tab) => {
-      quesStats.attempted = quesStats.attempted + statusData[`${tab.key}_question_attempted_count`];
-      quesStats.count = quesStats.count + statusData[`${tab.key}_question_count`];
+      quesStats.attempted =
+        quesStats.attempted + statusData[`${tab.key}_question_attempted_count`];
+      quesStats.count =
+        quesStats.count + statusData[`${tab.key}_question_count`];
     });
 
     if (quesStats.attempted === quesStats.count) {
@@ -221,7 +232,9 @@ export default function useTestController(params) {
       const nextTab = tabs[i + 1];
       let nextQuestionsAnswered = 0;
 
-      if (nextTab) nextQuestionsAnswered = statusData[`${nextTab.key}_question_attempted_count`];
+      if (nextTab)
+        nextQuestionsAnswered =
+          statusData[`${nextTab.key}_question_attempted_count`];
 
       let questionsAnswered = statusData[`${tab.key}_question_attempted_count`];
       let questionsCount = statusData[`${tab.key}_question_count`];
@@ -233,10 +246,15 @@ export default function useTestController(params) {
 
         let currTabEntries = statusData[`${tab.key}_entries`];
 
-        if (tab.key === "aptitude") currTabEntries = statusData[`${tab.key}_status`];
+        if (tab.key === "aptitude")
+          currTabEntries = statusData[`${tab.key}_status`];
 
         let lastEntry = currTabEntries[currTabEntries.length - 1];
-        currAnswer = lastEntry ? (lastEntry.option ? lastEntry.option : null) : null;
+        currAnswer = lastEntry
+          ? lastEntry.option
+            ? lastEntry.option
+            : null
+          : null;
         break;
       }
     }
@@ -355,7 +373,11 @@ export default function useTestController(params) {
       const questions = await getAptiQuestions(currSubcat, currCat);
       let contentIndex = -1;
       testData.contents[foundSecIndex].content.forEach((item, index) => {
-        if (item.type === "SUBCAT_INSTRUCTIONS" && item.subcatName === currSubcat) contentIndex = index;
+        if (
+          item.type === "SUBCAT_INSTRUCTIONS" &&
+          item.subcatName === currSubcat
+        )
+          contentIndex = index;
       });
 
       dispatch({
@@ -377,7 +399,8 @@ export default function useTestController(params) {
   /* ------------------------------------------------------------------------------------------------------*/
 
   function moveToNextQuestion(e) {
-    const currContentLen = state.testData.contents[state.testData.currIndices[0]].content.length;
+    const currContentLen =
+      state.testData.contents[state.testData.currIndices[0]].content.length;
     const currContentInd = state.testData.currIndices[1];
 
     let currIndices = testData.currIndices;
@@ -416,7 +439,9 @@ export default function useTestController(params) {
     const currTab = screenState.tabs[screenState.activeTabIndex];
 
     if (currTab.key === "aptitude") {
-      let foundSecIndex = testData.contents.findIndex((f) => f.key === currTab.key);
+      let foundSecIndex = testData.contents.findIndex(
+        (f) => f.key === currTab.key
+      );
       dispatch({
         type: "SET_INDICES",
         payload: { indices: [foundSecIndex, 1] },
@@ -434,7 +459,10 @@ export default function useTestController(params) {
           if (Array.isArray(secQuestions))
             questions.push(
               ...secQuestions.map((ques) => {
-                let instructions = { type: "SEC_INSTRUCTIONS", tabKey: section };
+                let instructions = {
+                  type: "SEC_INSTRUCTIONS",
+                  tabKey: section,
+                };
                 if (section === "aptitude") {
                   instructions = {
                     type: "SUBCAT_INSTRUCTIONS",
@@ -453,7 +481,9 @@ export default function useTestController(params) {
             );
         }
 
-        let foundSecIndex = testData.contents.findIndex((f) => f.key === currTab.key);
+        let foundSecIndex = testData.contents.findIndex(
+          (f) => f.key === currTab.key
+        );
 
         dispatch({
           type: "SET_SECTION_QUESTIONS",
@@ -474,7 +504,9 @@ export default function useTestController(params) {
       let questions = [];
       try {
         questions = await getSectionQuestions(currTab.key);
-        let foundSecIndex = testData.contents.findIndex((f) => f.key === currTab.key);
+        let foundSecIndex = testData.contents.findIndex(
+          (f) => f.key === currTab.key
+        );
 
         dispatch({
           type: "SET_SECTION_QUESTIONS",
@@ -497,11 +529,17 @@ export default function useTestController(params) {
 
     let arrResp = [];
 
-    for (let i = currIndices[1]; i < testData.contents[currIndices[0]].content.length; i++) {
+    for (
+      let i = currIndices[1];
+      i < testData.contents[currIndices[0]].content.length;
+      i++
+    ) {
       if (testData.contents[currIndices[0]].content[i].type !== "question") {
         currIndices = [testData.currIndices[0], i];
         break;
-      } else if (testData.contents[currIndices[0]].content[i].type === "question") {
+      } else if (
+        testData.contents[currIndices[0]].content[i].type === "question"
+      ) {
         arrResp.push({
           question: testData.contents[currIndices[0]].content[i].question.id,
         });
@@ -574,7 +612,9 @@ export default function useTestController(params) {
   function handleClickNextMainInstructions() {
     dispatch({ type: "SET_IS_LOADING", payload: { isLoading: true } });
     const currTab = screenState.tabs[screenState.activeTabIndex];
-    const foundSecIndex = testData.contents.findIndex((f) => f.key === currTab.key);
+    const foundSecIndex = testData.contents.findIndex(
+      (f) => f.key === currTab.key
+    );
     dispatch({ type: "SET_INDICES", payload: { indices: [foundSecIndex, 0] } });
     dispatch({ type: "SET_IS_LOADING", payload: { isLoading: false } });
   }
@@ -596,13 +636,19 @@ export default function useTestController(params) {
   }
 
   async function handleClickNextSubcatInstructions() {
-    const subcat = state.testData.contents[state.testData.currIndices[0]].content[state.testData.currIndices[1]];
+    const subcat =
+      state.testData.contents[state.testData.currIndices[0]].content[
+        state.testData.currIndices[1]
+      ];
     const currIndices = [...state.testData.currIndices];
 
     dispatch({ type: "SET_IS_LOADING", payload: { isLoading: true } });
 
     try {
-      const questions = await getAptiQuestions(subcat.subcatName, subcat.catName);
+      const questions = await getAptiQuestions(
+        subcat.subcatName,
+        subcat.catName
+      );
 
       dispatch({
         type: "SET_APTI_QUESTIONS",
@@ -671,7 +717,8 @@ export default function useTestController(params) {
     e.target.disabled = true;
 
     /* enable click again before exiting function */
-    if (!state.screenState.isAnswerClickable) return (e.target.disabled = false);
+    if (!state.screenState.isAnswerClickable)
+      return (e.target.disabled = false);
 
     /* input is disabled until question changes (useEffect quesNumber change)*/
     dispatch({
@@ -681,7 +728,9 @@ export default function useTestController(params) {
 
     const answer = e.target.value;
     const question =
-      state.testData.contents[state.testData.currIndices[0]].content[state.testData.currIndices[1]].question;
+      state.testData.contents[state.testData.currIndices[0]].content[
+        state.testData.currIndices[1]
+      ].question;
 
     uploadAnswer({ question, answer });
     dispatch({
@@ -721,7 +770,12 @@ export default function useTestController(params) {
   }, [state.settings.testType]);
 
   useEffect(() => {
-    if (state.testData.timeRemSubcat && state.testData.timeRemSubcat <= 0) {
+    const currentTab = screenState.tabs[screenState.activeTabIndex];
+    if (
+      currentTab?.key === "aptitude" &&
+      state.testData.timeRemSubcat &&
+      state.testData.timeRemSubcat <= 0
+    ) {
       stopSubcatTimer();
       endCurrSubcat();
     }
